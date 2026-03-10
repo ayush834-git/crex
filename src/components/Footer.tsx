@@ -5,70 +5,82 @@ import { cn } from "@/utils/cn";
 
 export function Footer() {
   return (
-    <footer className="relative bg-void w-full pt-20 pb-10 px-6 md:px-12 border-t border-navy overflow-hidden">
-      {/* Visual Accent */}
-      <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-cyan via-gold to-magenta" />
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-[400px] bg-gold/5 blur-[120px] rounded-full pointer-events-none" />
+    <footer className="relative bg-royal w-full pt-32 pb-10 px-6 md:px-12 overflow-hidden">
+      
+      {/* Decorative sunburst behind logo */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1200px] h-[1200px] opacity-[0.03] pointer-events-none origin-center animate-[spin_100s_linear_infinite]">
+        <svg viewBox="0 0 100 100" className="w-full h-full">
+          {[...Array(24)].map((_, i) => (
+            <path key={i} d="M50 50 L100 45 L100 55 Z" fill="#FFE500" transform={`rotate(${i * 15} 50 50)`} />
+          ))}
+        </svg>
+      </div>
 
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center">
         
         {/* Massive Logo */}
         <div 
-          className="text-[clamp(100px,25vw,300px)] font-black leading-none tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-white/10 select-none mb-16"
+          className="text-[clamp(120px,25vw,350px)] font-black leading-[0.7] tracking-tighter text-sun select-none mb-16 relative w-full text-center"
           style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
         >
-          CREX
+          <span className="relative z-10" style={{ textShadow: "10px 10px 0px #E6001A" }}>
+            CREX
+          </span>
+          {/* Duplicate for shadow / 3D block effect */}
+          <span className="absolute inset-0 text-white z-0 transform translate-y-4 -translate-x-2" style={{ clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)" }}>
+            CREX
+          </span>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-10 md:gap-0 max-w-4xl text-center md:text-left mb-20 border-t border-b border-navy py-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-10 md:gap-0 max-w-5xl text-center md:text-left mb-20 bg-white border-[6px] border-ink p-12 shadow-[16px_16px_0_#FFE500] transform -rotate-1 hover:rotate-0 transition-transform duration-500">
           
           <div className="flex flex-col gap-4">
-            <h4 className="text-white text-sm font-bold uppercase tracking-widest">Platform</h4>
-            <a href="#" className="text-white/50 hover:text-cyan transition-colors text-sm font-mono tracking-wide">MATCHES</a>
-            <a href="#" className="text-white/50 hover:text-cyan transition-colors text-sm font-mono tracking-wide">PLAYERS</a>
-            <a href="#" className="text-white/50 hover:text-cyan transition-colors text-sm font-mono tracking-wide">TEAMS</a>
-            <a href="#" className="text-white/50 hover:text-cyan transition-colors text-sm font-mono tracking-wide">FANTASY</a>
+            <h4 className="text-ink text-lg font-black uppercase tracking-widest border-b-4 border-ink pb-2 inline-block">Platform</h4>
+            <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">MATCHES</a>
+            <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">PLAYERS</a>
+            <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">TEAMS</a>
+            <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">FANTASY</a>
           </div>
 
           <div className="flex flex-col gap-4">
-            <h4 className="text-white text-sm font-bold uppercase tracking-widest">Resources</h4>
-            <a href="#" className="text-white/50 hover:text-magenta transition-colors text-sm font-mono tracking-wide">API ACCESS</a>
-            <a href="#" className="text-white/50 hover:text-magenta transition-colors text-sm font-mono tracking-wide">LABS</a>
-            <a href="#" className="text-white/50 hover:text-magenta transition-colors text-sm font-mono tracking-wide">METHODOLOGY</a>
-            <a href="#" className="text-white/50 hover:text-magenta transition-colors text-sm font-mono tracking-wide">CAREERS</a>
+            <h4 className="text-ink text-lg font-black uppercase tracking-widest border-b-4 border-ink pb-2 inline-block">Resources</h4>
+            <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">API ACCESS</a>
+            <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">LABS</a>
+            <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">METHODOLOGY</a>
+            <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">CAREERS</a>
           </div>
 
           <div className="flex flex-col gap-4">
-            <h4 className="text-white text-sm font-bold uppercase tracking-widest">Legal</h4>
-            <a href="#" className="text-white/50 hover:text-gold transition-colors text-sm font-mono tracking-wide">PRIVACY</a>
-            <a href="#" className="text-white/50 hover:text-gold transition-colors text-sm font-mono tracking-wide">TERMS</a>
-            <a href="#" className="text-white/50 hover:text-gold transition-colors text-sm font-mono tracking-wide">COOKIES</a>
+            <h4 className="text-ink text-lg font-black uppercase tracking-widest border-b-4 border-ink pb-2 inline-block">Legal</h4>
+            <a href="#" className="text-violet hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">PRIVACY</a>
+            <a href="#" className="text-violet hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">TERMS</a>
+            <a href="#" className="text-violet hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">COOKIES</a>
           </div>
 
-          <div className="flex flex-col gap-4 justify-start md:items-end">
-             <h4 className="text-white text-sm font-bold uppercase tracking-widest md:text-right w-full mb-2">Socials</h4>
-             <div className="flex gap-6 justify-center md:justify-end w-full">
-                <a href="#" className="text-white/40 hover:text-white transition-colors">
-                  <Twitter size={20} />
+          <div className="flex flex-col gap-4 justify-start md:items-end w-full">
+             <h4 className="text-ink text-lg font-black text-center md:text-right uppercase tracking-widest border-b-4 border-ink pb-2 w-full">Socials</h4>
+             <div className="flex gap-4 justify-center md:justify-end w-full mt-4">
+                <a href="#" className="bg-ink text-white p-3 hover:bg-sun hover:text-ink hover:-translate-y-1 transition-all border-2 border-transparent hover:border-ink shadow-[4px_4px_0_#FFF]">
+                  <Twitter size={24} />
                 </a>
-                <a href="#" className="text-white/40 hover:text-white transition-colors">
-                  <Instagram size={20} />
+                <a href="#" className="bg-ink text-white p-3 hover:bg-sun hover:text-ink hover:-translate-y-1 transition-all border-2 border-transparent hover:border-ink shadow-[4px_4px_0_#FFF]">
+                  <Instagram size={24} />
                 </a>
-                <a href="#" className="text-white/40 hover:text-white transition-colors">
-                  <Youtube size={20} />
+                <a href="#" className="bg-ink text-white p-3 hover:bg-sun hover:text-ink hover:-translate-y-1 transition-all border-2 border-transparent hover:border-ink shadow-[4px_4px_0_#FFF]">
+                  <Youtube size={24} />
                 </a>
-                <a href="#" className="text-white/40 hover:text-white transition-colors">
-                  <Github size={20} />
+                <a href="#" className="bg-ink text-white p-3 hover:bg-sun hover:text-ink hover:-translate-y-1 transition-all border-2 border-transparent hover:border-ink shadow-[4px_4px_0_#FFF]">
+                  <Github size={24} />
                 </a>
              </div>
           </div>
 
         </div>
 
-        <div className="w-full flex flex-col md:flex-row items-center justify-between text-white/30 font-mono text-xs tracking-widest font-bold">
-          <p>© {new Date().getFullYear()} CREX INTELLIGENCE HQ</p>
-          <p className="mt-4 md:mt-0 flex items-center">
-            BUILT DURING IPL 2026. <span className="text-cyan ml-2 animate-pulse">●</span>
+        <div className="w-full flex flex-col md:flex-row items-center justify-between text-sun font-mono text-sm tracking-widest font-bold px-4">
+          <p className="bg-ink px-4 py-2 border-2 border-sun shadow-[4px_4px_0_#E6001A]">© {new Date().getFullYear()} CREX INTELLIGENCE HQ</p>
+          <p className="mt-6 md:mt-0 flex items-center bg-white text-ink px-4 py-2 border-2 border-ink shadow-[4px_4px_0_#FFE500]">
+            BUILT DURING IPL 2026. <span className="text-crimson ml-3 animate-pulse pb-1 text-2xl">●</span>
           </p>
         </div>
 

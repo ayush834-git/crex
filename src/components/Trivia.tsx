@@ -1,15 +1,11 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import confetti from "canvas-confetti";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Flame } from "lucide-react";
+import { Flame, Check } from "lucide-react";
 import { cn } from "@/utils/cn";
-
-if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger);
-}
+import { motion } from "framer-motion";
 
 const TRIVIA_DATA = {
   question: "Who holds the record for the most sixes hit in a single IPL season?",
@@ -32,38 +28,12 @@ export function Trivia() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   const containerRef = useRef<HTMLDivElement>(null);
-  const textRef = useRef<HTMLHeadingElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
-  const statsPanelRef = useRef<HTMLDivElement>(null);
+  const wrongPanelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Load streak from local storage
-    const savedStreak = localStorage.getItem("crex-trivia-streak");
-    if (savedStreak) setStreak(parseInt(savedStreak, 10));
-
-    const ctx = gsap.context(() => {
-      // Character-by-character scroll reveal for the left text
-      if (textRef.current) {
-        const letters = textRef.current.querySelectorAll("span");
-        gsap.fromTo(
-          letters,
-          { opacity: 0.1, color: "var(--crex-navy)" },
-          {
-            opacity: 1,
-            color: "var(--crex-white)",
-            stagger: 0.05,
-            scrollTrigger: {
-              trigger: containerRef.current,
-              start: "top 60%",
-              end: "bottom 80%",
-              scrub: 1,
-            },
-          }
-        );
-      }
-    }, containerRef);
-
-    return () => ctx.revert();
+    const saved = localStorage.getItem("crex-trivia-streak");
+    if (saved) setStreak(parseInt(saved, 10));
   }, []);
 
   const handleSelect = (id: string, isCorrect: boolean) => {
@@ -72,147 +42,154 @@ export function Trivia() {
     setAnswered(true);
 
     if (isCorrect) {
-      // Correct: Green pulse + confetti
-      const rect = cardRef.current?.getBoundingClientRect();
-      if (rect) {
-        const x = (rect.left + rect.width / 2) / window.innerWidth;
-        const y = (rect.top + rect.height / 2) / window.innerHeight;
-        confetti({
-          particleCount: 150,
-          spread: 80,
-          origin: { x, y },
-          colors: ["#00C2E0", "#F5B800", "#D42060"],
-          zIndex: 100,
-        });
-      }
+      // Confetti burst for correct answer
+      confetti({
+        particleCount: 150,
+        spread: 80,
+        origin: { y: 0.6 },
+        colors: ["#FFE500", "#1A1AE6", "#00B4E6", "#00E640", "#FFFFFF"],
+        zIndex: 100,
+      });
       const newStreak = streak + 1;
       setStreak(newStreak);
       localStorage.setItem("crex-trivia-streak", newStreak.toString());
-      
-      gsap.fromTo(cardRef.current, { scale: 1 }, { scale: 1.05, yoyo: true, repeat: 1, duration: 0.2, ease: "power2.out" });
     } else {
-      // Wrong: Red shake
+      // Reset streak
       setStreak(0);
       localStorage.setItem("crex-trivia-streak", "0");
-      gsap.fromTo(
-        cardRef.current,
-        { x: -10 },
-        { x: 10, clearProps: "x", duration: 0.05, yoyo: true, repeat: 5 }
-      );
-    }
+      
+      // GSAP Shake animation on the whole card
+      if (cardRef.current) {
+        gsap.to(cardRef.current, {
+          x: "random(-10, 10, 5)",
+          y: "random(-5, 5, 3)",
+          duration: 0.1,
+          repeat: 5,
+          yoyo: true,
+          clearProps: "all"
+        });
+      }
 
-    // Slide up stats panel
-    if (statsPanelRef.current) {
-      gsap.to(statsPanelRef.current, {
-        y: 0,
-        opacity: 1,
-        duration: 0.6,
-        ease: "power3.out",
-        delay: 0.5,
-      });
+      // Slide up violet stat panel
+      if (wrongPanelRef.current) {
+        gsap.to(wrongPanelRef.current, {
+          y: 0,
+          opacity: 1,
+          duration: 0.5,
+          ease: "back.out(1)",
+          delay: 0.3,
+        });
+      }
     }
   };
 
-  const textToReveal = "TEST YOUR CRICKET IQ.";
-
   return (
-    <section ref={containerRef} className="py-24 md:py-40 bg-navy relative z-10 px-6 md:px-12 border-t border-blue/30">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+    <section ref={containerRef} className="py-24 md:py-32 bg-crimson w-full min-h-[90vh] flex items-center relative overflow-hidden">
+      <div className="max-w-[1440px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center w-full z-10 relative">
         
-        {/* Left Side: Scroll Reveal Text */}
-        <div className="w-full lg:w-1/2">
-          <h2
-            ref={textRef}
-            className="text-[clamp(60px,8vw,120px)] font-black uppercase leading-[0.85] tracking-tight"
-            style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+        {/* Left Side Text Block */}
+        <div className="flex flex-col items-start uppercase leading-[0.8] tracking-tighter" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+          <motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.1, type: "spring", stiffness: 100 }}>
+             <span className="text-white drop-shadow-[6px_6px_0_#0A0A1A]" style={{ fontSize: "clamp(100px, 14vw, 160px)" }}>TEST</span>
+          </motion.div>
+          <motion.div initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.2, type: "spring", stiffness: 100 }}>
+             <span className="text-sun drop-shadow-[6px_6px_0_#1A1AE6]" style={{ fontSize: "clamp(100px, 14vw, 160px)" }}>YOUR</span>
+          </motion.div>
+          <motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.3, type: "spring", stiffness: 100 }}>
+             <span className="text-white drop-shadow-[6px_6px_0_#0A0A1A]" style={{ fontSize: "clamp(60px, 8vw, 100px)" }}>CRICKET</span>
+          </motion.div>
+          <motion.div initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ delay: 0.4, type: "spring", stiffness: 100 }}>
+             <span className="text-sun drop-shadow-[6px_6px_0_#1A1AE6]" style={{ fontSize: "clamp(100px, 14vw, 160px)" }}>
+                 IQ<span className="text-violet">.</span>
+             </span>
+          </motion.div>
+
+          {/* Streak Badge */}
+          <motion.div 
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            transition={{ type: "spring", bounce: 0.6, delay: 0.6 }}
+            className="mt-12 bg-white rounded-full px-6 py-3 flex items-center gap-3 border-[4px] border-ink shadow-[4px_4px_0_#0A0A1A]"
           >
-            {textToReveal.split("").map((char, i) => (
-              <span key={i} className="inline-block">
-                {char === " " ? "\u00A0" : char}
-              </span>
-            ))}
-          </h2>
-          <div className="mt-8 flex items-center gap-3">
-            <div className="bg-void/50 border border-gold/30 rounded-full px-4 py-2 flex items-center gap-2">
-              <Flame className="text-amber animate-pulse" size={20} />
-              <span className="text-white font-mono font-bold text-sm">
-                CURRENT STREAK: <span className="text-gold text-lg">{streak}</span>
-              </span>
-            </div>
-          </div>
+            <Flame className="text-crimson animate-pulse" size={32} />
+            <span className="text-crimson font-black tracking-widest text-2xl uppercase" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
+              CURRENT STREAK: {streak}
+            </span>
+          </motion.div>
         </div>
 
-        {/* Right Side: Interactive Trivia Card */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <div 
-            ref={cardRef}
-            className="w-full max-w-md bg-void border border-navy rounded-2xl p-8 relative overflow-hidden shadow-2xl"
-          >
-            {/* Background Accent */}
-            <div className="absolute -top-20 -right-20 w-40 h-40 bg-magenta/10 blur-[50px] rounded-full pointer-events-none" />
-
-            <div className="mb-8">
-              <span className="text-magenta text-xs font-black tracking-widest uppercase mb-4 inline-block">DAILY TRIVIA</span>
-              <h3 className="text-2xl font-bold text-white mb-2 leading-tight">
+        {/* Right Side Interactive Card */}
+        <div className="flex justify-center lg:justify-end w-full">
+           <div 
+             ref={cardRef}
+             className="w-full max-w-[500px] bg-white border-4 border-royal p-8 pt-10 shadow-[16px_16px_0_#1A1AE6] relative"
+           >
+              {/* Question */}
+              <h3 
+                className="text-ink font-bold text-xl leading-tight mb-8 drop-shadow-sm"
+                style={{ fontFamily: "'DM Sans', sans-serif" }}
+              >
                 {TRIVIA_DATA.question}
               </h3>
-            </div>
 
-            <div className="space-y-3 relative z-10">
-              {TRIVIA_DATA.options.map((option) => {
-                let stateClass = "border-navy hover:border-cyan hover:bg-navy/30";
-                
-                if (answered) {
-                  if (option.isCorrect) {
-                     stateClass = "border-green-500 bg-green-500/10 text-green-400"; // Correct answer styling
-                  } else if (selectedId === option.id) {
-                     stateClass = "border-red-500 bg-red-500/10 text-red-400"; // Wrong selected styling
-                  } else {
-                     stateClass = "border-navy opacity-50"; // Other unselected
+              {/* Options */}
+              <div className="space-y-4 relative z-10 bg-white">
+                {TRIVIA_DATA.options.map((option) => {
+                  let stateClasses = "bg-white border-ink text-ink hover:bg-royal hover:text-white";
+                  let showCheck = false;
+
+                  if (answered) {
+                    if (option.isCorrect) {
+                      stateClasses = "bg-lime border-lime text-white z-10 pointer-events-none scale-105";
+                      showCheck = true;
+                    } else if (selectedId === option.id) {
+                      stateClasses = "bg-crimson border-crimson text-white z-0 pointer-events-none";
+                    } else {
+                      stateClasses = "bg-gray-100 border-gray-300 text-gray-400 pointer-events-none";
+                    }
                   }
-                }
 
-                return (
-                  <button
-                    key={option.id}
-                    onClick={() => handleSelect(option.id, option.isCorrect)}
-                    disabled={answered}
-                    className={cn(
-                      "w-full text-left p-4 rounded-xl border transition-all duration-300 flex items-center gap-4 bg-void font-bold",
-                      stateClass
-                    )}
-                  >
-                    <span 
+                  return (
+                    <button
+                      key={option.id}
+                      onClick={() => handleSelect(option.id, option.isCorrect)}
+                      disabled={answered}
                       className={cn(
-                        "flex items-center justify-center w-8 h-8 rounded-md font-mono text-sm border",
-                        answered && option.isCorrect ? "bg-green-500/20 border-green-500" :
-                        answered && selectedId === option.id ? "bg-red-500/20 border-red-500" :
-                        "bg-navy border-white/10"
+                        "w-full flex items-center p-4 border-2 font-bold text-lg transition-all duration-300 relative shadow-[4px_4px_0_#0A0A1A]",
+                        stateClasses
                       )}
+                      style={{ fontFamily: "'DM Sans', sans-serif" }}
                     >
-                      {option.id}
-                    </span>
-                    {option.text}
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* Stats Reveal Panel */}
-            <div 
-              ref={statsPanelRef}
-              className="absolute bottom-0 left-0 right-0 bg-blue border-t border-cyan p-6 transform translate-y-full opacity-0"
-            >
-              <h4 className="text-gold font-black uppercase tracking-wider text-sm mb-1">{TRIVIA_DATA.stats.title}</h4>
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-4xl font-mono font-black text-white">{TRIVIA_DATA.stats.value}</span>
+                      <span className="bg-ink text-white font-black w-8 h-8 flex items-center justify-center mr-4 border-2 border-white pointer-events-none">
+                        {option.id}
+                      </span>
+                      <span>{option.text}</span>
+                      
+                      {showCheck && (
+                        <Check size={28} strokeWidth={4} className="ml-auto text-white" />
+                      )}
+                    </button>
+                  );
+                })}
               </div>
-              <p className="text-white/80 text-sm leading-relaxed">
-                {TRIVIA_DATA.stats.desc}
-              </p>
-            </div>
 
-          </div>
+              {/* Reveal Panel (Slides up over bottom of card on Wrong Answer) */}
+              <div 
+                ref={wrongPanelRef}
+                className="absolute bottom-0 left-0 w-full bg-violet border-t-8 border-ink p-8 translate-y-full opacity-0 z-20 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
+                style={{ top: "30%" }} // Cover most options except question
+              >
+                 <span className="bg-white text-ink text-sm font-black tracking-widest uppercase px-3 py-1 inline-block mb-3 border-2 border-ink shadow-[2px_2px_0_#0A0A1A]">
+                   INCORRECT
+                 </span>
+                 <h4 className="text-white font-black uppercase tracking-wider text-xl mb-2" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
+                   {TRIVIA_DATA.stats.title}
+                 </h4>
+                 <p className="text-white text-base font-medium leading-relaxed" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+                   {TRIVIA_DATA.stats.desc}
+                 </p>
+              </div>
+           </div>
         </div>
 
       </div>

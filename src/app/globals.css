@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --crex-void: #06080e;
-    --crex-navy: #0e1a30;
-    --crex-blue: #1240a0;
-    --crex-cyan: #00c2e0;
-    --crex-gold: #f5b800;
-    --crex-magenta: #d42060;
-    --crex-amber: #ff6b00;
-    --crex-white: #eef3ff;
+    --crex-sun: #FFE500;
+    --crex-royal: #1A1AE6;
+    --crex-crimson: #E6001A;
+    --crex-violet: #7B00E6;
+    --crex-sky: #00B4E6;
+    --crex-lime: #00E640;
+    --crex-white: #FFFFFF;
+    --crex-ink: #0A0A1A;
   }
 
   body {
-    background-color: var(--crex-void);
-    color: var(--crex-white);
+    background-color: var(--crex-sun);
+    color: var(--crex-ink);
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 

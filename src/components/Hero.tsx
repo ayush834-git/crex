@@ -1,278 +1,182 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
+import { useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Search } from "lucide-react";
-import { cn } from "@/utils/cn";
 import { CricketBallSeam } from "./CricketBallSeam";
-
-if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger);
-}
-
-const STATS = [
-  { label: "PLAYERS", value: 342, prefix: "" },
-  { label: "MATCHES", value: 1084, prefix: "" },
-  { label: "DATA POINTS", value: 2.1, prefix: "", suffix: "M" },
-  { label: "PREDICTIONS", value: 98, prefix: "", suffix: "%" },
-];
-
-const TYPEWRITER_TEXTS = [
-  "Deep learning predictions",
-  "Ball-by-ball analysis",
-  "Player matchups",
-  "Pitch conditions",
-];
 
 export function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const stripeRef = useRef<HTMLDivElement>(null);
   const textContentRef = useRef<HTMLDivElement>(null);
-  const imageContainerRef = useRef<HTMLDivElement>(null);
-  const numbersWordRef = useRef<HTMLDivElement>(null);
-  const scrollLineRef = useRef<HTMLDivElement>(null);
-  const zigzagRef = useRef<SVGPathElement>(null);
-  const countersRef = useRef<(HTMLHeadingElement | null)[]>([]);
+  const crexLettersRef = useRef<HTMLHeadingElement[]>([]);
+  const iplRef = useRef<HTMLHeadingElement>(null);
+  const intelRef = useRef<HTMLHeadingElement>(null);
+  const searchRef = useRef<HTMLDivElement>(null);
+  const ballRef = useRef<HTMLDivElement>(null);
+  const bottomBarRef = useRef<HTMLDivElement>(null);
 
-  const [typewriterIndex, setTypewriterIndex] = useState(0);
-  const [typewriterText, setTypewriterText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
-
-  // Typewriter effect
-  useEffect(() => {
-    let timer: NodeJS.Timeout;
-    const currentFullText = TYPEWRITER_TEXTS[typewriterIndex];
-
-    if (isDeleting) {
-      if (typewriterText === "") {
-        setIsDeleting(false);
-        setTypewriterIndex((prev) => (prev + 1) % TYPEWRITER_TEXTS.length);
-      } else {
-        timer = setTimeout(() => {
-          setTypewriterText((prev) => prev.slice(0, -1));
-        }, 50);
-      }
-    } else {
-      if (typewriterText === currentFullText) {
-        timer = setTimeout(() => setIsDeleting(true), 2000); // pause full text
-      } else {
-        timer = setTimeout(() => {
-          setTypewriterText(currentFullText.slice(0, typewriterText.length + 1));
-        }, 80);
-      }
-    }
-    return () => clearTimeout(timer);
-  }, [typewriterText, isDeleting, typewriterIndex]);
-
-  // Initial animations and scroll triggers
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // 1. "THE" fades in
-      gsap.fromTo(
-        ".hero-the",
-        { opacity: 0 },
-        { opacity: 1, duration: 1, delay: 0.5, ease: "power2.out" }
-      );
+      const tl = gsap.timeline();
 
-      // 2. "NUMBERS" stagger slide up from clip mask
-      const letterSpans = numbersWordRef.current?.querySelectorAll("span");
-      if (letterSpans) {
-        gsap.fromTo(
-          letterSpans,
-          { y: 150 },
-          { y: 0, duration: 0.8, stagger: 0.08, ease: "back.out(1.2)", delay: 0.8 }
-        );
-      }
+      // Initial States
+      gsap.set(containerRef.current, { clipPath: "polygon(0 0, 0 0, 0 100%, 0 100%)" });
+      gsap.set(crexLettersRef.current, { y: -300, opacity: 0 });
+      gsap.set(iplRef.current, { opacity: 0, x: -50 });
+      gsap.set(intelRef.current, { opacity: 0, x: -50 });
+      gsap.set(stripeRef.current, { scaleX: 0, opacity: 0 });
+      gsap.set(ballRef.current, { opacity: 0 });
+      gsap.set(searchRef.current, { y: 50, opacity: 0 });
+      gsap.set(bottomBarRef.current, { y: 80 });
 
-      // 3. Zigzag SVG
-      if (zigzagRef.current) {
-        gsap.set(zigzagRef.current, { strokeDasharray: 200, strokeDashoffset: 200 });
-        gsap.to(zigzagRef.current, {
-          strokeDashoffset: 0,
-          duration: 1,
-          ease: "power2.out",
-          delay: 1.5,
-        });
-      }
+      // GSAP Entrance Timeline from specs
+      // t=0.0: Yellow background floods in from left (clip-path wipe)
+      tl.to(containerRef.current, {
+        clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+        duration: 0.3,
+        ease: "power2.inOut"
+      }, 0.0)
+      
+      // t=0.3: "CREX" letters slam down from top, stagger 60ms each
+      .to(crexLettersRef.current, {
+        y: 0,
+        opacity: 1,
+        duration: 0.6,
+        stagger: 0.06,
+        ease: "back.out(1.5)"
+      }, 0.3)
+      .to([iplRef.current, intelRef.current], {
+        opacity: 1,
+        x: 0,
+        duration: 0.4,
+        stagger: 0.1
+      }, 0.4)
+      
+      // t=0.6: Red diagonal stripe draws across screen
+      .to(stripeRef.current, {
+        scaleX: 1,
+        opacity: 1,
+        duration: 0.4,
+        ease: "power3.out"
+      }, 0.6)
+      
+      // t=0.8: Ball fades in + starts spinning
+      .to(ballRef.current, {
+        opacity: 1,
+        duration: 0.4
+      }, 0.8)
+      
+      // t=1.0: Search bar slides up from bottom
+      .to(searchRef.current, {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        ease: "back.out(1.2)"
+      }, 1.0)
+      
+      // t=1.2: Blue stat strip slides up
+      .to(bottomBarRef.current, {
+        y: 0,
+        duration: 0.4,
+        ease: "power2.out"
+      }, 1.2);
 
-      // 4. Parallax scroll effect (Image moves slower than viewport)
-      gsap.to(imageContainerRef.current, {
-        yPercent: 30, // Move down 30% of its height over the scroll distance
-        ease: "none",
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "top top",
-          end: "bottom top",
-          scrub: true,
-        },
-      });
-
-      // Text section parallax slightly up
-      gsap.to(textContentRef.current, {
-        yPercent: -15,
-        ease: "none",
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "top top",
-          end: "bottom top",
-          scrub: true,
-        },
-      });
-
-      // 5. Scroll progress right edge line
-      gsap.to(scrollLineRef.current, {
-        scaleY: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "top top",
-          end: "bottom top",
-          scrub: true,
-        },
-      });
-
-      // 6. Number counters on viewport enter
-      countersRef.current.forEach((counter, i) => {
-        if (!counter) return;
-        ScrollTrigger.create({
-          trigger: counter,
-          start: "top 90%",
-          onEnter: () => {
-            const target = STATS[i].value;
-            // animate an object from 0 to target
-            const obj = { val: 0 };
-            gsap.to(obj, {
-              val: target,
-              duration: 2,
-              ease: "power2.out",
-              onUpdate: () => {
-                const displayVal =
-                  target % 1 === 0 ? Math.floor(obj.val) : obj.val.toFixed(1);
-                counter.innerText = displayVal.toString();
-              },
-            });
-          },
-          once: true,
-        });
-      });
     }, containerRef);
-
     return () => ctx.revert();
   }, []);
 
   return (
-    <section
-      ref={containerRef}
-      className="relative min-h-[100svh] w-full overflow-hidden flex items-center bg-void pt-20"
-    >
-      <div className="max-w-[1440px] w-full mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 relative z-10">
+    <section ref={containerRef} className="relative h-[100svh] w-full bg-sun overflow-hidden flex items-center">
+      
+      {/* Thick diagonal red stripe (10deg skew, 40px wide) */}
+      <div 
+        ref={stripeRef} 
+        className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none origin-bottom-left"
+      >
+         <div 
+           className="w-[200%] h-[40px] bg-crimson" 
+           style={{ transform: "rotate(-10deg) translateY(100px)" }} 
+         />
+      </div>
+
+      <div className="max-w-[1440px] w-full h-full mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 relative z-10 pt-24 md:pt-0">
         
-        {/* LEFT COLUMN - TEXT */}
-        <div ref={textContentRef} className="flex flex-col justify-center order-2 lg:order-1 pt-12 lg:pt-0">
+        {/* LEFT SIDE - TEXT BLOCK */}
+        <div ref={textContentRef} className="flex flex-col justify-center h-full pb-20 mt-10 md:mt-0">
           
-          <h1 className="flex flex-col select-none uppercase" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-            <span className="hero-the text-gold text-sm tracking-[6px] font-bold mb-2">THE</span>
-            
-            <div className="overflow-hidden leading-[0.8] pb-1">
-              <div ref={numbersWordRef} className="text-white text-[clamp(72px,12vw,140px)] font-black flex">
-                {"NUMBERS".split("").map((letter, i) => (
-                  <span key={i} className="inline-block transform">
-                    {letter}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="leading-[0.8] pb-1 relative">
-              <span className="text-[clamp(72px,12vw,140px)] font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan to-gold animate-gradient-x bg-[length:200%_200%]">
-                BEHIND
-              </span>
-            </div>
-            
-            <div className="leading-[0.8] italic transform -skew-x-6 text-magenta">
-              <span className="text-[clamp(72px,12vw,140px)] font-black">IPL</span>
-            </div>
-          </h1>
-
-          <div className="mt-8 mb-10 flex items-center pr-12 lg:pr-0">
-            <svg width="60" height="20" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-6 shrink-0">
-              <path ref={zigzagRef} d="M0 10L10 0L20 20L30 0L40 20L50 0L60 10" className="stroke-gold stroke-2" />
-            </svg>
-            <div className="text-cyan font-mono h-6 text-sm md:text-base border-r-2 border-cyan pr-1 animate-pulse">
-              {typewriterText}
-            </div>
-          </div>
-
-          {/* Search Bar */}
-          <div className="relative max-w-md group w-full mb-16">
-            <div className="absolute inset-0 bg-gradient-to-r from-navy to-cyan/20 blur-xl opacity-0 transition-opacity duration-500 group-focus-within:opacity-100 rounded-full" />
-            <div className="relative flex items-center bg-navy/40 backdrop-blur-md border border-navy group-focus-within:border-cyan transition-colors duration-300 rounded-full py-3 px-6 shadow-2xl">
-              <Search className="text-white/50 group-focus-within:text-cyan w-5 h-5 mr-3 transition-colors" />
-              <input 
-                type="text" 
-                placeholder="Search players, teams, matches..." 
-                className="bg-transparent border-none outline-none w-full text-white placeholder:text-white/40 font-mono text-sm"
-              />
-            </div>
-          </div>
-
-          {/* Bottom Counters */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {STATS.map((stat, i) => (
-              <div key={stat.label} className="flex flex-col border-l-2 border-navy pl-4">
-                <div className="flex items-baseline text-white font-mono text-3xl font-bold">
-                  <span>{stat.prefix}</span>
-                  <h3 ref={(el) => { countersRef.current[i] = el; }}>0</h3>
-                  <span>{stat.suffix}</span>
-                </div>
-                <span className="text-white/50 text-[10px] uppercase tracking-widest mt-1 font-bold">
-                  {stat.label}
-                </span>
-              </div>
+          {/* Line 1: CREX */}
+          <div className="flex -space-x-4 overflow-hidden pt-4 pb-2 z-10">
+            {"CREX".split("").map((char, i) => (
+               <h1 
+                 key={i} 
+                 ref={(el) => { if(el) crexLettersRef.current[i] = el; }}
+                 className="text-royal leading-[0.8] font-black pointer-events-none" 
+                 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: 'clamp(120px, 15vw, 200px)' }}
+               >
+                 {char}
+               </h1>
             ))}
           </div>
 
+          {/* Line 2: IPL */}
+          <h2 
+            ref={iplRef} 
+            className="text-crimson leading-[0.8] font-black z-10 pointer-events-none" 
+            style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: 'clamp(80px, 10vw, 120px)', transform: 'skewX(-8deg)' }}
+          >
+            IPL
+          </h2>
+
+          {/* Line 3: INTELLIGENCE */}
+          <h3 
+            ref={intelRef} 
+            className="text-ink font-bold mt-2 md:mt-4 leading-none tracking-widest z-10 pointer-events-none" 
+            style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: 'clamp(32px, 5vw, 48px)' }}
+          >
+            INTELLIGENCE
+          </h3>
+
+          {/* Search bar */}
+          <div ref={searchRef} className="mt-8 md:mt-12 flex items-center bg-white border-4 border-royal w-full max-w-[500px] z-20">
+             <input 
+               type="text" 
+               placeholder="Search players, teams, matches..." 
+               className="bg-transparent text-ink placeholder-ink/50 w-full p-3 md:p-4 font-sans font-medium outline-none text-base md:text-lg" 
+             />
+             <button className="bg-crimson text-white px-6 md:px-8 py-3 md:py-4 font-bold border-l-4 border-royal flex items-center justify-center hover:bg-ink transition-colors">
+                <Search className="w-6 h-6 stroke-[3px]" />
+             </button>
+          </div>
+
         </div>
 
-        {/* RIGHT COLUMN - IMAGE & 3D BALL */}
-        <div className="relative flex items-center justify-center order-1 lg:order-2 h-[50vh] lg:h-auto pointer-events-none">
-          {/* Note: In mobile, pointer-events-none ensures it doesn't block scrolling */}
-          <div ref={imageContainerRef} className="absolute inset-0 md:inset-[-10%] z-0 flex items-center justify-center">
-            <div className="relative w-[300px] h-[300px] md:w-[600px] md:h-[600px]">
-              {/* Fallback glow if image is missing */}
-              <div className="absolute inset-20 rounded-full bg-cyan/20 blur-[100px] mix-blend-screen" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                 <Image 
-                   src="/hero-ball.jpg" 
-                   alt="IPL Cricket Ball" 
-                   fill 
-                   className="object-contain" // Wait, object-contain is safer to preserve the exact circle
-                   priority
-                   unoptimized // user provided a sample image, it might be raw
-                 />
-              </div>
-              
-              {/* R3F Canvas overlaying the ball exactly */}
-              {/* Note: R3F needs pointer events to detect hover */}
-              <div className="absolute inset-0 z-10 pointer-events-auto">
-                <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
-                  <ambientLight intensity={1} />
-                  <CricketBallSeam />
-                </Canvas>
-              </div>
-            </div>
-          </div>
+        {/* RIGHT SIDE - 3D BALL */}
+        <div className="relative flex items-center justify-center h-full pb-20 pointer-events-none z-10">
+           {/* Fills 50% of right column approx. Restricting height/width explicitly for Canvas rendering scale */}
+           <div ref={ballRef} className="w-[100%] max-w-[500px] aspect-square absolute right-0 md:mt-0 -mt-20 pointer-events-auto">
+             <Canvas camera={{ position: [0, 0, 5], fov: 45 }} gl={{ alpha: true }}>
+                <ambientLight intensity={0.4} />
+                <pointLight position={[-5, 5, 5]} color="#FFE500" intensity={3} />
+                <pointLight position={[5, 0, 5]} color="#FFFFFF" intensity={1} />
+                <CricketBallSeam />
+             </Canvas>
+           </div>
         </div>
       </div>
 
-      {/* Scroll Progress Line */}
-      <div className="absolute right-0 top-0 bottom-0 w-[2px] bg-navy z-20 hidden md:block">
-        <div 
-          ref={scrollLineRef}
-          className="w-full bg-gold h-full origin-top transform scale-y-0"
-        />
+      {/* BOTTOM BAR: inside hero, above fold */}
+      <div 
+        ref={bottomBarRef} 
+        className="absolute bottom-0 left-0 w-full h-[80px] bg-royal border-t-8 border-ink flex items-center z-20"
+      >
+        <div className="flex items-center justify-between w-full h-full mx-auto max-w-[1440px] text-sun font-mono text-sm md:text-lg lg:text-xl font-bold divide-x-4 divide-sun">
+          <div className="px-2 md:px-6 w-full text-center tracking-tight truncate">342 PLAYERS</div>
+          <div className="px-2 md:px-6 w-full text-center tracking-tight truncate">1084 MATCHES</div>
+          <div className="px-2 md:px-6 w-full text-center tracking-tight truncate hidden sm:block">2.1M DATA POINTS</div>
+          <div className="px-2 md:px-6 w-full text-center tracking-tight truncate hidden md:block">IPL 2008–2026</div>
+        </div>
       </div>
     </section>
   );
