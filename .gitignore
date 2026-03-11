@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large local data files (not for version control)
+/ipl_json/
+/build_output.log
+/lint.json
+/tsconfig.scripts.json
+
