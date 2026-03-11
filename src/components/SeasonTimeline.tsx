@@ -5,7 +5,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Trophy } from "lucide-react";
 import { cn } from "@/utils/cn";
-import { motion } from "framer-motion";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -85,7 +84,7 @@ export function SeasonTimeline() {
 
        <div className="absolute top-12 md:top-24 left-6 md:left-12 z-20">
          <h2 
-           className="text-[clamp(50px,8vw,100px)] leading-[0.8] font-black text-ink uppercase tracking-wider bg-white border-[6px] border-ink inline-block px-6 py-2 shadow-[8px_8px_0_#1A1AE6]"
+           className="text-[clamp(50px,8vw,100px)] leading-[0.8] font-black text-sun uppercase tracking-wider bg-ink border-[6px] border-sun inline-block px-6 py-2 shadow-[8px_8px_0_#1A1AE6]"
            style={{ fontFamily: "'Bebas Neue', 'Barlow Condensed', sans-serif", transform: "rotate(-2deg)" }}
           >
            THE <span className="text-royal">LEGACY.</span>
@@ -95,8 +94,8 @@ export function SeasonTimeline() {
       <div className="relative w-full overflow-hidden mt-12 md:mt-24 h-64 md:h-96 flex items-center">
         
         {/* Animated Connecting Line (Background) */}
-        <div className="absolute top-1/2 left-0 w-[4000px] h-4 bg-white border-y-4 border-ink -translate-y-1/2 z-0" />
-        <div className="absolute top-1/2 left-0 w-[4000px] h-4 origin-left -translate-y-1/2 z-0 border-y-4 border-ink">
+        <div className="absolute top-1/2 left-0 w-[4000px] h-4 bg-ink border-y-4 border-[#F5C51840] -translate-y-1/2 z-0" />
+        <div className="absolute top-1/2 left-0 w-[4000px] h-4 origin-left -translate-y-1/2 z-0 border-y-4 border-[#F5C51840]">
           <div ref={lineRef} className="h-full bg-crimson transform scale-x-0 origin-left" />
         </div>
 
@@ -116,8 +115,8 @@ export function SeasonTimeline() {
                 {/* Year Badge */}
                 <div 
                   className={cn(
-                    "mb-8 text-2xl md:text-4xl font-black tracking-widest px-4 py-2 border-[4px] border-ink shadow-[4px_4px_0_#0A0A1A] transition-all duration-300",
-                    isActive ? "bg-sun text-ink scale-110" : "bg-white text-ink"
+                    "mb-8 text-2xl md:text-4xl font-black tracking-widest px-4 py-2 border-[4px] border-sun shadow-[4px_4px_0_#080C18] transition-all duration-300",
+                    isActive ? "bg-sun text-ink scale-110" : "bg-ink text-sun"
                   )}
                   style={{ fontFamily: "'Barlow Condensed', sans-serif", transform: isActive ? 'rotate(3deg)' : 'rotate(-2deg)' }}
                 >
@@ -127,18 +126,18 @@ export function SeasonTimeline() {
                 {/* Main Node */}
                 <div 
                   className={cn(
-                    "w-20 h-20 md:w-24 md:h-24 rounded-full flex items-center justify-center border-4 shadow-[6px_6px_0_#0A0A1A] transition-all duration-300 z-10",
-                    isActive ? "bg-white border-ink" : "bg-white border-ink"
+                    "w-20 h-20 md:w-24 md:h-24 rounded-full flex items-center justify-center border-4 shadow-[6px_6px_0_#080C18] transition-all duration-300 z-10",
+                    isActive ? "bg-ink border-sun" : "bg-ink border-sun"
                   )}
-                  style={{ backgroundColor: isActive ? season.color : '#FFFFFF' }}
+                  style={{ backgroundColor: isActive ? season.color : '#080C18' }}
                 >
                   <Trophy 
                     className="w-10 h-10 md:w-12 md:h-12 transition-transform duration-300 outline-none" 
                     strokeWidth={isActive ? 2.5 : 2}
                     style={{ 
-                      color: isActive ? "#FFFFFF" : "#0A0A1A",
+                      color: isActive ? "#FFFFFF" : "#F5C518",
                       transform: isActive ? "scale(1.1) rotate(-10deg)" : "scale(1)",
-                      filter: isActive ? "drop-shadow(2px 2px 0px rgba(10,10,26,1))" : "none"
+                      filter: isActive ? "drop-shadow(2px 2px 0px rgba(8,12,24,1))" : "none"
                     }} 
                   />
                 </div>
@@ -146,7 +145,7 @@ export function SeasonTimeline() {
                 {/* Expanding Stats Panel */}
                 <div 
                    className={cn(
-                     "absolute top-[120%] lg:top-full lg:mt-6 bg-white border-[4px] border-ink shadow-[6px_6px_0_#0A0A1A] p-4 w-56 text-center transition-all duration-300 origin-top",
+                     "absolute top-[120%] lg:top-full lg:mt-6 bg-ink border-[4px] border-sun shadow-[6px_6px_0_#080C18] p-4 w-56 text-center transition-all duration-300 origin-top",
                      isActive ? "opacity-100 scale-100 rotate-1" : "opacity-0 scale-90 -rotate-2 pointer-events-none"
                    )}
                 >
@@ -156,14 +155,14 @@ export function SeasonTimeline() {
                   >
                     {season.team}
                   </h4>
-                  <div className="grid grid-cols-2 gap-2 text-left bg-ink/5 p-2 border-2 border-ink">
+                  <div className="grid grid-cols-2 gap-2 text-left bg-sun/10 p-2 border-2 border-sun">
                     <div>
-                      <span className="text-[10px] text-ink uppercase block font-black tracking-widest mb-1">Runs</span>
-                      <span className="font-mono text-xl text-ink font-bold">{season.runs}</span>
+                      <span className="text-[10px] text-sun uppercase block font-black tracking-widest mb-1">Runs</span>
+                      <span className="font-mono text-xl text-white font-bold">{season.runs}</span>
                     </div>
                     <div>
-                      <span className="text-[10px] text-ink uppercase block font-black tracking-widest mb-1">Wickets</span>
-                      <span className="font-mono text-xl text-ink font-bold">{season.wickets}</span>
+                      <span className="text-[10px] text-sun uppercase block font-black tracking-widest mb-1">Wickets</span>
+                      <span className="font-mono text-xl text-white font-bold">{season.wickets}</span>
                     </div>
                   </div>
                 </div>

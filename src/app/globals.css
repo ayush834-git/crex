@@ -6,19 +6,19 @@
 
 @layer base {
   :root {
-    --crex-sun: #FFE500;
+    --crex-sun: #F5C518;
     --crex-royal: #1A1AE6;
-    --crex-crimson: #E6001A;
-    --crex-violet: #7B00E6;
-    --crex-sky: #00B4E6;
-    --crex-lime: #00E640;
+    --crex-crimson: #E63946;
+    --crex-violet: #9B5DE5;
+    --crex-sky: #00C9A7;
+    --crex-lime: #FF9F1C;
     --crex-white: #FFFFFF;
-    --crex-ink: #0A0A1A;
+    --crex-ink: #080C18;
   }
 
   body {
-    background-color: var(--crex-sun);
-    color: var(--crex-ink);
+    background-color: var(--crex-ink);
+    color: var(--crex-white);
     font-family: 'DM Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

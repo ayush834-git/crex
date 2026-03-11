@@ -1,197 +1,250 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import confetti from "canvas-confetti";
-import gsap from "gsap";
-import { Flame, Check } from "lucide-react";
-import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 
-const TRIVIA_DATA = {
-  question: "Who holds the record for the most sixes hit in a single IPL season?",
-  options: [
-    { id: "A", text: "Chris Gayle", isCorrect: true },
-    { id: "B", text: "Andre Russell", isCorrect: false },
-    { id: "C", text: "Jos Buttler", isCorrect: false },
-    { id: "D", text: "Virat Kohli", isCorrect: false },
-  ],
-  stats: {
-    title: "MIND-BLOWING STAT:",
-    value: "59",
-    desc: "Chris Gayle smashed 59 sixes in 14 innings during the 2012 IPL season for RCB. No other player has crossed 55 in a single edition.",
-  },
-};
+const QUESTIONS = [
+  { q: "Who is IPL's all-time leading run-scorer?", opts: ["Rohit Sharma", "Virat Kohli", "Suresh Raina", "David Warner"], answer: 1 },
+  { q: "Which team has won the most IPL titles?", opts: ["CSK", "MI", "KKR", "RCB"], answer: 1 },
+  { q: "Who has the most IPL wickets all-time?", opts: ["Bumrah", "Malinga", "Yuzvendra Chahal", "Rashid Khan"], answer: 2 },
+  { q: "What is the highest individual IPL score?", opts: ["158*", "175*", "167*", "172*"], answer: 1 },
+  { q: "Who scored 175* in IPL 2013?", opts: ["AB de Villiers", "Chris Gayle", "Brendon McCullum", "David Warner"], answer: 1 },
+  { q: "Which player won 3 Orange Caps?", opts: ["Kohli", "Rohit", "David Warner", "Buttler"], answer: 2 },
+  { q: "What does the Impact Player rule allow?", opts: ["2 extra overs", "An extra substitute player", "DRS review", "Power play extension"], answer: 1 },
+  { q: "How many centuries did Buttler score in IPL 2022?", opts: ["2", "3", "4", "5"], answer: 2 },
+  { q: "Who captained KKR to back-to-back titles in 2012 and 2014?", opts: ["Dhoni", "Gambhir", "Dravid", "Sehwag"], answer: 1 },
+  { q: "Which team did Hardik Pandya captain to their first IPL title?", opts: ["MI", "RCB", "GT", "SRH"], answer: 2 },
+  { q: "Rashid Khan's IPL economy rate is approximately?", opts: ["7.8", "7.1", "6.8", "6.77"], answer: 3 },
+  { q: "Which IPL season was played entirely in South Africa?", opts: ["2008", "2009", "2010", "2014"], answer: 1 },
+  { q: "Who hit the first century in IPL history?", opts: ["Sehwag", "McCullum", "Gayle", "Hayden"], answer: 1 },
+  { q: "How many runs did Kohli score in IPL 2016?", opts: ["723", "800", "873", "919"], answer: 2 },
+  { q: "Which player is known as 'Mr. IPL'?", opts: ["Rohit Sharma", "MS Dhoni", "Suresh Raina", "Virat Kohli"], answer: 2 },
+];
+
+const OPTION_STYLES = [
+  { bg: "#1A1AE6", text: "#FFFFFF", dark: false },
+  { bg: "#9B5DE5", text: "#FFFFFF", dark: false },
+  { bg: "#00C9A7", text: "#080C18", dark: true },
+  { bg: "#FF9F1C", text: "#080C18", dark: true },
+];
+
+const TIERS = [
+  { min: 130, label: "CRICKET GENIUS 🏆", color: "#F5C518" },
+  { min: 90, label: "REAL FAN 🔥", color: "#E63946" },
+  { min: 50, label: "CASUAL VIEWER 👀", color: "#00C9A7" },
+  { min: 0, label: "JUST STARTED 🏏", color: "#FFFFFF" },
+];
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 export function Trivia() {
-  const [streak, setStreak] = useState(0);
-  const [answered, setAnswered] = useState(false);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [questions, setQuestions] = useState(QUESTIONS);
+  const [currentQ, setCurrentQ] = useState(0);
+  const [score, setScore] = useState(0);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [timeLeft, setTimeLeft] = useState(15);
+  const [gameOver, setGameOver] = useState(false);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  const containerRef = useRef<HTMLDivElement>(null);
-  const cardRef = useRef<HTMLDivElement>(null);
-  const wrongPanelRef = useRef<HTMLDivElement>(null);
+  const question = questions[currentQ];
+
+  const advance = useCallback(() => {
+    if (currentQ >= questions.length - 1) {
+      setGameOver(true);
+    } else {
+      setCurrentQ(prev => prev + 1);
+      setSelected(null);
+      setTimeLeft(15);
+    }
+  }, [currentQ, questions.length]);
 
   useEffect(() => {
-    const saved = localStorage.getItem("crex-trivia-streak");
-    if (saved) setStreak(parseInt(saved, 10));
-  }, []);
-
-  const handleSelect = (id: string, isCorrect: boolean) => {
-    if (answered) return;
-    setSelectedId(id);
-    setAnswered(true);
-
-    if (isCorrect) {
-      // Confetti burst for correct answer
-      confetti({
-        particleCount: 150,
-        spread: 80,
-        origin: { y: 0.6 },
-        colors: ["#FFE500", "#1A1AE6", "#00B4E6", "#00E640", "#FFFFFF"],
-        zIndex: 100,
+    if (gameOver || selected !== null) return;
+    timerRef.current = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(timerRef.current!);
+          setTimeout(() => advance(), 500);
+          return 0;
+        }
+        return prev - 1;
       });
-      const newStreak = streak + 1;
-      setStreak(newStreak);
-      localStorage.setItem("crex-trivia-streak", newStreak.toString());
-    } else {
-      // Reset streak
-      setStreak(0);
-      localStorage.setItem("crex-trivia-streak", "0");
-      
-      // GSAP Shake animation on the whole card
-      if (cardRef.current) {
-        gsap.to(cardRef.current, {
-          x: "random(-10, 10, 5)",
-          y: "random(-5, 5, 3)",
-          duration: 0.1,
-          repeat: 5,
-          yoyo: true,
-          clearProps: "all"
-        });
-      }
+    }, 1000);
+    return () => { if (timerRef.current) clearInterval(timerRef.current); };
+  }, [currentQ, selected, gameOver, advance]);
 
-      // Slide up violet stat panel
-      if (wrongPanelRef.current) {
-        gsap.to(wrongPanelRef.current, {
-          y: 0,
-          opacity: 1,
-          duration: 0.5,
-          ease: "back.out(1)",
-          delay: 0.3,
-        });
-      }
+  const handleSelect = (idx: number) => {
+    if (selected !== null || gameOver) return;
+    setSelected(idx);
+    if (timerRef.current) clearInterval(timerRef.current);
+    if (idx === question.answer) {
+      setScore(prev => prev + 10);
+      confetti({ particleCount: 80, spread: 60, origin: { y: 0.7 }, colors: ["#F5C518", "#1A1AE6", "#00C9A7", "#9B5DE5"], zIndex: 100 });
     }
+    setTimeout(() => advance(), 1200);
   };
 
+  const restart = () => {
+    setQuestions(shuffle(QUESTIONS));
+    setCurrentQ(0);
+    setScore(0);
+    setSelected(null);
+    setTimeLeft(15);
+    setGameOver(false);
+  };
+
+  const tier = TIERS.find(t => score >= t.min) || TIERS[TIERS.length - 1];
+
+  if (gameOver) {
+    return (
+      <section className="py-24 md:py-32 w-full min-h-[90vh] flex items-center relative overflow-hidden" style={{ background: "#E63946" }}>
+        <div className="max-w-[600px] mx-auto px-6 text-center z-10 relative">
+          <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", bounce: 0.5 }}>
+            <h2 className="font-black uppercase leading-[0.85] text-[#1A1AE6] mb-4"
+              style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "clamp(60px,12vw,100px)" }}>
+              {score}<span style={{ color: "#F5C518" }}>/{questions.length * 10}</span>
+            </h2>
+            <p className="text-3xl font-black uppercase tracking-wider mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif", color: tier.color }}>
+              {tier.label}
+            </p>
+            <p className="text-base mb-12 font-bold" style={{ fontFamily: "Inter, sans-serif", color: "white" }}>
+              You got {score / 10} out of {questions.length} questions correct
+            </p>
+            <button onClick={restart}
+              className="px-8 py-4 font-black text-lg uppercase tracking-widest rounded-sm cursor-pointer hover:bg-white transition-all shadow-[4px_4px_0_rgba(26,26,230,0.5)]"
+              style={{ background: "#F5C518", color: "#1A1AE6", fontFamily: "'Barlow Condensed', sans-serif", border: "4px solid #1A1AE6" }}>
+              PLAY AGAIN
+            </button>
+          </motion.div>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <section ref={containerRef} className="py-24 md:py-32 bg-crimson w-full min-h-[90vh] flex items-center relative overflow-hidden">
+    <section className="py-24 md:py-32 w-full min-h-[90vh] flex items-center relative overflow-hidden" style={{ background: "#E63946" }}>
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center w-full z-10 relative">
         
-        {/* Left Side Text Block */}
+        {/* Left — Title */}
         <div className="flex flex-col items-start uppercase leading-[0.8] tracking-tighter" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           <motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.1, type: "spring", stiffness: 100 }}>
-             <span className="text-white drop-shadow-[6px_6px_0_#0A0A1A]" style={{ fontSize: "clamp(100px, 14vw, 160px)" }}>TEST</span>
+             <span className="text-white" style={{ fontSize: "clamp(100px, 14vw, 160px)", textShadow: "6px 6px 0 #080C18" }}>TEST</span>
           </motion.div>
           <motion.div initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.2, type: "spring", stiffness: 100 }}>
-             <span className="text-sun drop-shadow-[6px_6px_0_#1A1AE6]" style={{ fontSize: "clamp(100px, 14vw, 160px)" }}>YOUR</span>
+             <span style={{ fontSize: "clamp(100px, 14vw, 160px)", color: "#F5C518", textShadow: "6px 6px 0 #1A1AE6" }}>YOUR</span>
           </motion.div>
           <motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.3, type: "spring", stiffness: 100 }}>
-             <span className="text-white drop-shadow-[6px_6px_0_#0A0A1A]" style={{ fontSize: "clamp(60px, 8vw, 100px)" }}>CRICKET</span>
+             <span className="text-white" style={{ fontSize: "clamp(60px, 8vw, 100px)", textShadow: "6px 6px 0 #080C18" }}>CRICKET</span>
           </motion.div>
           <motion.div initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ delay: 0.4, type: "spring", stiffness: 100 }}>
-             <span className="text-sun drop-shadow-[6px_6px_0_#1A1AE6]" style={{ fontSize: "clamp(100px, 14vw, 160px)" }}>
-                 IQ<span className="text-violet">.</span>
+             <span style={{ fontSize: "clamp(100px, 14vw, 160px)", color: "#F5C518", textShadow: "6px 6px 0 #1A1AE6" }}>
+                 IQ<span style={{ color: "#9B5DE5" }}>.</span>
              </span>
-          </motion.div>
-
-          {/* Streak Badge */}
-          <motion.div 
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1 }}
-            transition={{ type: "spring", bounce: 0.6, delay: 0.6 }}
-            className="mt-12 bg-white rounded-full px-6 py-3 flex items-center gap-3 border-[4px] border-ink shadow-[4px_4px_0_#0A0A1A]"
-          >
-            <Flame className="text-crimson animate-pulse" size={32} />
-            <span className="text-crimson font-black tracking-widest text-2xl uppercase" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-              CURRENT STREAK: {streak}
-            </span>
           </motion.div>
         </div>
 
-        {/* Right Side Interactive Card */}
+        {/* Right — Interactive Card */}
         <div className="flex justify-center lg:justify-end w-full">
-           <div 
-             ref={cardRef}
-             className="w-full max-w-[500px] bg-white border-4 border-royal p-8 pt-10 shadow-[16px_16px_0_#1A1AE6] relative"
-           >
+           <div className="w-full max-w-[500px] p-8 pt-10 relative bg-[#F5C518] shadow-[8px_8px_0_rgba(26,26,230,0.4)]"
+             style={{ border: "4px solid #1A1AE6" }}>
+              
+              {/* Header */}
+              <div className="flex justify-between items-center mb-6">
+                <span className="text-[#1A1AE6] text-sm font-black uppercase tracking-widest" style={{ fontFamily: "Inter, sans-serif" }}>
+                  Q{currentQ + 1} / {questions.length}
+                </span>
+                <div>
+                  <span className="text-[#080C18] text-sm font-bold mr-2" style={{ fontFamily: "Inter, sans-serif" }}>SCORE:</span>
+                  <span className="text-2xl font-black" style={{ fontFamily: "'JetBrains Mono', monospace", color: "#1A1AE6" }}>{score}</span>
+                </div>
+              </div>
+
+              {/* Timer bar */}
+              <div className="w-full h-2 mb-6 overflow-hidden bg-[rgba(26,26,230,0.2)]">
+                <motion.div className="h-full bg-[#1A1AE6]"
+                  key={currentQ}
+                  initial={{ width: "100%" }}
+                  animate={{ width: "0%" }}
+                  transition={{ duration: 15, ease: "linear" }}
+                />
+              </div>
+
               {/* Question */}
-              <h3 
-                className="text-ink font-bold text-xl leading-tight mb-8 drop-shadow-sm"
-                style={{ fontFamily: "'DM Sans', sans-serif" }}
-              >
-                {TRIVIA_DATA.question}
+              <h3 className="font-black text-2xl leading-tight mb-8" style={{ fontFamily: "'Barlow Condensed', sans-serif", color: "#1A1AE6", textTransform: "uppercase" }}>
+                {question.q}
               </h3>
 
-              {/* Options */}
-              <div className="space-y-4 relative z-10 bg-white">
-                {TRIVIA_DATA.options.map((option) => {
-                  let stateClasses = "bg-white border-ink text-ink hover:bg-royal hover:text-white";
-                  let showCheck = false;
+              {/* Options — vivid colored cards */}
+              <div className="space-y-3">
+                {question.opts.map((opt, idx) => {
+                  const style = OPTION_STYLES[idx];
+                  let bg = style.bg;
+                  let text = style.text;
+                  let border = "transparent";
+                  let badgeContent = String.fromCharCode(65 + idx);
+                  let badgeBg = "#FFFFFF";
+                  let badgeText = style.bg;
+                  const scale = 1;
 
-                  if (answered) {
-                    if (option.isCorrect) {
-                      stateClasses = "bg-lime border-lime text-white z-10 pointer-events-none scale-105";
-                      showCheck = true;
-                    } else if (selectedId === option.id) {
-                      stateClasses = "bg-crimson border-crimson text-white z-0 pointer-events-none";
+                  if (selected !== null) {
+                    if (idx === question.answer) {
+                      bg = "#00C9A7"; text = "#080C18"; border = "#F5C518";
+                      badgeContent = "✓"; badgeBg = "#F5C518"; badgeText = "#080C18";
+                    } else if (idx === selected) {
+                      bg = "#E63946"; text = "#FFFFFF"; border = "#FFFFFF";
+                      badgeContent = "✗"; badgeBg = "#FFFFFF"; badgeText = "#E63946";
                     } else {
-                      stateClasses = "bg-gray-100 border-gray-300 text-gray-400 pointer-events-none";
+                      bg = `${style.bg}55`; text = `${style.text}66`; border = "transparent";
+                      badgeBg = `${style.text}33`; badgeText = `${style.text}66`;
                     }
                   }
 
                   return (
-                    <button
-                      key={option.id}
-                      onClick={() => handleSelect(option.id, option.isCorrect)}
-                      disabled={answered}
-                      className={cn(
-                        "w-full flex items-center p-4 border-2 font-bold text-lg transition-all duration-300 relative shadow-[4px_4px_0_#0A0A1A]",
-                        stateClasses
-                      )}
-                      style={{ fontFamily: "'DM Sans', sans-serif" }}
+                    <motion.button
+                      key={idx}
+                      onClick={() => handleSelect(idx)}
+                      disabled={selected !== null}
+                      whileHover={selected === null ? { scale: 1.02, filter: "brightness(1.15)", borderColor: "#F5C518" } : {}}
+                      className="w-full flex items-center p-4 rounded-lg font-bold text-base transition-all cursor-pointer disabled:cursor-default"
+                      style={{
+                        background: bg,
+                        color: text,
+                        borderBottomWidth: "3px",
+                        borderTopWidth: "3px",
+                        borderLeftWidth: "3px",
+                        borderRightWidth: "3px",
+                        borderStyle: "solid",
+                        borderColor: border,
+                        fontFamily: "Inter, sans-serif",
+                        transform: `scale(${scale})`,
+                      }}
                     >
-                      <span className="bg-ink text-white font-black w-8 h-8 flex items-center justify-center mr-4 border-2 border-white pointer-events-none">
-                        {option.id}
+                      <span className="font-black w-8 h-8 flex items-center justify-center mr-3 text-base shrink-0 rounded-md"
+                        style={{ background: badgeBg, color: badgeText, fontFamily: "'Barlow Condensed', sans-serif", fontSize: "18px" }}>
+                        {badgeContent}
                       </span>
-                      <span>{option.text}</span>
-                      
-                      {showCheck && (
-                        <Check size={28} strokeWidth={4} className="ml-auto text-white" />
-                      )}
-                    </button>
+                      <span className="text-left font-bold">{opt}</span>
+                    </motion.button>
                   );
                 })}
               </div>
 
-              {/* Reveal Panel (Slides up over bottom of card on Wrong Answer) */}
-              <div 
-                ref={wrongPanelRef}
-                className="absolute bottom-0 left-0 w-full bg-violet border-t-8 border-ink p-8 translate-y-full opacity-0 z-20 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
-                style={{ top: "30%" }} // Cover most options except question
-              >
-                 <span className="bg-white text-ink text-sm font-black tracking-widest uppercase px-3 py-1 inline-block mb-3 border-2 border-ink shadow-[2px_2px_0_#0A0A1A]">
-                   INCORRECT
-                 </span>
-                 <h4 className="text-white font-black uppercase tracking-wider text-xl mb-2" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-                   {TRIVIA_DATA.stats.title}
-                 </h4>
-                 <p className="text-white text-base font-medium leading-relaxed" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-                   {TRIVIA_DATA.stats.desc}
-                 </p>
+              {/* Timer text */}
+              <div className="mt-6 text-center">
+                <span className="text-sm font-bold" style={{ fontFamily: "'JetBrains Mono', monospace", color: "#1A1AE6" }}>
+                  {timeLeft > 0 ? `${timeLeft}s remaining` : "Time's up!"}
+                </span>
               </div>
            </div>
         </div>
-
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 "use client";
 
 import { Instagram, Twitter, Youtube, Github } from "lucide-react";
-import { cn } from "@/utils/cn";
 
 export function Footer() {
   return (
@@ -32,10 +31,10 @@ export function Footer() {
           </span>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-10 md:gap-0 max-w-5xl text-center md:text-left mb-20 bg-white border-[6px] border-ink p-12 shadow-[16px_16px_0_#FFE500] transform -rotate-1 hover:rotate-0 transition-transform duration-500">
+        <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-10 md:gap-0 max-w-5xl text-center md:text-left mb-20 bg-ink border-[6px] border-sun p-12 shadow-[16px_16px_0_#F5C518] transform -rotate-1 hover:rotate-0 transition-transform duration-500">
           
           <div className="flex flex-col gap-4">
-            <h4 className="text-ink text-lg font-black uppercase tracking-widest border-b-4 border-ink pb-2 inline-block">Platform</h4>
+            <h4 className="text-sun text-lg font-black uppercase tracking-widest border-b-4 border-sun pb-2 inline-block">Platform</h4>
             <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">MATCHES</a>
             <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">PLAYERS</a>
             <a href="#" className="text-royal hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">TEAMS</a>
@@ -43,7 +42,7 @@ export function Footer() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h4 className="text-ink text-lg font-black uppercase tracking-widest border-b-4 border-ink pb-2 inline-block">Resources</h4>
+            <h4 className="text-sun text-lg font-black uppercase tracking-widest border-b-4 border-sun pb-2 inline-block">Resources</h4>
             <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">API ACCESS</a>
             <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">LABS</a>
             <a href="#" className="text-sky hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">METHODOLOGY</a>
@@ -51,14 +50,14 @@ export function Footer() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h4 className="text-ink text-lg font-black uppercase tracking-widest border-b-4 border-ink pb-2 inline-block">Legal</h4>
+            <h4 className="text-sun text-lg font-black uppercase tracking-widest border-b-4 border-sun pb-2 inline-block">Legal</h4>
             <a href="#" className="text-violet hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">PRIVACY</a>
             <a href="#" className="text-violet hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">TERMS</a>
             <a href="#" className="text-violet hover:text-crimson transition-colors font-black tracking-wide uppercase hover:translate-x-1 duration-200">COOKIES</a>
           </div>
 
           <div className="flex flex-col gap-4 justify-start md:items-end w-full">
-             <h4 className="text-ink text-lg font-black text-center md:text-right uppercase tracking-widest border-b-4 border-ink pb-2 w-full">Socials</h4>
+             <h4 className="text-sun text-lg font-black text-center md:text-right uppercase tracking-widest border-b-4 border-sun pb-2 w-full">Socials</h4>
              <div className="flex gap-4 justify-center md:justify-end w-full mt-4">
                 <a href="#" className="bg-ink text-white p-3 hover:bg-sun hover:text-ink hover:-translate-y-1 transition-all border-2 border-transparent hover:border-ink shadow-[4px_4px_0_#FFF]">
                   <Twitter size={24} />
@@ -78,8 +77,8 @@ export function Footer() {
         </div>
 
         <div className="w-full flex flex-col md:flex-row items-center justify-between text-sun font-mono text-sm tracking-widest font-bold px-4">
-          <p className="bg-ink px-4 py-2 border-2 border-sun shadow-[4px_4px_0_#E6001A]">© {new Date().getFullYear()} CREX INTELLIGENCE HQ</p>
-          <p className="mt-6 md:mt-0 flex items-center bg-white text-ink px-4 py-2 border-2 border-ink shadow-[4px_4px_0_#FFE500]">
+          <p className="bg-ink px-4 py-2 border-2 border-sun shadow-[4px_4px_0_#E63946]">© {new Date().getFullYear()} CREX INTELLIGENCE HQ</p>
+          <p className="mt-6 md:mt-0 flex items-center bg-ink text-sun px-4 py-2 border-2 border-sun shadow-[4px_4px_0_#F5C518]">
             BUILT DURING IPL 2026. <span className="text-crimson ml-3 animate-pulse pb-1 text-2xl">●</span>
           </p>
         </div>

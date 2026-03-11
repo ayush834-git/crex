@@ -1,140 +1,99 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { cn } from "@/utils/cn";
 
-const TEAMS = [
-  { name: "MUMBAI INDIANS", short: "MI", textColor: "#004BA0", bgClass: "bg-sun" },
-  { name: "CHENNAI SUPER KINGS", short: "CSK", textColor: "#F5A623", bgClass: "bg-royal border-4 border-[#F5A623]" },
-  { name: "ROYAL CHALLENGERS BENGALURU", short: "RCB", textColor: "#E6001A", bgClass: "bg-white" },
-  { name: "KOLKATA KNIGHT RIDERS", short: "KKR", textColor: "#3A225D", bgClass: "bg-sun" },
-  { name: "SUNRISERS HYDERABAD", short: "SRH", textColor: "#F26522", bgClass: "bg-white" },
-  { name: "GUJARAT TITANS", short: "GT", textColor: "#FFFFFF", bgClass: "bg-ink" },
-  { name: "RAJASTHAN ROYALS", short: "RR", textColor: "#EA1A85", bgClass: "bg-white" },
-  { name: "DELHI CAPITALS", short: "DC", textColor: "#00008B", bgClass: "bg-sky" },
-  { name: "PUNJAB KINGS", short: "PBKS", textColor: "#D71920", bgClass: "bg-white" },
-  { name: "LUCKNOW SUPER GIANTS", short: "LSG", textColor: "#0050A0", bgClass: "bg-sky" },
+const ROW1_TEAMS = [
+  { name: "MI", bg: "#004EA2", text: "#ACDCF8", border: "#7EC8FF" },
+  { name: "CSK", bg: "#F5A623", text: "#1C2B6B", border: "#FFD166" },
+  { name: "RCB", bg: "#E63946", text: "#FFFFFF", border: "#FF6B77" },
+  { name: "KKR", bg: "#3A1F6E", text: "#F5C518", border: "#7B5DD6" },
+  { name: "DC", bg: "#0078FF", text: "#FFFFFF", border: "#44A3FF" },
+  { name: "SRH", bg: "#FF6B2B", text: "#FFFFFF", border: "#FFB088" },
+  { name: "GT", bg: "#1B4F8C", text: "#C8A84B", border: "#4477B8" },
+  { name: "LSG", bg: "#00B4D8", text: "#0A0E1F", border: "#48CAE4" },
+  { name: "PBKS", bg: "#D4173A", text: "#DCAA34", border: "#FF4D6D" },
+  { name: "RR", bg: "#E91E8C", text: "#FFFFFF", border: "#FF6EC7" },
 ];
 
-const STATS = [
-  { name: "VIRAT KOHLI", metric: "7263 RUNS", team: "RCB" },
-  { name: "SHIKHAR DHAWAN", metric: "6617 RUNS", team: "PBKS" },
-  { name: "DAVID WARNER", metric: "6397 RUNS", team: "DC" },
-  { name: "ROHIT SHARMA", metric: "6211 RUNS", team: "MI" },
-  { name: "SURESH RAINA", metric: "5528 RUNS", team: "CSK" },
-  { name: "AB DE VILLIERS", metric: "5162 RUNS", team: "RCB" },
-  { name: "MS DHONI", metric: "5082 RUNS", team: "CSK" },
-  { name: "YUZVENDRA CHAHAL", metric: "187 WICKETS", team: "RR" },
-  { name: "DJ BRAVO", metric: "183 WICKETS", team: "CSK" },
-  { name: "PIYUSH CHAWLA", metric: "179 WICKETS", team: "MI" },
+const ROW2_STATS = [
+  { player: "VIRAT KOHLI", metric: "8,661 RUNS", teamCode: "RCB", teamColor: "#E63946" },
+  { player: "ROHIT SHARMA", metric: "7,046 RUNS", teamCode: "MI", teamColor: "#004EA2" },
+  { player: "MS DHONI", metric: "5,082 RUNS", teamCode: "CSK", teamColor: "#F5A623" },
+  { player: "SURESH RAINA", metric: "5,528 RUNS", teamCode: "CSK", teamColor: "#F5A623" },
+  { player: "DAVID WARNER", metric: "6,398 RUNS", teamCode: "SRH", teamColor: "#FF6B2B" },
+  { player: "AB DE VILLIERS", metric: "5,162 RUNS", teamCode: "RCB", teamColor: "#E63946" },
+  { player: "JASPRIT BUMRAH", metric: "175 WKTS", teamCode: "MI", teamColor: "#004EA2" },
+  { player: "DJ BRAVO", metric: "183 WKTS", teamCode: "CSK", teamColor: "#F5A623" },
+  { player: "YUZVENDRA CHAHAL", metric: "205 WKTS", teamCode: "RR", teamColor: "#E91E8C" },
+  { player: "LASITH MALINGA", metric: "170 WKTS", teamCode: "MI", teamColor: "#004EA2" },
 ];
 
 export function TeamMarquee() {
-  const row1Ref = useRef<HTMLDivElement>(null);
-  const row2Ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    let row1Tween: gsap.core.Tween;
-    let row2Tween: gsap.core.Tween;
-
-    const ctx = gsap.context(() => {
-      // Row 1
-      if (row1Ref.current) {
-        row1Tween = gsap.to(row1Ref.current, {
-          xPercent: -50,
-          repeat: -1,
-          duration: 25,
-          ease: "none",
-        });
-      }
-
-      // Row 2 (opposite direction)
-      if (row2Ref.current) {
-        gsap.set(row2Ref.current, { xPercent: -50 });
-        row2Tween = gsap.to(row2Ref.current, {
-          xPercent: 0,
-          repeat: -1,
-          duration: 25,
-          ease: "none",
-        });
-      }
-    });
-
-    const handleHover = (pause: boolean) => {
-      gsap.to([row1Tween, row2Tween], { 
-        timeScale: pause ? 0.1 : 1, 
-        duration: 0.8,
-        ease: "power2.out"
-      });
-    };
-
-    const section = row1Ref.current?.parentElement?.parentElement;
-    if (section) {
-      section.addEventListener("mouseenter", () => handleHover(true));
-      section.addEventListener("mouseleave", () => handleHover(false));
-    }
-
-    return () => {
-      ctx.revert();
-      if (section) {
-        section.removeEventListener("mouseenter", () => handleHover(true));
-        section.removeEventListener("mouseleave", () => handleHover(false));
-      }
-    };
-  }, []);
-
-  // Double the arrays for seamless infinite marquee loop
-  const duplicateTeams = [...TEAMS, ...TEAMS];
-  const duplicateStats = [...STATS, ...STATS];
+  const dupTeams = [...ROW1_TEAMS, ...ROW1_TEAMS, ...ROW1_TEAMS, ...ROW1_TEAMS];
+  const dupStats = [...ROW2_STATS, ...ROW2_STATS, ...ROW2_STATS, ...ROW2_STATS];
 
   return (
-    <section className="relative w-full overflow-hidden bg-royal py-16 z-10 border-y-[12px] border-ink">
+    <section className="relative w-full overflow-hidden py-[24px] group" style={{ background: "#1A1AE6", borderTop: "4px solid #F5C518", borderBottom: "4px solid #F5C518" }}>
       
-      {/* Row 1 - Team Pills */}
-      <div className="flex whitespace-nowrap w-[200vw]">
-        <div ref={row1Ref} className="flex gap-6 md:gap-8 items-center flex-nowrap shrink-0 px-4">
-          {duplicateTeams.map((team, idx) => (
+      {/* Edge Fading gradients */}
+      <div 
+        className="absolute left-0 top-0 bottom-0 w-[80px] z-10 pointer-events-none"
+        style={{ background: "linear-gradient(to right, #1A1AE6, transparent)" }}
+      />
+      <div 
+        className="absolute right-0 top-0 bottom-0 w-[80px] z-10 pointer-events-none"
+        style={{ background: "linear-gradient(to left, #1A1AE6, transparent)" }}
+      />
+
+      {/* Row 1 - Team name horizontal pills, scroll LEFT, 28s */}
+      <div className="flex whitespace-nowrap mb-[16px]">
+        <div 
+          className="flex gap-[20px] items-center flex-nowrap shrink-0 px-[20px] animate-[marquee-left_28s_linear_infinite] group-hover:[animation-play-state:paused] hover:![animation-play-state:paused] transition-all"
+        >
+          {dupTeams.map((team, idx) => (
             <div
-              key={`${team.short}-${idx}`}
-              className={cn(
-                "px-8 py-3 rounded-full flex items-center justify-center shrink-0 shadow-[6px_6px_0_#0A0A1A] border-4 border-transparent",
-                team.bgClass
-              )}
+              key={`${team.name}-${idx}`}
+              className="flex items-center justify-center shrink-0"
+              style={{
+                borderRadius: "100px",
+                background: team.bg,
+                color: team.text,
+                border: `2px solid ${team.border}`,
+                padding: "8px 20px",
+                fontFamily: "'Barlow Condensed', sans-serif",
+                fontWeight: 700,
+                fontSize: "16px",
+                textTransform: "uppercase",
+                boxShadow: "inset 0 1px 0 rgba(255,255,255,0.2), 0 2px 8px rgba(0,0,0,0.3)"
+              }}
             >
-              <span 
-                className="text-[clamp(40px,6vw,80px)] leading-[0.8] font-black uppercase"
-                style={{ fontFamily: "'Barlow Condensed', sans-serif", color: team.textColor }}
-              >
-                {team.name}
-              </span>
+              {team.name}
             </div>
           ))}
         </div>
       </div>
 
-      <div className="h-4" /> {/* 16px Gap between rows */}
-
-      {/* Row 2 - Live Stats Ticker */}
-      <div className="flex whitespace-nowrap w-[200vw]">
-        <div ref={row2Ref} className="flex gap-8 md:gap-12 items-center flex-nowrap shrink-0 px-4">
-          {duplicateStats.map((stat, idx) => (
-            <div
-              key={`${stat.name}-${idx}`}
-              className="flex items-center gap-8 md:gap-12 shrink-0"
-            >
-              <div 
-                className="text-sun font-bold text-xl md:text-3xl tracking-widest uppercase flex items-center gap-3"
-                style={{ fontFamily: "'JetBrains Mono', monospace" }}
-              >
-                <span>{stat.name}</span>
-                <span className="text-sky text-shadow-sm font-black mx-2">·</span>
-                <span>{stat.metric}</span>
-                <span className="text-sky text-shadow-sm font-black mx-2">·</span>
-                <span>{stat.team}</span>
+      {/* Row 2 - Player stats ticker, scroll RIGHT, 22s */}
+      <div className="flex whitespace-nowrap bg-transparent">
+        <div 
+          className="flex gap-[24px] items-center flex-nowrap shrink-0 px-[20px]"
+        >
+          <div className="flex gap-[24px] items-center animate-[marquee-right_22s_linear_infinite] group-hover:[animation-play-state:paused] hover:![animation-play-state:paused]">
+            
+            {dupStats.map((stat, idx) => (
+              <div key={`${stat.player}-${idx}`} className="flex items-center gap-[24px] shrink-0">
+                <div className="flex items-center">
+                  <span className="text-[#F5C518]" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: "14px", textTransform: "uppercase" }}>{stat.player}</span>
+                  <span className="mx-3" style={{ color: "rgba(255,255,255,0.5)" }}>·</span>
+                  <span style={{ color: "white", fontFamily: "'JetBrains Mono', monospace", fontWeight: 700, fontSize: "14px" }}>{stat.metric}</span>
+                  <span className="mx-3" style={{ color: "rgba(255,255,255,0.5)" }}>·</span>
+                  <span style={{ color: stat.teamColor, fontFamily: "'Inter', sans-serif", fontWeight: 900, fontSize: "14px" }}>{stat.teamCode}</span>
+                </div>
+                
+                {/* Vertical Separator */}
+                <div className="w-[2px] h-[24px]" style={{ background: "rgba(255,255,255,0.2)" }} />
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
 

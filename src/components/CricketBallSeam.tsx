@@ -1,62 +1,94 @@
 "use client";
 
-import { useRef, useState, useMemo } from "react";
+import { useRef, useMemo, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
 export function CricketBallSeam() {
-  const meshRef = useRef<THREE.Mesh>(null);
+  const groupRef = useRef<THREE.Group>(null);
   const [hovered, setHovered] = useState(false);
 
-  const currentSpeed = useRef(0.5);
-  const targetSpeed = hovered ? 2.0 : 0.5;
-
-  // Dummy 1x1 map to force USE_UV in MeshStandardMaterial
-  // This allows us to use vMapUv properly in the fragment shader hook
-  const dummyMap = useMemo(() => {
-    const canvas = document.createElement("canvas");
-    canvas.width = 1;
-    canvas.height = 1;
-    return new THREE.CanvasTexture(canvas);
-  }, []);
-
   useFrame((state, delta) => {
-    if (meshRef.current) {
-      currentSpeed.current = THREE.MathUtils.lerp(currentSpeed.current, targetSpeed, delta * 5);
-      meshRef.current.rotation.z += currentSpeed.current * delta; // Continuous Z-axis spin
+    if (groupRef.current) {
+      // Base rotation + lerp faster rotation on hover
+      const targetSpeed = hovered ? 1.8 : 0.5;
+      const speed = THREE.MathUtils.lerp(0.5, targetSpeed, 0.1);
+      
+      groupRef.current.rotation.z += delta * speed;
+      // Also slight wobble on Y
+      groupRef.current.rotation.y += delta * 0.1;
     }
   });
 
+  // Calculate seam points - figure 8 wrapping around the sphere
+  const curve1 = useMemo(() => {
+    const seam1Points = [
+      new THREE.Vector3(-1.82, 0, 0),
+      new THREE.Vector3(-1.2, 0.8, 1.2),
+      new THREE.Vector3(0, 1.82, 0),
+      new THREE.Vector3(1.2, 0.8, -1.2),
+      new THREE.Vector3(1.82, 0, 0),
+      new THREE.Vector3(1.2, -0.8, 1.2),
+      new THREE.Vector3(0, -1.82, 0),
+      new THREE.Vector3(-1.2, -0.8, -1.2),
+      new THREE.Vector3(-1.82, 0, 0),
+    ];
+    return new THREE.CatmullRomCurve3(seam1Points, true);
+  }, []);
+
+  // Perpendicular curve 2 around the opposite axis
+  const curve2 = useMemo(() => {
+    const seam2Points = [
+      new THREE.Vector3(-1.82, 0, 0),
+      new THREE.Vector3(-1.2, -0.8, 1.2),
+      new THREE.Vector3(0, -1.82, 0),
+      new THREE.Vector3(1.2, -0.8, -1.2),
+      new THREE.Vector3(1.82, 0, 0),
+      new THREE.Vector3(1.2, 0.8, 1.2),
+      new THREE.Vector3(0, 1.82, 0),
+      new THREE.Vector3(-1.2, 0.8, -1.2),
+      new THREE.Vector3(-1.82, 0, 0),
+    ];
+    return new THREE.CatmullRomCurve3(seam2Points, true);
+  }, []);
+
   return (
-    <mesh
-      ref={meshRef}
-      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); }}
-      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); }}
-      scale={2.2}
-      rotation={[-0.2, 0.4, 0]} // Tilt so Z-spin shows the seam rotating in a dynamic way
+    <group 
+      ref={groupRef}
+      onPointerEnter={() => setHovered(true)}
+      onPointerLeave={() => setHovered(false)}
     >
-      <sphereGeometry args={[1, 64, 64]} />
-      <meshStandardMaterial 
-        color="#CC1A1A"
-        roughness={0.4}
-        map={dummyMap}
-        onBeforeCompile={(shader) => {
-          shader.fragmentShader = shader.fragmentShader.replace(
-            '#include <color_fragment>',
-            `
-            #include <color_fragment>
-            float distToEquator = abs(vMapUv.y - 0.5);
-            float seamWidth = 0.012;
-            float seamMask = 1.0 - smoothstep(seamWidth, seamWidth + 0.005, distToEquator);
-            float stitchFrequency = 150.0;
-            float stitches = sin(vMapUv.x * stitchFrequency) * 0.5 + 0.5;
-            float stitchDash = step(0.3, stitches);
-            float finalSeamAlpha = seamMask * stitchDash;
-            diffuseColor.rgb = mix(diffuseColor.rgb, vec3(1.0), finalSeamAlpha);
-            `
-          );
-        }}
-      />
-    </mesh>
+      {/* Glossy Red Ball */}
+      <mesh>
+        <sphereGeometry args={[1.8, 128, 128]} />
+        <meshStandardMaterial 
+          color="#DD1122"
+          roughness={0.25}
+          metalness={0.1}
+        />
+      </mesh>
+      
+      {/* Emissive White Solid Seam 1 */}
+      <mesh>
+        <tubeGeometry args={[curve1, 200, 0.025, 8, true]} />
+        <meshStandardMaterial 
+          color="#FFFFFF" 
+          roughness={0.1}
+          emissive="#FFFFFF"
+          emissiveIntensity={0.3}
+        />
+      </mesh>
+
+      {/* Emissive White Solid Seam 2 */}
+      <mesh>
+        <tubeGeometry args={[curve2, 200, 0.025, 8, true]} />
+        <meshStandardMaterial 
+          color="#FFFFFF" 
+          roughness={0.1}
+          emissive="#FFFFFF"
+          emissiveIntensity={0.3}
+        />
+      </mesh>
+    </group>
   );
 }
