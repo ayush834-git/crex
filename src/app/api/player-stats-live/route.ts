@@ -1,11 +1,11 @@
-import { NextRequest, NextResponse } from "next/server"
-import { cricketAPI } from "@/lib/cricket-api"
+import { NextRequest, NextResponse } from "next/server";
+import { getPlayers } from "@/lib/server/crex-data";
 
 export async function GET(req: NextRequest) {
-  const name = req.nextUrl.searchParams.get("name") ?? ""
-  const data = await cricketAPI.playerSearch(name)
+  const name = req.nextUrl.searchParams.get("name") ?? "";
+  const data = await getPlayers({ query: name, limit: 10 });
   return NextResponse.json(
-    { data: data ?? [] },
+    { data: data.players, source: data.source },
     { headers: { "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=172800" } }
-  )
+  );
 }

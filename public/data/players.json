@@ -1,0 +1,7522 @@
+[
+  {
+    "id": "virat-kohli",
+    "name": "Virat Kohli",
+    "cricsheetName": "V Kohli",
+    "espnId": 253802,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/virat-kohli.jpg",
+    "teamColor": "#D9251D",
+    "stats": {
+      "runs": 8671,
+      "average": 39.59,
+      "strikeRate": 133.3,
+      "wickets": 4,
+      "economy": 8.87,
+      "hundreds": 4,
+      "fifties": 44,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      60,
+      81,
+      69,
+      93,
+      73
+    ],
+    "highlights": [
+      "IPL all-time leading run-scorer",
+      "Only player with 8 IPL centuries",
+      "873 runs in IPL 2016 remains a season record"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 1214,
+        "wickets": 1
+      },
+      {
+        "season": 2023,
+        "runs": 1474,
+        "wickets": 1
+      },
+      {
+        "season": 2024,
+        "runs": 1734,
+        "wickets": 1
+      },
+      {
+        "season": 2025,
+        "runs": 1994,
+        "wickets": 1
+      },
+      {
+        "season": 2026,
+        "runs": 2254,
+        "wickets": 1
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "rohit-sharma",
+    "name": "Rohit Sharma",
+    "cricsheetName": "RG Sharma",
+    "espnId": 34102,
+    "team": "MI",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/rohit-sharma.jpg",
+    "teamColor": "#004BA0",
+    "stats": {
+      "runs": 7048,
+      "average": 29.74,
+      "strikeRate": 132.56,
+      "wickets": 15,
+      "economy": 8.18,
+      "hundreds": 0,
+      "fifties": 31,
+      "dismissals": 0,
+      "bestFigures": "4/25"
+    },
+    "recentForm": [
+      39,
+      60,
+      48,
+      72,
+      52
+    ],
+    "highlights": [
+      "Five-time IPL winning captain",
+      "One of the league's most prolific openers",
+      "A proven powerplay tempo-setter for Mumbai Indians"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 987,
+        "wickets": 2
+      },
+      {
+        "season": 2023,
+        "runs": 1198,
+        "wickets": 3
+      },
+      {
+        "season": 2024,
+        "runs": 1410,
+        "wickets": 3
+      },
+      {
+        "season": 2025,
+        "runs": 1621,
+        "wickets": 3
+      },
+      {
+        "season": 2026,
+        "runs": 1832,
+        "wickets": 4
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ms-dhoni",
+    "name": "MS Dhoni",
+    "cricsheetName": "MS Dhoni",
+    "espnId": 28081,
+    "team": "CSK",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/ms-dhoni.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 5439,
+      "average": 38.3,
+      "strikeRate": 138.22,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 4,
+      "dismissals": 121
+    },
+    "recentForm": [
+      51,
+      72,
+      60,
+      84,
+      64
+    ],
+    "highlights": [
+      "Captain of multiple CSK title runs",
+      "Among the IPL's best finishers",
+      "Elite wicketkeeper with 200-plus dismissals in T20 cricket"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 761,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 925,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 1088,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1251,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1414,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "jasprit-bumrah",
+    "name": "Jasprit Bumrah",
+    "cricsheetName": "JJ Bumrah",
+    "espnId": 625371,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/jasprit-bumrah.jpg",
+    "teamColor": "#004BA0",
+    "stats": {
+      "runs": 68,
+      "average": 9.71,
+      "strikeRate": 87.18,
+      "wickets": 186,
+      "economy": 7.43,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      25,
+      46,
+      34,
+      58,
+      38
+    ],
+    "highlights": [
+      "Mumbai Indians pace spearhead",
+      "Death-overs specialist with elite economy",
+      "A strike bowler trusted across every phase"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 10,
+        "wickets": 30
+      },
+      {
+        "season": 2023,
+        "runs": 12,
+        "wickets": 33
+      },
+      {
+        "season": 2024,
+        "runs": 14,
+        "wickets": 37
+      },
+      {
+        "season": 2025,
+        "runs": 16,
+        "wickets": 41
+      },
+      {
+        "season": 2026,
+        "runs": 18,
+        "wickets": 45
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "kl-rahul",
+    "name": "KL Rahul",
+    "cricsheetName": "KL Rahul",
+    "espnId": 422108,
+    "team": "LSG",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/kl-rahul.jpg",
+    "teamColor": "#00A0E3",
+    "stats": {
+      "runs": 5235,
+      "average": 45.52,
+      "strikeRate": 136.47,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 27,
+      "dismissals": 68
+    },
+    "recentForm": [
+      60,
+      81,
+      69,
+      93,
+      73
+    ],
+    "highlights": [
+      "Reliable top-order scorer",
+      "Combines wicketkeeping with anchor tempo",
+      "A high-floor fantasy option in IPL batting-first conditions"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 733,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 890,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 1047,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1204,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1361,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "suryakumar-yadav",
+    "name": "Suryakumar Yadav",
+    "cricsheetName": "SA Yadav",
+    "espnId": 446507,
+    "team": "MI",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/suryakumar-yadav.jpg",
+    "teamColor": "#004BA0",
+    "stats": {
+      "runs": 4311,
+      "average": 34.77,
+      "strikeRate": 149.22,
+      "wickets": 0,
+      "economy": 8,
+      "hundreds": 0,
+      "fifties": 23,
+      "dismissals": 0
+    },
+    "recentForm": [
+      67,
+      88,
+      76,
+      100,
+      1
+    ],
+    "highlights": [
+      "Dynamic 360-degree batter",
+      "Middle-overs accelerator for Mumbai",
+      "A strike-rate leader against spin and pace alike"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 604,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 733,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 862,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 992,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1121,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "hardik-pandya",
+    "name": "Hardik Pandya",
+    "cricsheetName": "HH Pandya",
+    "espnId": 625383,
+    "team": "MI",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/hardik-pandya.jpg",
+    "teamColor": "#004BA0",
+    "stats": {
+      "runs": 2758,
+      "average": 28.14,
+      "strikeRate": 147.8,
+      "wickets": 78,
+      "economy": 9.36,
+      "hundreds": 0,
+      "fifties": 4,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Power-hitting all-rounder",
+      "Impacts games with seam-up overs and finishing",
+      "One of the IPL's highest-upside captaincy options"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 386,
+        "wickets": 12
+      },
+      {
+        "season": 2023,
+        "runs": 469,
+        "wickets": 14
+      },
+      {
+        "season": 2024,
+        "runs": 552,
+        "wickets": 16
+      },
+      {
+        "season": 2025,
+        "runs": 634,
+        "wickets": 17
+      },
+      {
+        "season": 2026,
+        "runs": 717,
+        "wickets": 19
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "ravindra-jadeja",
+    "name": "Ravindra Jadeja",
+    "cricsheetName": "RA Jadeja",
+    "espnId": 234675,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/ravindra-jadeja.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 3260,
+      "average": 27.86,
+      "strikeRate": 130.98,
+      "wickets": 170,
+      "economy": 7.75,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Three-dimensional CSK match-winner",
+      "Trusted left-arm spin option in middle overs",
+      "Adds boundary value in the final overs"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 456,
+        "wickets": 27
+      },
+      {
+        "season": 2023,
+        "runs": 554,
+        "wickets": 31
+      },
+      {
+        "season": 2024,
+        "runs": 652,
+        "wickets": 34
+      },
+      {
+        "season": 2025,
+        "runs": 750,
+        "wickets": 37
+      },
+      {
+        "season": 2026,
+        "runs": 848,
+        "wickets": 41
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ab-de-villiers",
+    "name": "AB de Villiers",
+    "cricsheetName": "AB de Villiers",
+    "espnId": 44828,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Overseas",
+    "image": "/images/players/ab-de-villiers.jpg",
+    "teamColor": "#D9251D",
+    "stats": {
+      "runs": 5181,
+      "average": 39.85,
+      "strikeRate": 152.38,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 20,
+      "dismissals": 0
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "One of the IPL's most explosive batters",
+      "Famous for 360-degree strokeplay",
+      "Elite boundary percentage against pace and spin"
+    ],
+    "active": false,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 725,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 881,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 1036,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1192,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1347,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "chris-gayle",
+    "name": "Chris Gayle",
+    "cricsheetName": "CH Gayle",
+    "espnId": 51880,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Overseas",
+    "image": "/images/players/chris-gayle.jpg",
+    "teamColor": "#ED1B24",
+    "stats": {
+      "runs": 4997,
+      "average": 39.66,
+      "strikeRate": 150.02,
+      "wickets": 18,
+      "economy": 8.18,
+      "hundreds": 2,
+      "fifties": 23,
+      "dismissals": 0,
+      "bestFigures": "4/28"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Scored the IPL's highest individual score",
+      "Redefined powerplay hitting in the league",
+      "Still a benchmark for six-hitting volume"
+    ],
+    "active": false,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 700,
+        "wickets": 3
+      },
+      {
+        "season": 2023,
+        "runs": 849,
+        "wickets": 3
+      },
+      {
+        "season": 2024,
+        "runs": 999,
+        "wickets": 4
+      },
+      {
+        "season": 2025,
+        "runs": 1149,
+        "wickets": 4
+      },
+      {
+        "season": 2026,
+        "runs": 1299,
+        "wickets": 4
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "david-warner",
+    "name": "David Warner",
+    "cricsheetName": "DA Warner",
+    "espnId": 219889,
+    "team": "DC",
+    "role": "Batsman",
+    "nationality": "Overseas",
+    "image": "/images/players/david-warner.jpg",
+    "teamColor": "#0078BC",
+    "stats": {
+      "runs": 6567,
+      "average": 40.04,
+      "strikeRate": 140.32,
+      "wickets": 0,
+      "economy": 12,
+      "hundreds": 1,
+      "fifties": 46,
+      "dismissals": 0
+    },
+    "recentForm": [
+      47,
+      68,
+      56,
+      80,
+      60
+    ],
+    "highlights": [
+      "Multiple Orange Caps in the IPL",
+      "Consistent overseas opener with strong floor",
+      "One of the league's most productive left-hand batters"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 919,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 1116,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 1313,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1510,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1707,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "jos-buttler",
+    "name": "Jos Buttler",
+    "cricsheetName": "JC Buttler",
+    "espnId": 308967,
+    "team": "RR",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/jos-buttler.jpg",
+    "teamColor": "#254AA5",
+    "stats": {
+      "runs": 4121,
+      "average": 39.63,
+      "strikeRate": 149.91,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 4,
+      "fifties": 17,
+      "dismissals": 60
+    },
+    "recentForm": [
+      14,
+      35,
+      23,
+      47,
+      27
+    ],
+    "highlights": [
+      "One of the IPL's most dangerous openers",
+      "Capable of changing games in a single powerplay",
+      "Combines wicketkeeping points with batting ceiling"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 577,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 701,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 824,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 948,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1071,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "rishabh-pant",
+    "name": "Rishabh Pant",
+    "cricsheetName": "RR Pant",
+    "espnId": 931581,
+    "team": "DC",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/rishabh-pant.jpg",
+    "teamColor": "#0078BC",
+    "stats": {
+      "runs": 3566,
+      "average": 34.29,
+      "strikeRate": 148.15,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 13,
+      "dismissals": 62
+    },
+    "recentForm": [
+      28,
+      49,
+      37,
+      61,
+      41
+    ],
+    "highlights": [
+      "Aggressive left-hand wicketkeeper-batter",
+      "Known for boundary tempo in the middle overs",
+      "Adds leadership and match-up flexibility"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 499,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 606,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 713,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 820,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 927,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "shubman-gill",
+    "name": "Shubman Gill",
+    "cricsheetName": "Shubman Gill",
+    "espnId": 1174663,
+    "team": "GT",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/shubman-gill.jpg",
+    "teamColor": "#1C4587",
+    "stats": {
+      "runs": 3866,
+      "average": 39.45,
+      "strikeRate": 139.37,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 3,
+      "fifties": 18,
+      "dismissals": 0
+    },
+    "recentForm": [
+      44,
+      65,
+      53,
+      77,
+      57
+    ],
+    "highlights": [
+      "Elegant top-order run machine",
+      "Strong against pace at the top of the innings",
+      "A premium anchor with acceleration late"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 541,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 657,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 773,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 889,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1005,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "yashasvi-jaiswal",
+    "name": "Yashasvi Jaiswal",
+    "cricsheetName": "YBK Jaiswal",
+    "espnId": 1224267,
+    "team": "RR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/yashasvi-jaiswal.jpg",
+    "teamColor": "#254AA5",
+    "stats": {
+      "runs": 2166,
+      "average": 33.84,
+      "strikeRate": 153.4,
+      "wickets": 0,
+      "economy": 36,
+      "hundreds": 1,
+      "fifties": 13,
+      "dismissals": 0
+    },
+    "recentForm": [
+      52,
+      73,
+      61,
+      85,
+      65
+    ],
+    "highlights": [
+      "Rapidly improving left-hand opener",
+      "Powerplay aggressor with high boundary rate",
+      "A breakout multi-format batting prospect"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 303,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 368,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 433,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 498,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 563,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "yuzvendra-chahal",
+    "name": "Yuzvendra Chahal",
+    "cricsheetName": "YS Chahal",
+    "espnId": 554691,
+    "team": "RR",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/yuzvendra-chahal.jpg",
+    "teamColor": "#254AA5",
+    "stats": {
+      "runs": 37,
+      "average": 5.29,
+      "strikeRate": 43.02,
+      "wickets": 221,
+      "economy": 8.09,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      62,
+      83,
+      71,
+      95,
+      75
+    ],
+    "highlights": [
+      "One of the IPL's leading wicket-takers",
+      "Attacking leg-spinner who hunts breakthroughs",
+      "Strong fantasy ceiling through wicket volume"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 5,
+        "wickets": 35
+      },
+      {
+        "season": 2023,
+        "runs": 6,
+        "wickets": 40
+      },
+      {
+        "season": 2024,
+        "runs": 7,
+        "wickets": 44
+      },
+      {
+        "season": 2025,
+        "runs": 9,
+        "wickets": 49
+      },
+      {
+        "season": 2026,
+        "runs": 10,
+        "wickets": 53
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "rashid-khan",
+    "name": "Rashid Khan",
+    "cricsheetName": "Rashid Khan",
+    "espnId": 793463,
+    "team": "GT",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "image": "/images/players/rashid-khan.jpg",
+    "teamColor": "#1C4587",
+    "stats": {
+      "runs": 585,
+      "average": 13.93,
+      "strikeRate": 162.95,
+      "wickets": 158,
+      "economy": 7.24,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      46,
+      67,
+      55,
+      79,
+      59
+    ],
+    "highlights": [
+      "World-class leg-spinner",
+      "Controls games with wickets and economy",
+      "Elite option on dry surfaces and under lights"
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 82,
+        "wickets": 25
+      },
+      {
+        "season": 2023,
+        "runs": 99,
+        "wickets": 28
+      },
+      {
+        "season": 2024,
+        "runs": 117,
+        "wickets": 32
+      },
+      {
+        "season": 2025,
+        "runs": 135,
+        "wickets": 35
+      },
+      {
+        "season": 2026,
+        "runs": 152,
+        "wickets": 38
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "suresh-raina",
+    "name": "Suresh Raina",
+    "cricsheetName": "SK Raina",
+    "espnId": 59781,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/suresh-raina.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 5536,
+      "average": 32.37,
+      "strikeRate": 137.54,
+      "wickets": 25,
+      "economy": 7.53,
+      "hundreds": 0,
+      "fifties": 22,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      47,
+      68,
+      56,
+      80,
+      60
+    ],
+    "highlights": [
+      "A central figure in CSK's batting identity",
+      "Long-time benchmark for IPL middle-order output",
+      "Known for spin-hitting and playoff temperament"
+    ],
+    "active": false,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 775,
+        "wickets": 4
+      },
+      {
+        "season": 2023,
+        "runs": 941,
+        "wickets": 5
+      },
+      {
+        "season": 2024,
+        "runs": 1107,
+        "wickets": 5
+      },
+      {
+        "season": 2025,
+        "runs": 1273,
+        "wickets": 6
+      },
+      {
+        "season": 2026,
+        "runs": 1439,
+        "wickets": 6
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "lasith-malinga",
+    "name": "Lasith Malinga",
+    "cricsheetName": "SL Malinga",
+    "espnId": 49428,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "image": "/images/players/lasith-malinga.jpg",
+    "teamColor": "#004BA0",
+    "stats": {
+      "runs": 88,
+      "average": 5.5,
+      "strikeRate": 88.89,
+      "wickets": 170,
+      "economy": 7.4,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      27,
+      48,
+      36,
+      60,
+      40
+    ],
+    "highlights": [
+      "One of the IPL's iconic fast bowlers",
+      "Yorker specialist in death overs",
+      "A foundational figure in Mumbai Indians title runs"
+    ],
+    "active": false,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 12,
+        "wickets": 27
+      },
+      {
+        "season": 2023,
+        "runs": 15,
+        "wickets": 31
+      },
+      {
+        "season": 2024,
+        "runs": 18,
+        "wickets": 34
+      },
+      {
+        "season": 2025,
+        "runs": 20,
+        "wickets": 37
+      },
+      {
+        "season": 2026,
+        "runs": 23,
+        "wickets": 41
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "gautam-gambhir",
+    "name": "Gautam Gambhir",
+    "cricsheetName": "G Gambhir",
+    "espnId": 30176,
+    "team": "KKR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/gautam-gambhir.jpg",
+    "teamColor": "#3A225D",
+    "stats": {
+      "runs": 4217,
+      "average": 31.01,
+      "strikeRate": 124.25,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 25,
+      "dismissals": 0
+    },
+    "recentForm": [
+      42,
+      63,
+      51,
+      75,
+      55
+    ],
+    "highlights": [
+      "Led Kolkata Knight Riders to two titles",
+      "An IPL captaincy benchmark",
+      "Top-order left-hander with proven playoff record"
+    ],
+    "active": false,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 590,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 717,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 843,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 970,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1096,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "rg-sharma",
+    "name": "RG Sharma",
+    "cricsheetName": "RG Sharma",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/rg-sharma.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 7048,
+      "average": 29.74,
+      "strikeRate": 132.56,
+      "wickets": 15,
+      "economy": 8.18,
+      "hundreds": 0,
+      "fifties": 31,
+      "dismissals": 0,
+      "bestFigures": "4/25"
+    },
+    "recentForm": [
+      36,
+      57,
+      45,
+      69,
+      49
+    ],
+    "highlights": [
+      "RG Sharma remains a trusted Mumbai Indians batsman option for IPL matchups.",
+      "7048 career runs and 15 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes RG Sharma relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 987,
+        "wickets": 2
+      },
+      {
+        "season": 2023,
+        "runs": 1198,
+        "wickets": 3
+      },
+      {
+        "season": 2024,
+        "runs": 1410,
+        "wickets": 3
+      },
+      {
+        "season": 2025,
+        "runs": 1621,
+        "wickets": 3
+      },
+      {
+        "season": 2026,
+        "runs": 1832,
+        "wickets": 4
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "pp-chawla",
+    "name": "PP Chawla",
+    "cricsheetName": "PP Chawla",
+    "espnId": 0,
+    "team": "MI",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/pp-chawla.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 624,
+      "average": 11.14,
+      "strikeRate": 111.23,
+      "wickets": 192,
+      "economy": 8.07,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      68,
+      89,
+      77,
+      101,
+      2
+    ],
+    "highlights": [
+      "PP Chawla remains a trusted Mumbai Indians all-rounder option for IPL matchups.",
+      "624 career runs and 192 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes PP Chawla relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 87,
+        "wickets": 31
+      },
+      {
+        "season": 2023,
+        "runs": 106,
+        "wickets": 35
+      },
+      {
+        "season": 2024,
+        "runs": 125,
+        "wickets": 38
+      },
+      {
+        "season": 2025,
+        "runs": 144,
+        "wickets": 42
+      },
+      {
+        "season": 2026,
+        "runs": 162,
+        "wickets": 46
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ka-pollard",
+    "name": "KA Pollard",
+    "cricsheetName": "KA Pollard",
+    "espnId": 0,
+    "team": "MI",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/ka-pollard.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 3437,
+      "average": 28.4,
+      "strikeRate": 148.47,
+      "wickets": 69,
+      "economy": 8.87,
+      "hundreds": 0,
+      "fifties": 7,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      19,
+      40,
+      28,
+      52,
+      32
+    ],
+    "highlights": [
+      "KA Pollard remains a trusted Mumbai Indians all-rounder option for IPL matchups.",
+      "3437 career runs and 69 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes KA Pollard relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 481,
+        "wickets": 11
+      },
+      {
+        "season": 2023,
+        "runs": 584,
+        "wickets": 12
+      },
+      {
+        "season": 2024,
+        "runs": 687,
+        "wickets": 14
+      },
+      {
+        "season": 2025,
+        "runs": 791,
+        "wickets": 15
+      },
+      {
+        "season": 2026,
+        "runs": 894,
+        "wickets": 17
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "ra-jadeja",
+    "name": "RA Jadeja",
+    "cricsheetName": "RA Jadeja",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/ra-jadeja.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 3260,
+      "average": 27.86,
+      "strikeRate": 130.98,
+      "wickets": 170,
+      "economy": 7.75,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      70,
+      91,
+      79,
+      0,
+      4
+    ],
+    "highlights": [
+      "RA Jadeja remains a trusted Chennai Super Kings all-rounder option for IPL matchups.",
+      "3260 career runs and 170 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes RA Jadeja relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 456,
+        "wickets": 27
+      },
+      {
+        "season": 2023,
+        "runs": 554,
+        "wickets": 31
+      },
+      {
+        "season": 2024,
+        "runs": 652,
+        "wickets": 34
+      },
+      {
+        "season": 2025,
+        "runs": 750,
+        "wickets": 37
+      },
+      {
+        "season": 2026,
+        "runs": 848,
+        "wickets": 41
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "sr-watson",
+    "name": "SR Watson",
+    "cricsheetName": "SR Watson",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/sr-watson.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 3880,
+      "average": 30.79,
+      "strikeRate": 138.52,
+      "wickets": 92,
+      "economy": 8.11,
+      "hundreds": 2,
+      "fifties": 15,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      52,
+      73,
+      61,
+      85,
+      65
+    ],
+    "highlights": [
+      "SR Watson remains a trusted Chennai Super Kings all-rounder option for IPL matchups.",
+      "3880 career runs and 92 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes SR Watson relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 543,
+        "wickets": 15
+      },
+      {
+        "season": 2023,
+        "runs": 660,
+        "wickets": 17
+      },
+      {
+        "season": 2024,
+        "runs": 776,
+        "wickets": 18
+      },
+      {
+        "season": 2025,
+        "runs": 892,
+        "wickets": 20
+      },
+      {
+        "season": 2026,
+        "runs": 1009,
+        "wickets": 22
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "sk-raina",
+    "name": "SK Raina",
+    "cricsheetName": "SK Raina",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/sk-raina.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 5536,
+      "average": 32.37,
+      "strikeRate": 137.54,
+      "wickets": 25,
+      "economy": 7.53,
+      "hundreds": 0,
+      "fifties": 22,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      43,
+      64,
+      52,
+      76,
+      56
+    ],
+    "highlights": [
+      "SK Raina remains a trusted Chennai Super Kings all-rounder option for IPL matchups.",
+      "5536 career runs and 25 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes SK Raina relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 775,
+        "wickets": 4
+      },
+      {
+        "season": 2023,
+        "runs": 941,
+        "wickets": 5
+      },
+      {
+        "season": 2024,
+        "runs": 1107,
+        "wickets": 5
+      },
+      {
+        "season": 2025,
+        "runs": 1273,
+        "wickets": 6
+      },
+      {
+        "season": 2026,
+        "runs": 1439,
+        "wickets": 6
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "dj-bravo",
+    "name": "DJ Bravo",
+    "cricsheetName": "DJ Bravo",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/dj-bravo.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 1560,
+      "average": 22.61,
+      "strikeRate": 130.43,
+      "wickets": 183,
+      "economy": 8.53,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      61,
+      82,
+      70,
+      94,
+      74
+    ],
+    "highlights": [
+      "DJ Bravo remains a trusted Chennai Super Kings all-rounder option for IPL matchups.",
+      "1560 career runs and 183 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes DJ Bravo relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 218,
+        "wickets": 29
+      },
+      {
+        "season": 2023,
+        "runs": 265,
+        "wickets": 33
+      },
+      {
+        "season": 2024,
+        "runs": 312,
+        "wickets": 37
+      },
+      {
+        "season": 2025,
+        "runs": 359,
+        "wickets": 40
+      },
+      {
+        "season": 2026,
+        "runs": 406,
+        "wickets": 44
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "r-ashwin",
+    "name": "R Ashwin",
+    "cricsheetName": "R Ashwin",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/r-ashwin.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 833,
+      "average": 13.02,
+      "strikeRate": 118.49,
+      "wickets": 187,
+      "economy": 7.29,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      13,
+      34,
+      22,
+      46,
+      26
+    ],
+    "highlights": [
+      "R Ashwin remains a trusted Chennai Super Kings all-rounder option for IPL matchups.",
+      "833 career runs and 187 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes R Ashwin relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 117,
+        "wickets": 30
+      },
+      {
+        "season": 2023,
+        "runs": 142,
+        "wickets": 34
+      },
+      {
+        "season": 2024,
+        "runs": 167,
+        "wickets": 37
+      },
+      {
+        "season": 2025,
+        "runs": 192,
+        "wickets": 41
+      },
+      {
+        "season": 2026,
+        "runs": 217,
+        "wickets": 45
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "v-kohli",
+    "name": "V Kohli",
+    "cricsheetName": "V Kohli",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/v-kohli.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 8671,
+      "average": 39.59,
+      "strikeRate": 133.3,
+      "wickets": 4,
+      "economy": 8.87,
+      "hundreds": 4,
+      "fifties": 44,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      56,
+      77,
+      65,
+      89,
+      69
+    ],
+    "highlights": [
+      "V Kohli remains a trusted Royal Challengers Bengaluru batsman option for IPL matchups.",
+      "8671 career runs and 4 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes V Kohli relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 1214,
+        "wickets": 1
+      },
+      {
+        "season": 2023,
+        "runs": 1474,
+        "wickets": 1
+      },
+      {
+        "season": 2024,
+        "runs": 1734,
+        "wickets": 1
+      },
+      {
+        "season": 2025,
+        "runs": 1994,
+        "wickets": 1
+      },
+      {
+        "season": 2026,
+        "runs": 2254,
+        "wickets": 1
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "b-kumar",
+    "name": "B Kumar",
+    "cricsheetName": "B Kumar",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/b-kumar.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 320,
+      "average": 8.42,
+      "strikeRate": 91.43,
+      "wickets": 198,
+      "economy": 7.87,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      35,
+      56,
+      44,
+      68,
+      48
+    ],
+    "highlights": [
+      "B Kumar remains a trusted Royal Challengers Bengaluru batsman option for IPL matchups.",
+      "320 career runs and 198 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes B Kumar relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 45,
+        "wickets": 32
+      },
+      {
+        "season": 2023,
+        "runs": 54,
+        "wickets": 36
+      },
+      {
+        "season": 2024,
+        "runs": 64,
+        "wickets": 40
+      },
+      {
+        "season": 2025,
+        "runs": 74,
+        "wickets": 44
+      },
+      {
+        "season": 2026,
+        "runs": 83,
+        "wickets": 48
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "kd-karthik",
+    "name": "KD Karthik",
+    "cricsheetName": "KD Karthik",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/kd-karthik.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 4843,
+      "average": 26.32,
+      "strikeRate": 135.66,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 16,
+      "dismissals": 117
+    },
+    "recentForm": [
+      25,
+      46,
+      34,
+      58,
+      38
+    ],
+    "highlights": [
+      "KD Karthik remains a trusted Royal Challengers Bengaluru wicket-keeper option for IPL matchups.",
+      "4843 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes KD Karthik relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 678,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 823,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 969,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1114,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1259,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "kh-pandya",
+    "name": "KH Pandya",
+    "cricsheetName": "KH Pandya",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/kh-pandya.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 1756,
+      "average": 21.68,
+      "strikeRate": 132.73,
+      "wickets": 93,
+      "economy": 7.57,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      68,
+      89,
+      77,
+      101,
+      2
+    ],
+    "highlights": [
+      "KH Pandya remains a trusted Royal Challengers Bengaluru all-rounder option for IPL matchups.",
+      "1756 career runs and 93 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes KH Pandya relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 246,
+        "wickets": 15
+      },
+      {
+        "season": 2023,
+        "runs": 299,
+        "wickets": 17
+      },
+      {
+        "season": 2024,
+        "runs": 351,
+        "wickets": 19
+      },
+      {
+        "season": 2025,
+        "runs": 404,
+        "wickets": 20
+      },
+      {
+        "season": 2026,
+        "runs": 457,
+        "wickets": 22
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "bb-mccullum",
+    "name": "BB McCullum",
+    "cricsheetName": "BB McCullum",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/bb-mccullum.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 2882,
+      "average": 27.71,
+      "strikeRate": 132.44,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      53,
+      74,
+      62,
+      86,
+      66
+    ],
+    "highlights": [
+      "BB McCullum remains a trusted Royal Challengers Bengaluru batsman option for IPL matchups.",
+      "2882 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes BB McCullum relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 403,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 490,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 576,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 663,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 749,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "pa-patel",
+    "name": "PA Patel",
+    "cricsheetName": "PA Patel",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/pa-patel.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 2848,
+      "average": 22.6,
+      "strikeRate": 121.19,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      16,
+      37,
+      25,
+      49,
+      29
+    ],
+    "highlights": [
+      "PA Patel remains a trusted Royal Challengers Bengaluru batsman option for IPL matchups.",
+      "2848 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes PA Patel relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 399,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 484,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 570,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 655,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 740,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "sp-narine",
+    "name": "SP Narine",
+    "cricsheetName": "SP Narine",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/sp-narine.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 1780,
+      "average": 17.62,
+      "strikeRate": 166.82,
+      "wickets": 192,
+      "economy": 6.93,
+      "hundreds": 1,
+      "fifties": 7,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      17,
+      38,
+      26,
+      50,
+      30
+    ],
+    "highlights": [
+      "SP Narine remains a trusted Kolkata Knight Riders all-rounder option for IPL matchups.",
+      "1780 career runs and 192 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes SP Narine relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 249,
+        "wickets": 31
+      },
+      {
+        "season": 2023,
+        "runs": 303,
+        "wickets": 35
+      },
+      {
+        "season": 2024,
+        "runs": 356,
+        "wickets": 38
+      },
+      {
+        "season": 2025,
+        "runs": 409,
+        "wickets": 42
+      },
+      {
+        "season": 2026,
+        "runs": 463,
+        "wickets": 46
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ad-russell",
+    "name": "AD Russell",
+    "cricsheetName": "AD Russell",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/ad-russell.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 2655,
+      "average": 27.95,
+      "strikeRate": 176.06,
+      "wickets": 123,
+      "economy": 9.66,
+      "hundreds": 0,
+      "fifties": 5,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      61,
+      82,
+      70,
+      94,
+      74
+    ],
+    "highlights": [
+      "AD Russell remains a trusted Kolkata Knight Riders all-rounder option for IPL matchups.",
+      "2655 career runs and 123 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes AD Russell relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 372,
+        "wickets": 20
+      },
+      {
+        "season": 2023,
+        "runs": 451,
+        "wickets": 22
+      },
+      {
+        "season": 2024,
+        "runs": 531,
+        "wickets": 25
+      },
+      {
+        "season": 2025,
+        "runs": 611,
+        "wickets": 27
+      },
+      {
+        "season": 2026,
+        "runs": 690,
+        "wickets": 30
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "am-rahane",
+    "name": "AM Rahane",
+    "cricsheetName": "AM Rahane",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/am-rahane.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 5032,
+      "average": 30.5,
+      "strikeRate": 125.14,
+      "wickets": 1,
+      "economy": 5,
+      "hundreds": 0,
+      "fifties": 22,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "AM Rahane remains a trusted Kolkata Knight Riders batsman option for IPL matchups.",
+      "5032 career runs and 1 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes AM Rahane relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 704,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 855,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 1006,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1157,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1308,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "harbhajan-singh",
+    "name": "Harbhajan Singh",
+    "cricsheetName": "Harbhajan Singh",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/harbhajan-singh.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 833,
+      "average": 15.15,
+      "strikeRate": 139.07,
+      "wickets": 150,
+      "economy": 7.2,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Harbhajan Singh remains a trusted Kolkata Knight Riders all-rounder option for IPL matchups.",
+      "833 career runs and 150 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes Harbhajan Singh relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 117,
+        "wickets": 24
+      },
+      {
+        "season": 2023,
+        "runs": 142,
+        "wickets": 27
+      },
+      {
+        "season": 2024,
+        "runs": 167,
+        "wickets": 30
+      },
+      {
+        "season": 2025,
+        "runs": 192,
+        "wickets": 33
+      },
+      {
+        "season": 2026,
+        "runs": 217,
+        "wickets": 36
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "jh-kallis",
+    "name": "JH Kallis",
+    "cricsheetName": "JH Kallis",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/jh-kallis.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 2427,
+      "average": 28.55,
+      "strikeRate": 109.67,
+      "wickets": 65,
+      "economy": 8.09,
+      "hundreds": 0,
+      "fifties": 11,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      33,
+      54,
+      42,
+      66,
+      46
+    ],
+    "highlights": [
+      "JH Kallis remains a trusted Kolkata Knight Riders all-rounder option for IPL matchups.",
+      "2427 career runs and 65 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes JH Kallis relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 340,
+        "wickets": 10
+      },
+      {
+        "season": 2023,
+        "runs": 413,
+        "wickets": 12
+      },
+      {
+        "season": 2024,
+        "runs": 485,
+        "wickets": 13
+      },
+      {
+        "season": 2025,
+        "runs": 558,
+        "wickets": 14
+      },
+      {
+        "season": 2026,
+        "runs": 631,
+        "wickets": 16
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "mk-pandey",
+    "name": "MK Pandey",
+    "cricsheetName": "MK Pandey",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/mk-pandey.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 3951,
+      "average": 29.27,
+      "strikeRate": 121.98,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 12,
+      "dismissals": 0
+    },
+    "recentForm": [
+      55,
+      76,
+      64,
+      88,
+      68
+    ],
+    "highlights": [
+      "MK Pandey remains a trusted Kolkata Knight Riders batsman option for IPL matchups.",
+      "3951 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes MK Pandey relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 553,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 672,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 790,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 909,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1027,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "q-de-kock",
+    "name": "Q de Kock",
+    "cricsheetName": "Q de Kock",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/q-de-kock.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 3312,
+      "average": 30.39,
+      "strikeRate": 134.36,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 1,
+      "fifties": 19,
+      "dismissals": 58
+    },
+    "recentForm": [
+      55,
+      76,
+      64,
+      88,
+      68
+    ],
+    "highlights": [
+      "Q de Kock remains a trusted Kolkata Knight Riders wicket-keeper option for IPL matchups.",
+      "3312 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes Q de Kock relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 464,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 563,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 662,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 762,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 861,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "yk-pathan",
+    "name": "YK Pathan",
+    "cricsheetName": "YK Pathan",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/yk-pathan.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 3222,
+      "average": 29.29,
+      "strikeRate": 144.29,
+      "wickets": 42,
+      "economy": 7.55,
+      "hundreds": 1,
+      "fifties": 8,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      30,
+      51,
+      39,
+      63,
+      43
+    ],
+    "highlights": [
+      "YK Pathan remains a trusted Sunrisers Hyderabad all-rounder option for IPL matchups.",
+      "3222 career runs and 42 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes YK Pathan relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 451,
+        "wickets": 7
+      },
+      {
+        "season": 2023,
+        "runs": 548,
+        "wickets": 8
+      },
+      {
+        "season": 2024,
+        "runs": 644,
+        "wickets": 8
+      },
+      {
+        "season": 2025,
+        "runs": 741,
+        "wickets": 9
+      },
+      {
+        "season": 2026,
+        "runs": 838,
+        "wickets": 10
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "hv-patel",
+    "name": "HV Patel",
+    "cricsheetName": "HV Patel",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/hv-patel.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 270,
+      "average": 9.31,
+      "strikeRate": 117.9,
+      "wickets": 151,
+      "economy": 9.03,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      13,
+      34,
+      22,
+      46,
+      26
+    ],
+    "highlights": [
+      "HV Patel remains a trusted Sunrisers Hyderabad bowler option for IPL matchups.",
+      "270 career runs and 151 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes HV Patel relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 38,
+        "wickets": 24
+      },
+      {
+        "season": 2023,
+        "runs": 46,
+        "wickets": 27
+      },
+      {
+        "season": 2024,
+        "runs": 54,
+        "wickets": 30
+      },
+      {
+        "season": 2025,
+        "runs": 62,
+        "wickets": 33
+      },
+      {
+        "season": 2026,
+        "runs": 70,
+        "wickets": 36
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "mohammed-shami",
+    "name": "Mohammed Shami",
+    "cricsheetName": "Mohammed Shami",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/mohammed-shami.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 84,
+      "average": 6,
+      "strikeRate": 94.38,
+      "wickets": 133,
+      "economy": 8.8,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Mohammed Shami remains a trusted Sunrisers Hyderabad bowler option for IPL matchups.",
+      "84 career runs and 133 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Mohammed Shami relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 12,
+        "wickets": 21
+      },
+      {
+        "season": 2023,
+        "runs": 14,
+        "wickets": 24
+      },
+      {
+        "season": 2024,
+        "runs": 17,
+        "wickets": 27
+      },
+      {
+        "season": 2025,
+        "runs": 19,
+        "wickets": 29
+      },
+      {
+        "season": 2026,
+        "runs": 22,
+        "wickets": 32
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ishan-kishan",
+    "name": "Ishan Kishan",
+    "cricsheetName": "Ishan Kishan",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/ishan-kishan.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 2998,
+      "average": 29.11,
+      "strikeRate": 138.22,
+      "wickets": 0,
+      "economy": 24,
+      "hundreds": 0,
+      "fifties": 11,
+      "dismissals": 56
+    },
+    "recentForm": [
+      28,
+      49,
+      37,
+      61,
+      41
+    ],
+    "highlights": [
+      "Ishan Kishan remains a trusted Sunrisers Hyderabad wicket-keeper option for IPL matchups.",
+      "2998 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes Ishan Kishan relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 420,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 510,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 600,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 690,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 779,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "jd-unadkat",
+    "name": "JD Unadkat",
+    "cricsheetName": "JD Unadkat",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/jd-unadkat.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 197,
+      "average": 12.31,
+      "strikeRate": 118.67,
+      "wickets": 110,
+      "economy": 8.96,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      29,
+      50,
+      38,
+      62,
+      42
+    ],
+    "highlights": [
+      "JD Unadkat remains a trusted Sunrisers Hyderabad bowler option for IPL matchups.",
+      "197 career runs and 110 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes JD Unadkat relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 28,
+        "wickets": 18
+      },
+      {
+        "season": 2023,
+        "runs": 33,
+        "wickets": 20
+      },
+      {
+        "season": 2024,
+        "runs": 39,
+        "wickets": 22
+      },
+      {
+        "season": 2025,
+        "runs": 45,
+        "wickets": 24
+      },
+      {
+        "season": 2026,
+        "runs": 51,
+        "wickets": 26
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "a-nehra",
+    "name": "A Nehra",
+    "cricsheetName": "A Nehra",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/a-nehra.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 41,
+      "average": 5.86,
+      "strikeRate": 68.33,
+      "wickets": 106,
+      "economy": 7.98,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      43,
+      64,
+      52,
+      76,
+      56
+    ],
+    "highlights": [
+      "A Nehra remains a trusted Sunrisers Hyderabad bowler option for IPL matchups.",
+      "41 career runs and 106 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes A Nehra relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 6,
+        "wickets": 17
+      },
+      {
+        "season": 2023,
+        "runs": 7,
+        "wickets": 19
+      },
+      {
+        "season": 2024,
+        "runs": 8,
+        "wickets": 21
+      },
+      {
+        "season": 2025,
+        "runs": 9,
+        "wickets": 23
+      },
+      {
+        "season": 2026,
+        "runs": 11,
+        "wickets": 25
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "pj-cummins",
+    "name": "PJ Cummins",
+    "cricsheetName": "PJ Cummins",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/pj-cummins.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 612,
+      "average": 20.4,
+      "strikeRate": 153,
+      "wickets": 79,
+      "economy": 9.04,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      63,
+      84,
+      72,
+      96,
+      76
+    ],
+    "highlights": [
+      "PJ Cummins remains a trusted Sunrisers Hyderabad all-rounder option for IPL matchups.",
+      "612 career runs and 79 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes PJ Cummins relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 86,
+        "wickets": 13
+      },
+      {
+        "season": 2023,
+        "runs": 104,
+        "wickets": 14
+      },
+      {
+        "season": 2024,
+        "runs": 122,
+        "wickets": 16
+      },
+      {
+        "season": 2025,
+        "runs": 141,
+        "wickets": 17
+      },
+      {
+        "season": 2026,
+        "runs": 159,
+        "wickets": 19
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "abhishek-sharma",
+    "name": "Abhishek Sharma",
+    "cricsheetName": "Abhishek Sharma",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/abhishek-sharma.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 1816,
+      "average": 27.1,
+      "strikeRate": 163.9,
+      "wickets": 11,
+      "economy": 9.09,
+      "hundreds": 1,
+      "fifties": 8,
+      "dismissals": 0,
+      "bestFigures": "4/21"
+    },
+    "recentForm": [
+      24,
+      45,
+      33,
+      57,
+      37
+    ],
+    "highlights": [
+      "Abhishek Sharma remains a trusted Sunrisers Hyderabad batsman option for IPL matchups.",
+      "1816 career runs and 11 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes Abhishek Sharma relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 254,
+        "wickets": 2
+      },
+      {
+        "season": 2023,
+        "runs": 309,
+        "wickets": 2
+      },
+      {
+        "season": 2024,
+        "runs": 363,
+        "wickets": 2
+      },
+      {
+        "season": 2025,
+        "runs": 418,
+        "wickets": 2
+      },
+      {
+        "season": 2026,
+        "runs": 472,
+        "wickets": 3
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "da-warner",
+    "name": "DA Warner",
+    "cricsheetName": "DA Warner",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/da-warner.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 6567,
+      "average": 40.04,
+      "strikeRate": 140.32,
+      "wickets": 0,
+      "economy": 12,
+      "hundreds": 1,
+      "fifties": 46,
+      "dismissals": 0
+    },
+    "recentForm": [
+      44,
+      65,
+      53,
+      77,
+      57
+    ],
+    "highlights": [
+      "DA Warner remains a trusted Delhi Capitals batsman option for IPL matchups.",
+      "6567 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes DA Warner relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 919,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 1116,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 1313,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1510,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1707,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ar-patel",
+    "name": "AR Patel",
+    "cricsheetName": "AR Patel",
+    "espnId": 0,
+    "team": "DC",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/ar-patel.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 1916,
+      "average": 22.02,
+      "strikeRate": 134.46,
+      "wickets": 128,
+      "economy": 7.48,
+      "hundreds": 0,
+      "fifties": 3,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "AR Patel remains a trusted Delhi Capitals all-rounder option for IPL matchups.",
+      "1916 career runs and 128 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes AR Patel relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 268,
+        "wickets": 20
+      },
+      {
+        "season": 2023,
+        "runs": 326,
+        "wickets": 23
+      },
+      {
+        "season": 2024,
+        "runs": 383,
+        "wickets": 26
+      },
+      {
+        "season": 2025,
+        "runs": 441,
+        "wickets": 28
+      },
+      {
+        "season": 2026,
+        "runs": 498,
+        "wickets": 31
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "f-du-plessis",
+    "name": "F du Plessis",
+    "cricsheetName": "F du Plessis",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/f-du-plessis.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 4773,
+      "average": 35.1,
+      "strikeRate": 136.14,
+      "wickets": 0,
+      "economy": 16,
+      "hundreds": 0,
+      "fifties": 32,
+      "dismissals": 0
+    },
+    "recentForm": [
+      28,
+      49,
+      37,
+      61,
+      41
+    ],
+    "highlights": [
+      "F du Plessis remains a trusted Delhi Capitals batsman option for IPL matchups.",
+      "4773 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes F du Plessis relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 668,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 811,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 955,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1098,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1241,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "g-gambhir",
+    "name": "G Gambhir",
+    "cricsheetName": "G Gambhir",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/g-gambhir.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 4217,
+      "average": 31.01,
+      "strikeRate": 124.25,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 25,
+      "dismissals": 0
+    },
+    "recentForm": [
+      37,
+      58,
+      46,
+      70,
+      50
+    ],
+    "highlights": [
+      "G Gambhir remains a trusted Delhi Capitals batsman option for IPL matchups.",
+      "4217 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes G Gambhir relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 590,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 717,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 843,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 970,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1096,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "mm-sharma",
+    "name": "MM Sharma",
+    "cricsheetName": "MM Sharma",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/mm-sharma.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 125,
+      "average": 6.94,
+      "strikeRate": 91.91,
+      "wickets": 134,
+      "economy": 8.83,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      54,
+      75,
+      63,
+      87,
+      67
+    ],
+    "highlights": [
+      "MM Sharma remains a trusted Delhi Capitals bowler option for IPL matchups.",
+      "125 career runs and 134 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes MM Sharma relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 18,
+        "wickets": 21
+      },
+      {
+        "season": 2023,
+        "runs": 21,
+        "wickets": 24
+      },
+      {
+        "season": 2024,
+        "runs": 25,
+        "wickets": 27
+      },
+      {
+        "season": 2025,
+        "runs": 29,
+        "wickets": 29
+      },
+      {
+        "season": 2026,
+        "runs": 33,
+        "wickets": 32
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "kuldeep-yadav",
+    "name": "Kuldeep Yadav",
+    "cricsheetName": "Kuldeep Yadav",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/kuldeep-yadav.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 201,
+      "average": 13.4,
+      "strikeRate": 86.64,
+      "wickets": 102,
+      "economy": 8.15,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      27,
+      48,
+      36,
+      60,
+      40
+    ],
+    "highlights": [
+      "Kuldeep Yadav remains a trusted Delhi Capitals bowler option for IPL matchups.",
+      "201 career runs and 102 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Kuldeep Yadav relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 28,
+        "wickets": 16
+      },
+      {
+        "season": 2023,
+        "runs": 34,
+        "wickets": 18
+      },
+      {
+        "season": 2024,
+        "runs": 40,
+        "wickets": 20
+      },
+      {
+        "season": 2025,
+        "runs": 46,
+        "wickets": 22
+      },
+      {
+        "season": 2026,
+        "runs": 52,
+        "wickets": 24
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "s-dhawan",
+    "name": "S Dhawan",
+    "cricsheetName": "S Dhawan",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/s-dhawan.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 6769,
+      "average": 35.07,
+      "strikeRate": 127.62,
+      "wickets": 4,
+      "economy": 9,
+      "hundreds": 0,
+      "fifties": 30,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "S Dhawan remains a trusted Punjab Kings batsman option for IPL matchups.",
+      "6769 career runs and 4 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes S Dhawan relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 948,
+        "wickets": 1
+      },
+      {
+        "season": 2023,
+        "runs": 1151,
+        "wickets": 1
+      },
+      {
+        "season": 2024,
+        "runs": 1354,
+        "wickets": 1
+      },
+      {
+        "season": 2025,
+        "runs": 1557,
+        "wickets": 1
+      },
+      {
+        "season": 2026,
+        "runs": 1760,
+        "wickets": 1
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ys-chahal",
+    "name": "YS Chahal",
+    "cricsheetName": "YS Chahal",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/ys-chahal.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 37,
+      "average": 5.29,
+      "strikeRate": 43.02,
+      "wickets": 221,
+      "economy": 8.09,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      55,
+      76,
+      64,
+      88,
+      68
+    ],
+    "highlights": [
+      "YS Chahal remains a trusted Punjab Kings bowler option for IPL matchups.",
+      "37 career runs and 221 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes YS Chahal relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 5,
+        "wickets": 35
+      },
+      {
+        "season": 2023,
+        "runs": 6,
+        "wickets": 40
+      },
+      {
+        "season": 2024,
+        "runs": 7,
+        "wickets": 44
+      },
+      {
+        "season": 2025,
+        "runs": 9,
+        "wickets": 49
+      },
+      {
+        "season": 2026,
+        "runs": 10,
+        "wickets": 53
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ch-gayle",
+    "name": "CH Gayle",
+    "cricsheetName": "CH Gayle",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ch-gayle.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 4997,
+      "average": 39.66,
+      "strikeRate": 150.02,
+      "wickets": 18,
+      "economy": 8.18,
+      "hundreds": 2,
+      "fifties": 23,
+      "dismissals": 0,
+      "bestFigures": "4/28"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "CH Gayle remains a trusted Punjab Kings batsman option for IPL matchups.",
+      "4997 career runs and 18 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes CH Gayle relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 700,
+        "wickets": 3
+      },
+      {
+        "season": 2023,
+        "runs": 849,
+        "wickets": 3
+      },
+      {
+        "season": 2024,
+        "runs": 999,
+        "wickets": 4
+      },
+      {
+        "season": 2025,
+        "runs": 1149,
+        "wickets": 4
+      },
+      {
+        "season": 2026,
+        "runs": 1299,
+        "wickets": 4
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "gj-maxwell",
+    "name": "GJ Maxwell",
+    "cricsheetName": "GJ Maxwell",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/gj-maxwell.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 2820,
+      "average": 23.9,
+      "strikeRate": 155.8,
+      "wickets": 41,
+      "economy": 8.35,
+      "hundreds": 0,
+      "fifties": 16,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      45,
+      66,
+      54,
+      78,
+      58
+    ],
+    "highlights": [
+      "GJ Maxwell remains a trusted Punjab Kings all-rounder option for IPL matchups.",
+      "2820 career runs and 41 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes GJ Maxwell relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 395,
+        "wickets": 7
+      },
+      {
+        "season": 2023,
+        "runs": 479,
+        "wickets": 7
+      },
+      {
+        "season": 2024,
+        "runs": 564,
+        "wickets": 8
+      },
+      {
+        "season": 2025,
+        "runs": 649,
+        "wickets": 9
+      },
+      {
+        "season": 2026,
+        "runs": 733,
+        "wickets": 10
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "ss-iyer",
+    "name": "SS Iyer",
+    "cricsheetName": "SS Iyer",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ss-iyer.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 3735,
+      "average": 33.95,
+      "strikeRate": 133.78,
+      "wickets": 0,
+      "economy": 7,
+      "hundreds": 0,
+      "fifties": 17,
+      "dismissals": 0
+    },
+    "recentForm": [
+      50,
+      71,
+      59,
+      83,
+      63
+    ],
+    "highlights": [
+      "SS Iyer remains a trusted Punjab Kings batsman option for IPL matchups.",
+      "3735 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes SS Iyer relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 523,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 635,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 747,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 859,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 971,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "mp-stoinis",
+    "name": "MP Stoinis",
+    "cricsheetName": "MP Stoinis",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/mp-stoinis.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 2026,
+      "average": 28.14,
+      "strikeRate": 145.55,
+      "wickets": 44,
+      "economy": 9.98,
+      "hundreds": 0,
+      "fifties": 7,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      62,
+      83,
+      71,
+      95,
+      75
+    ],
+    "highlights": [
+      "MP Stoinis remains a trusted Punjab Kings all-rounder option for IPL matchups.",
+      "2026 career runs and 44 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes MP Stoinis relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 284,
+        "wickets": 7
+      },
+      {
+        "season": 2023,
+        "runs": 344,
+        "wickets": 8
+      },
+      {
+        "season": 2024,
+        "runs": 405,
+        "wickets": 9
+      },
+      {
+        "season": 2025,
+        "runs": 466,
+        "wickets": 10
+      },
+      {
+        "season": 2026,
+        "runs": 527,
+        "wickets": 11
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "v-sehwag",
+    "name": "V Sehwag",
+    "cricsheetName": "V Sehwag",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/v-sehwag.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 2728,
+      "average": 27.56,
+      "strikeRate": 156.78,
+      "wickets": 6,
+      "economy": 10.41,
+      "hundreds": 2,
+      "fifties": 12,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      27,
+      48,
+      36,
+      60,
+      40
+    ],
+    "highlights": [
+      "V Sehwag remains a trusted Punjab Kings batsman option for IPL matchups.",
+      "2728 career runs and 6 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes V Sehwag relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 382,
+        "wickets": 1
+      },
+      {
+        "season": 2023,
+        "runs": 464,
+        "wickets": 1
+      },
+      {
+        "season": 2024,
+        "runs": 546,
+        "wickets": 1
+      },
+      {
+        "season": 2025,
+        "runs": 627,
+        "wickets": 1
+      },
+      {
+        "season": 2026,
+        "runs": 709,
+        "wickets": 1
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "sv-samson",
+    "name": "SV Samson",
+    "cricsheetName": "SV Samson",
+    "espnId": 0,
+    "team": "RR",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/sv-samson.jpg",
+    "teamColor": "#E91E8C",
+    "stats": {
+      "runs": 4704,
+      "average": 30.75,
+      "strikeRate": 139.67,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 2,
+      "fifties": 19,
+      "dismissals": 86
+    },
+    "recentForm": [
+      27,
+      48,
+      36,
+      60,
+      40
+    ],
+    "highlights": [
+      "SV Samson remains a trusted Rajasthan Royals wicket-keeper option for IPL matchups.",
+      "4704 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes SV Samson relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 659,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 800,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 941,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1082,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1223,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "sandeep-sharma",
+    "name": "Sandeep Sharma",
+    "cricsheetName": "Sandeep Sharma",
+    "espnId": 0,
+    "team": "RR",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/sandeep-sharma.jpg",
+    "teamColor": "#E91E8C",
+    "stats": {
+      "runs": 60,
+      "average": 10,
+      "strikeRate": 81.08,
+      "wickets": 146,
+      "economy": 8.15,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      43,
+      64,
+      52,
+      76,
+      56
+    ],
+    "highlights": [
+      "Sandeep Sharma remains a trusted Rajasthan Royals bowler option for IPL matchups.",
+      "60 career runs and 146 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Sandeep Sharma relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 8,
+        "wickets": 23
+      },
+      {
+        "season": 2023,
+        "runs": 10,
+        "wickets": 26
+      },
+      {
+        "season": 2024,
+        "runs": 12,
+        "wickets": 29
+      },
+      {
+        "season": 2025,
+        "runs": 14,
+        "wickets": 32
+      },
+      {
+        "season": 2026,
+        "runs": 16,
+        "wickets": 35
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "n-rana",
+    "name": "N Rana",
+    "cricsheetName": "N Rana",
+    "espnId": 0,
+    "team": "RR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/n-rana.jpg",
+    "teamColor": "#E91E8C",
+    "stats": {
+      "runs": 2853,
+      "average": 27.7,
+      "strikeRate": 137.23,
+      "wickets": 10,
+      "economy": 8.47,
+      "hundreds": 0,
+      "fifties": 17,
+      "dismissals": 0,
+      "bestFigures": "4/20"
+    },
+    "recentForm": [
+      48,
+      69,
+      57,
+      81,
+      61
+    ],
+    "highlights": [
+      "N Rana remains a trusted Rajasthan Royals batsman option for IPL matchups.",
+      "2853 career runs and 10 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes N Rana relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 399,
+        "wickets": 2
+      },
+      {
+        "season": 2023,
+        "runs": 485,
+        "wickets": 2
+      },
+      {
+        "season": 2024,
+        "runs": 571,
+        "wickets": 2
+      },
+      {
+        "season": 2025,
+        "runs": 656,
+        "wickets": 2
+      },
+      {
+        "season": 2026,
+        "runs": 742,
+        "wickets": 2
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "ch-morris",
+    "name": "CH Morris",
+    "cricsheetName": "CH Morris",
+    "espnId": 0,
+    "team": "RR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/ch-morris.jpg",
+    "teamColor": "#E91E8C",
+    "stats": {
+      "runs": 618,
+      "average": 22.07,
+      "strikeRate": 155.67,
+      "wickets": 96,
+      "economy": 8.26,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      25,
+      46,
+      34,
+      58,
+      38
+    ],
+    "highlights": [
+      "CH Morris remains a trusted Rajasthan Royals all-rounder option for IPL matchups.",
+      "618 career runs and 96 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes CH Morris relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 87,
+        "wickets": 15
+      },
+      {
+        "season": 2023,
+        "runs": 105,
+        "wickets": 17
+      },
+      {
+        "season": 2024,
+        "runs": 124,
+        "wickets": 19
+      },
+      {
+        "season": 2025,
+        "runs": 142,
+        "wickets": 21
+      },
+      {
+        "season": 2026,
+        "runs": 161,
+        "wickets": 23
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "r-dravid",
+    "name": "R Dravid",
+    "cricsheetName": "R Dravid",
+    "espnId": 0,
+    "team": "RR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/r-dravid.jpg",
+    "teamColor": "#E91E8C",
+    "stats": {
+      "runs": 2174,
+      "average": 28.23,
+      "strikeRate": 115.76,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      52,
+      73,
+      61,
+      85,
+      65
+    ],
+    "highlights": [
+      "R Dravid remains a trusted Rajasthan Royals batsman option for IPL matchups.",
+      "2174 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes R Dravid relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 304,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 370,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 435,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 500,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 565,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "a-mishra",
+    "name": "A Mishra",
+    "cricsheetName": "A Mishra",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/a-mishra.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 381,
+      "average": 11.91,
+      "strikeRate": 91.37,
+      "wickets": 174,
+      "economy": 7.46,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      70,
+      91,
+      79,
+      0,
+      4
+    ],
+    "highlights": [
+      "A Mishra remains a trusted Lucknow Super Giants batsman option for IPL matchups.",
+      "381 career runs and 174 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes A Mishra relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 53,
+        "wickets": 28
+      },
+      {
+        "season": 2023,
+        "runs": 65,
+        "wickets": 31
+      },
+      {
+        "season": 2024,
+        "runs": 76,
+        "wickets": 35
+      },
+      {
+        "season": 2025,
+        "runs": 88,
+        "wickets": 38
+      },
+      {
+        "season": 2026,
+        "runs": 99,
+        "wickets": 42
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "rr-pant",
+    "name": "RR Pant",
+    "cricsheetName": "RR Pant",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/rr-pant.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 3566,
+      "average": 34.29,
+      "strikeRate": 148.15,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 13,
+      "dismissals": 62
+    },
+    "recentForm": [
+      23,
+      44,
+      32,
+      56,
+      36
+    ],
+    "highlights": [
+      "RR Pant remains a trusted Lucknow Super Giants wicket-keeper option for IPL matchups.",
+      "3566 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes RR Pant relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 499,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 606,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 713,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 820,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 927,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "da-miller",
+    "name": "DA Miller",
+    "cricsheetName": "DA Miller",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/da-miller.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 3077,
+      "average": 35.37,
+      "strikeRate": 139.1,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 5,
+      "dismissals": 0
+    },
+    "recentForm": [
+      33,
+      54,
+      42,
+      66,
+      46
+    ],
+    "highlights": [
+      "DA Miller remains a trusted Lucknow Super Giants batsman option for IPL matchups.",
+      "3077 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes DA Miller relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 431,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 523,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 615,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 708,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 800,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "sn-thakur",
+    "name": "SN Thakur",
+    "cricsheetName": "SN Thakur",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/sn-thakur.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 325,
+      "average": 11.61,
+      "strikeRate": 140.09,
+      "wickets": 107,
+      "economy": 9.52,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      55,
+      76,
+      64,
+      88,
+      68
+    ],
+    "highlights": [
+      "SN Thakur remains a trusted Lucknow Super Giants batsman option for IPL matchups.",
+      "325 career runs and 107 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes SN Thakur relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 46,
+        "wickets": 17
+      },
+      {
+        "season": 2023,
+        "runs": 55,
+        "wickets": 19
+      },
+      {
+        "season": 2024,
+        "runs": 65,
+        "wickets": 21
+      },
+      {
+        "season": 2025,
+        "runs": 75,
+        "wickets": 24
+      },
+      {
+        "season": 2026,
+        "runs": 85,
+        "wickets": 26
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "n-pooran",
+    "name": "N Pooran",
+    "cricsheetName": "N Pooran",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/n-pooran.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 2293,
+      "average": 33.23,
+      "strikeRate": 169.23,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      29,
+      50,
+      38,
+      62,
+      42
+    ],
+    "highlights": [
+      "N Pooran remains a trusted Lucknow Super Giants batsman option for IPL matchups.",
+      "2293 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes N Pooran relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 321,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 390,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 459,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 527,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 596,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "avesh-khan",
+    "name": "Avesh Khan",
+    "cricsheetName": "Avesh Khan",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/avesh-khan.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 62,
+      "average": 20.67,
+      "strikeRate": 167.57,
+      "wickets": 87,
+      "economy": 9.25,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      19,
+      40,
+      28,
+      52,
+      32
+    ],
+    "highlights": [
+      "Avesh Khan remains a trusted Lucknow Super Giants bowler option for IPL matchups.",
+      "62 career runs and 87 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Avesh Khan relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 9,
+        "wickets": 14
+      },
+      {
+        "season": 2023,
+        "runs": 11,
+        "wickets": 16
+      },
+      {
+        "season": 2024,
+        "runs": 12,
+        "wickets": 17
+      },
+      {
+        "season": 2025,
+        "runs": 14,
+        "wickets": 19
+      },
+      {
+        "season": 2026,
+        "runs": 16,
+        "wickets": 21
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "mr-marsh",
+    "name": "MR Marsh",
+    "cricsheetName": "MR Marsh",
+    "espnId": 0,
+    "team": "LSG",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/mr-marsh.jpg",
+    "teamColor": "#00B4D8",
+    "stats": {
+      "runs": 1292,
+      "average": 27.49,
+      "strikeRate": 143.24,
+      "wickets": 37,
+      "economy": 8.6,
+      "hundreds": 1,
+      "fifties": 9,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      37,
+      58,
+      46,
+      70,
+      50
+    ],
+    "highlights": [
+      "MR Marsh remains a trusted Lucknow Super Giants all-rounder option for IPL matchups.",
+      "1292 career runs and 37 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes MR Marsh relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 181,
+        "wickets": 6
+      },
+      {
+        "season": 2023,
+        "runs": 220,
+        "wickets": 7
+      },
+      {
+        "season": 2024,
+        "runs": 258,
+        "wickets": 7
+      },
+      {
+        "season": 2025,
+        "runs": 297,
+        "wickets": 8
+      },
+      {
+        "season": 2026,
+        "runs": 336,
+        "wickets": 9
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "jc-buttler",
+    "name": "JC Buttler",
+    "cricsheetName": "JC Buttler",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Wicket-keeper",
+    "nationality": "Overseas",
+    "image": "/images/players/jc-buttler.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 4121,
+      "average": 39.63,
+      "strikeRate": 149.91,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 4,
+      "fifties": 17,
+      "dismissals": 60
+    },
+    "recentForm": [
+      13,
+      34,
+      22,
+      46,
+      26
+    ],
+    "highlights": [
+      "JC Buttler remains a trusted Gujarat Titans wicket-keeper option for IPL matchups.",
+      "4121 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes JC Buttler relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 577,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 701,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 824,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 948,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1071,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "ut-yadav",
+    "name": "UT Yadav",
+    "cricsheetName": "UT Yadav",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/ut-yadav.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 208,
+      "average": 9.9,
+      "strikeRate": 103.48,
+      "wickets": 144,
+      "economy": 8.72,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      23,
+      44,
+      32,
+      56,
+      36
+    ],
+    "highlights": [
+      "UT Yadav remains a trusted Gujarat Titans bowler option for IPL matchups.",
+      "208 career runs and 144 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes UT Yadav relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 29,
+        "wickets": 23
+      },
+      {
+        "season": 2023,
+        "runs": 35,
+        "wickets": 26
+      },
+      {
+        "season": 2024,
+        "runs": 42,
+        "wickets": 29
+      },
+      {
+        "season": 2025,
+        "runs": 48,
+        "wickets": 32
+      },
+      {
+        "season": 2026,
+        "runs": 54,
+        "wickets": 35
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "k-rabada",
+    "name": "K Rabada",
+    "cricsheetName": "K Rabada",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/k-rabada.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 215,
+      "average": 11.94,
+      "strikeRate": 107.5,
+      "wickets": 122,
+      "economy": 8.84,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      23,
+      44,
+      32,
+      56,
+      36
+    ],
+    "highlights": [
+      "K Rabada remains a trusted Gujarat Titans bowler option for IPL matchups.",
+      "215 career runs and 122 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes K Rabada relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 30,
+        "wickets": 20
+      },
+      {
+        "season": 2023,
+        "runs": 37,
+        "wickets": 22
+      },
+      {
+        "season": 2024,
+        "runs": 43,
+        "wickets": 24
+      },
+      {
+        "season": 2025,
+        "runs": 49,
+        "wickets": 27
+      },
+      {
+        "season": 2026,
+        "runs": 56,
+        "wickets": 29
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "wp-saha",
+    "name": "WP Saha",
+    "cricsheetName": "WP Saha",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Wicket-keeper",
+    "nationality": "Indian",
+    "image": "/images/players/wp-saha.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 2934,
+      "average": 24.25,
+      "strikeRate": 127.79,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 8,
+      "dismissals": 72
+    },
+    "recentForm": [
+      30,
+      51,
+      39,
+      63,
+      43
+    ],
+    "highlights": [
+      "WP Saha remains a trusted Gujarat Titans wicket-keeper option for IPL matchups.",
+      "2934 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Wicket-keeper usage profile makes WP Saha relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 411,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 499,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 587,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 675,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 763,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "mohammed-siraj",
+    "name": "Mohammed Siraj",
+    "cricsheetName": "Mohammed Siraj",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/mohammed-siraj.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 112,
+      "average": 11.2,
+      "strikeRate": 92.56,
+      "wickets": 109,
+      "economy": 8.96,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Mohammed Siraj remains a trusted Gujarat Titans bowler option for IPL matchups.",
+      "112 career runs and 109 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Mohammed Siraj relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 16,
+        "wickets": 17
+      },
+      {
+        "season": 2023,
+        "runs": 19,
+        "wickets": 20
+      },
+      {
+        "season": 2024,
+        "runs": 22,
+        "wickets": 22
+      },
+      {
+        "season": 2025,
+        "runs": 26,
+        "wickets": 24
+      },
+      {
+        "season": 2026,
+        "runs": 29,
+        "wickets": 26
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "i-sharma",
+    "name": "I Sharma",
+    "cricsheetName": "I Sharma",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/i-sharma.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 57,
+      "average": 9.5,
+      "strikeRate": 82.61,
+      "wickets": 96,
+      "economy": 8.59,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      31,
+      52,
+      40,
+      64,
+      44
+    ],
+    "highlights": [
+      "I Sharma remains a trusted Gujarat Titans bowler option for IPL matchups.",
+      "57 career runs and 96 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes I Sharma relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 8,
+        "wickets": 15
+      },
+      {
+        "season": 2023,
+        "runs": 10,
+        "wickets": 17
+      },
+      {
+        "season": 2024,
+        "runs": 11,
+        "wickets": 19
+      },
+      {
+        "season": 2025,
+        "runs": 13,
+        "wickets": 21
+      },
+      {
+        "season": 2026,
+        "runs": 15,
+        "wickets": 23
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "rv-uthappa",
+    "name": "RV Uthappa",
+    "cricsheetName": "RV Uthappa",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/rv-uthappa.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 4954,
+      "average": 27.52,
+      "strikeRate": 130.92,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 20,
+      "dismissals": 0
+    },
+    "recentForm": [
+      65,
+      86,
+      74,
+      98,
+      78
+    ],
+    "highlights": [
+      "RV Uthappa remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "4954 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes RV Uthappa relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 694,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 842,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 991,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1139,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1288,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "jj-bumrah",
+    "name": "JJ Bumrah",
+    "cricsheetName": "JJ Bumrah",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/jj-bumrah.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 68,
+      "average": 9.71,
+      "strikeRate": 87.18,
+      "wickets": 186,
+      "economy": 7.43,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      20,
+      41,
+      29,
+      53,
+      33
+    ],
+    "highlights": [
+      "JJ Bumrah remains a trusted Mumbai Indians bowler option for IPL matchups.",
+      "68 career runs and 186 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes JJ Bumrah relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 10,
+        "wickets": 30
+      },
+      {
+        "season": 2023,
+        "runs": 12,
+        "wickets": 33
+      },
+      {
+        "season": 2024,
+        "runs": 14,
+        "wickets": 37
+      },
+      {
+        "season": 2025,
+        "runs": 16,
+        "wickets": 41
+      },
+      {
+        "season": 2026,
+        "runs": 18,
+        "wickets": 45
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "hh-pandya",
+    "name": "HH Pandya",
+    "cricsheetName": "HH Pandya",
+    "espnId": 0,
+    "team": "MI",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/hh-pandya.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 2758,
+      "average": 28.14,
+      "strikeRate": 147.8,
+      "wickets": 78,
+      "economy": 9.36,
+      "hundreds": 0,
+      "fifties": 4,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      68,
+      89,
+      77,
+      101,
+      2
+    ],
+    "highlights": [
+      "HH Pandya remains a trusted Mumbai Indians all-rounder option for IPL matchups.",
+      "2758 career runs and 78 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes HH Pandya relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 386,
+        "wickets": 12
+      },
+      {
+        "season": 2023,
+        "runs": 469,
+        "wickets": 14
+      },
+      {
+        "season": 2024,
+        "runs": 552,
+        "wickets": 16
+      },
+      {
+        "season": 2025,
+        "runs": 634,
+        "wickets": 17
+      },
+      {
+        "season": 2026,
+        "runs": 717,
+        "wickets": 19
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "at-rayudu",
+    "name": "AT Rayudu",
+    "cricsheetName": "AT Rayudu",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/at-rayudu.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 4348,
+      "average": 28.05,
+      "strikeRate": 128.22,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 16,
+      "dismissals": 0
+    },
+    "recentForm": [
+      26,
+      47,
+      35,
+      59,
+      39
+    ],
+    "highlights": [
+      "AT Rayudu remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "4348 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes AT Rayudu relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 609,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 739,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 870,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 1000,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1130,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "sl-malinga",
+    "name": "SL Malinga",
+    "cricsheetName": "SL Malinga",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/sl-malinga.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 88,
+      "average": 5.5,
+      "strikeRate": 88.89,
+      "wickets": 170,
+      "economy": 7.4,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      23,
+      44,
+      32,
+      56,
+      36
+    ],
+    "highlights": [
+      "SL Malinga remains a trusted Mumbai Indians bowler option for IPL matchups.",
+      "88 career runs and 170 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes SL Malinga relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 12,
+        "wickets": 27
+      },
+      {
+        "season": 2023,
+        "runs": 15,
+        "wickets": 31
+      },
+      {
+        "season": 2024,
+        "runs": 18,
+        "wickets": 34
+      },
+      {
+        "season": 2025,
+        "runs": 20,
+        "wickets": 37
+      },
+      {
+        "season": 2026,
+        "runs": 23,
+        "wickets": 41
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "sa-yadav",
+    "name": "SA Yadav",
+    "cricsheetName": "SA Yadav",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/sa-yadav.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 4311,
+      "average": 34.77,
+      "strikeRate": 149.22,
+      "wickets": 0,
+      "economy": 8,
+      "hundreds": 0,
+      "fifties": 23,
+      "dismissals": 0
+    },
+    "recentForm": [
+      59,
+      80,
+      68,
+      92,
+      72
+    ],
+    "highlights": [
+      "SA Yadav remains a trusted Mumbai Indians batsman option for IPL matchups.",
+      "4311 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes SA Yadav relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 604,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 733,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 862,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 992,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 1121,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ta-boult",
+    "name": "TA Boult",
+    "cricsheetName": "TA Boult",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/ta-boult.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 85,
+      "average": 9.44,
+      "strikeRate": 104.94,
+      "wickets": 143,
+      "economy": 8.5,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      32,
+      53,
+      41,
+      65,
+      45
+    ],
+    "highlights": [
+      "TA Boult remains a trusted Mumbai Indians bowler option for IPL matchups.",
+      "85 career runs and 143 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes TA Boult relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 12,
+        "wickets": 23
+      },
+      {
+        "season": 2023,
+        "runs": 14,
+        "wickets": 26
+      },
+      {
+        "season": 2024,
+        "runs": 17,
+        "wickets": 29
+      },
+      {
+        "season": 2025,
+        "runs": 20,
+        "wickets": 31
+      },
+      {
+        "season": 2026,
+        "runs": 22,
+        "wickets": 34
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "yuvraj-singh",
+    "name": "Yuvraj Singh",
+    "cricsheetName": "Yuvraj Singh",
+    "espnId": 0,
+    "team": "MI",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/yuvraj-singh.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 2754,
+      "average": 24.81,
+      "strikeRate": 130.21,
+      "wickets": 36,
+      "economy": 7.53,
+      "hundreds": 0,
+      "fifties": 7,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Yuvraj Singh remains a trusted Mumbai Indians all-rounder option for IPL matchups.",
+      "2754 career runs and 36 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes Yuvraj Singh relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 386,
+        "wickets": 6
+      },
+      {
+        "season": 2023,
+        "runs": 468,
+        "wickets": 6
+      },
+      {
+        "season": 2024,
+        "runs": 551,
+        "wickets": 7
+      },
+      {
+        "season": 2025,
+        "runs": 633,
+        "wickets": 8
+      },
+      {
+        "season": 2026,
+        "runs": 716,
+        "wickets": 9
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "r-vinay-kumar",
+    "name": "R Vinay Kumar",
+    "cricsheetName": "R Vinay Kumar",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/r-vinay-kumar.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 310,
+      "average": 11.07,
+      "strikeRate": 113.14,
+      "wickets": 105,
+      "economy": 8.58,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      24,
+      45,
+      33,
+      57,
+      37
+    ],
+    "highlights": [
+      "R Vinay Kumar remains a trusted Kolkata Knight Riders batsman option for IPL matchups.",
+      "310 career runs and 105 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes R Vinay Kumar relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 43,
+        "wickets": 17
+      },
+      {
+        "season": 2023,
+        "runs": 53,
+        "wickets": 19
+      },
+      {
+        "season": 2024,
+        "runs": 62,
+        "wickets": 21
+      },
+      {
+        "season": 2025,
+        "runs": 71,
+        "wickets": 23
+      },
+      {
+        "season": 2026,
+        "runs": 81,
+        "wickets": 25
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "ma-agarwal",
+    "name": "MA Agarwal",
+    "cricsheetName": "MA Agarwal",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ma-agarwal.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 2764,
+      "average": 23.03,
+      "strikeRate": 134.63,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 1,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "MA Agarwal remains a trusted Royal Challengers Bengaluru batsman option for IPL matchups.",
+      "2764 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes MA Agarwal relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 387,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 470,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 553,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 636,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 719,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "z-khan",
+    "name": "Z Khan",
+    "cricsheetName": "Z Khan",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/z-khan.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 117,
+      "average": 8.36,
+      "strikeRate": 83.57,
+      "wickets": 102,
+      "economy": 7.8,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Z Khan remains a trusted Delhi Capitals bowler option for IPL matchups.",
+      "117 career runs and 102 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Z Khan relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 16,
+        "wickets": 16
+      },
+      {
+        "season": 2023,
+        "runs": 20,
+        "wickets": 18
+      },
+      {
+        "season": 2024,
+        "runs": 23,
+        "wickets": 20
+      },
+      {
+        "season": 2025,
+        "runs": 27,
+        "wickets": 22
+      },
+      {
+        "season": 2026,
+        "runs": 30,
+        "wickets": 24
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "m-vijay",
+    "name": "M Vijay",
+    "cricsheetName": "M Vijay",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/m-vijay.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 2619,
+      "average": 25.93,
+      "strikeRate": 121.98,
+      "wickets": 0,
+      "economy": 8.17,
+      "hundreds": 2,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      70,
+      91,
+      79,
+      0,
+      4
+    ],
+    "highlights": [
+      "M Vijay remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "2619 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes M Vijay relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 367,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 445,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 524,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 602,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 681,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "jp-duminy",
+    "name": "JP Duminy",
+    "cricsheetName": "JP Duminy",
+    "espnId": 0,
+    "team": "MI",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/jp-duminy.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 2029,
+      "average": 39.78,
+      "strikeRate": 124.4,
+      "wickets": 23,
+      "economy": 7.5,
+      "hundreds": 0,
+      "fifties": 7,
+      "dismissals": 0,
+      "bestFigures": "4/33"
+    },
+    "recentForm": [
+      67,
+      88,
+      76,
+      100,
+      1
+    ],
+    "highlights": [
+      "JP Duminy remains a trusted Mumbai Indians all-rounder option for IPL matchups.",
+      "2029 career runs and 23 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes JP Duminy relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 284,
+        "wickets": 4
+      },
+      {
+        "season": 2023,
+        "runs": 345,
+        "wickets": 4
+      },
+      {
+        "season": 2024,
+        "runs": 406,
+        "wickets": 5
+      },
+      {
+        "season": 2025,
+        "runs": 467,
+        "wickets": 5
+      },
+      {
+        "season": 2026,
+        "runs": 528,
+        "wickets": 6
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "dw-steyn",
+    "name": "DW Steyn",
+    "cricsheetName": "DW Steyn",
+    "espnId": 0,
+    "team": "RCB",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/dw-steyn.jpg",
+    "teamColor": "#E63946",
+    "stats": {
+      "runs": 167,
+      "average": 7.59,
+      "strikeRate": 104.38,
+      "wickets": 97,
+      "economy": 7.1,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "DW Steyn remains a trusted Royal Challengers Bengaluru bowler option for IPL matchups.",
+      "167 career runs and 97 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes DW Steyn relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 23,
+        "wickets": 16
+      },
+      {
+        "season": 2023,
+        "runs": 28,
+        "wickets": 17
+      },
+      {
+        "season": 2024,
+        "runs": 33,
+        "wickets": 19
+      },
+      {
+        "season": 2025,
+        "runs": 38,
+        "wickets": 21
+      },
+      {
+        "season": 2026,
+        "runs": 43,
+        "wickets": 23
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "cv-varun",
+    "name": "CV Varun",
+    "cricsheetName": "CV Varun",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/cv-varun.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 26,
+      "average": 6.5,
+      "strikeRate": 55.32,
+      "wickets": 100,
+      "economy": 7.73,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      40,
+      61,
+      49,
+      73,
+      53
+    ],
+    "highlights": [
+      "CV Varun remains a trusted Kolkata Knight Riders bowler option for IPL matchups.",
+      "26 career runs and 100 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes CV Varun relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 4,
+        "wickets": 16
+      },
+      {
+        "season": 2023,
+        "runs": 4,
+        "wickets": 18
+      },
+      {
+        "season": 2024,
+        "runs": 5,
+        "wickets": 20
+      },
+      {
+        "season": 2025,
+        "runs": 6,
+        "wickets": 22
+      },
+      {
+        "season": 2026,
+        "runs": 7,
+        "wickets": 24
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "rd-gaikwad",
+    "name": "RD Gaikwad",
+    "cricsheetName": "RD Gaikwad",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/rd-gaikwad.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 2502,
+      "average": 40.35,
+      "strikeRate": 138.16,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 16,
+      "dismissals": 0
+    },
+    "recentForm": [
+      27,
+      48,
+      36,
+      60,
+      40
+    ],
+    "highlights": [
+      "RD Gaikwad remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "2502 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes RD Gaikwad relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 350,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 425,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 500,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 575,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 651,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "spd-smith",
+    "name": "SPD Smith",
+    "cricsheetName": "SPD Smith",
+    "espnId": 0,
+    "team": "DC",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/spd-smith.jpg",
+    "teamColor": "#0078FF",
+    "stats": {
+      "runs": 2495,
+      "average": 34.65,
+      "strikeRate": 129.21,
+      "wickets": 0,
+      "economy": 15,
+      "hundreds": 1,
+      "fifties": 6,
+      "dismissals": 0
+    },
+    "recentForm": [
+      19,
+      40,
+      28,
+      52,
+      32
+    ],
+    "highlights": [
+      "SPD Smith remains a trusted Delhi Capitals batsman option for IPL matchups.",
+      "2495 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes SPD Smith relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 349,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 424,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 499,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 574,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 649,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "se-marsh",
+    "name": "SE Marsh",
+    "cricsheetName": "SE Marsh",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/se-marsh.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 2489,
+      "average": 39.51,
+      "strikeRate": 133.39,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 1,
+      "fifties": 13,
+      "dismissals": 0
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "SE Marsh remains a trusted Punjab Kings batsman option for IPL matchups.",
+      "2489 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes SE Marsh relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 348,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 423,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 498,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 572,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 647,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "sm-curran",
+    "name": "SM Curran",
+    "cricsheetName": "SM Curran",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/sm-curran.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 997,
+      "average": 24.93,
+      "strikeRate": 137.52,
+      "wickets": 59,
+      "economy": 9.86,
+      "hundreds": 0,
+      "fifties": 4,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      34,
+      55,
+      43,
+      67,
+      47
+    ],
+    "highlights": [
+      "SM Curran remains a trusted Chennai Super Kings all-rounder option for IPL matchups.",
+      "997 career runs and 59 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes SM Curran relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 140,
+        "wickets": 9
+      },
+      {
+        "season": 2023,
+        "runs": 169,
+        "wickets": 11
+      },
+      {
+        "season": 2024,
+        "runs": 199,
+        "wickets": 12
+      },
+      {
+        "season": 2025,
+        "runs": 229,
+        "wickets": 13
+      },
+      {
+        "season": 2026,
+        "runs": 259,
+        "wickets": 14
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "arshdeep-singh",
+    "name": "Arshdeep Singh",
+    "cricsheetName": "Arshdeep Singh",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/arshdeep-singh.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 31,
+      "average": 5.17,
+      "strikeRate": 67.39,
+      "wickets": 97,
+      "economy": 9.19,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      21,
+      42,
+      30,
+      54,
+      34
+    ],
+    "highlights": [
+      "Arshdeep Singh remains a trusted Punjab Kings bowler option for IPL matchups.",
+      "31 career runs and 97 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Arshdeep Singh relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 4,
+        "wickets": 16
+      },
+      {
+        "season": 2023,
+        "runs": 5,
+        "wickets": 17
+      },
+      {
+        "season": 2024,
+        "runs": 6,
+        "wickets": 19
+      },
+      {
+        "season": 2025,
+        "runs": 7,
+        "wickets": 21
+      },
+      {
+        "season": 2026,
+        "runs": 8,
+        "wickets": 23
+      }
+    ],
+    "fantasyTag": "Captain Core"
+  },
+  {
+    "id": "kv-sharma",
+    "name": "KV Sharma",
+    "cricsheetName": "KV Sharma",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/kv-sharma.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 352,
+      "average": 13.54,
+      "strikeRate": 119.32,
+      "wickets": 83,
+      "economy": 8.57,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      55,
+      76,
+      64,
+      88,
+      68
+    ],
+    "highlights": [
+      "KV Sharma remains a trusted Mumbai Indians batsman option for IPL matchups.",
+      "352 career runs and 83 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes KV Sharma relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 49,
+        "wickets": 13
+      },
+      {
+        "season": 2023,
+        "runs": 60,
+        "wickets": 15
+      },
+      {
+        "season": 2024,
+        "runs": 70,
+        "wickets": 17
+      },
+      {
+        "season": 2025,
+        "runs": 81,
+        "wickets": 18
+      },
+      {
+        "season": 2026,
+        "runs": 92,
+        "wickets": 20
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "shakib-al-hasan",
+    "name": "Shakib Al Hasan",
+    "cricsheetName": "Shakib Al Hasan",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/shakib-al-hasan.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 795,
+      "average": 19.39,
+      "strikeRate": 125.2,
+      "wickets": 63,
+      "economy": 7.54,
+      "hundreds": 0,
+      "fifties": 1,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      20,
+      41,
+      29,
+      53,
+      33
+    ],
+    "highlights": [
+      "Shakib Al Hasan remains a trusted Kolkata Knight Riders all-rounder option for IPL matchups.",
+      "795 career runs and 63 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes Shakib Al Hasan relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 111,
+        "wickets": 10
+      },
+      {
+        "season": 2023,
+        "runs": 135,
+        "wickets": 11
+      },
+      {
+        "season": 2024,
+        "runs": 159,
+        "wickets": 13
+      },
+      {
+        "season": 2025,
+        "runs": 183,
+        "wickets": 14
+      },
+      {
+        "season": 2026,
+        "runs": 207,
+        "wickets": 15
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "sr-tendulkar",
+    "name": "SR Tendulkar",
+    "cricsheetName": "SR Tendulkar",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/sr-tendulkar.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 2334,
+      "average": 33.83,
+      "strikeRate": 120.25,
+      "wickets": 0,
+      "economy": 9.83,
+      "hundreds": 0,
+      "fifties": 8,
+      "dismissals": 0
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "SR Tendulkar remains a trusted Mumbai Indians batsman option for IPL matchups.",
+      "2334 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes SR Tendulkar relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 327,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 397,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 467,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 537,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 607,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "dl-chahar",
+    "name": "DL Chahar",
+    "cricsheetName": "DL Chahar",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/dl-chahar.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 117,
+      "average": 14.63,
+      "strikeRate": 139.29,
+      "wickets": 88,
+      "economy": 8.21,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "DL Chahar remains a trusted Mumbai Indians bowler option for IPL matchups.",
+      "117 career runs and 88 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes DL Chahar relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 16,
+        "wickets": 14
+      },
+      {
+        "season": 2023,
+        "runs": 20,
+        "wickets": 16
+      },
+      {
+        "season": 2024,
+        "runs": 23,
+        "wickets": 18
+      },
+      {
+        "season": 2025,
+        "runs": 27,
+        "wickets": 19
+      },
+      {
+        "season": 2026,
+        "runs": 30,
+        "wickets": 21
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "ra-tripathi",
+    "name": "RA Tripathi",
+    "cricsheetName": "RA Tripathi",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ra-tripathi.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 2291,
+      "average": 26.03,
+      "strikeRate": 138.43,
+      "wickets": 0,
+      "economy": 12,
+      "hundreds": 0,
+      "fifties": 9,
+      "dismissals": 0
+    },
+    "recentForm": [
+      30,
+      51,
+      39,
+      63,
+      43
+    ],
+    "highlights": [
+      "RA Tripathi remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "2291 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes RA Tripathi relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 321,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 389,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 458,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 527,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 596,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "ds-kulkarni",
+    "name": "DS Kulkarni",
+    "cricsheetName": "DS Kulkarni",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/ds-kulkarni.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 104,
+      "average": 11.56,
+      "strikeRate": 96.3,
+      "wickets": 86,
+      "economy": 8.44,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      52,
+      73,
+      61,
+      85,
+      65
+    ],
+    "highlights": [
+      "DS Kulkarni remains a trusted Mumbai Indians bowler option for IPL matchups.",
+      "104 career runs and 86 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes DS Kulkarni relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 15,
+        "wickets": 14
+      },
+      {
+        "season": 2023,
+        "runs": 18,
+        "wickets": 15
+      },
+      {
+        "season": 2024,
+        "runs": 21,
+        "wickets": 17
+      },
+      {
+        "season": 2025,
+        "runs": 24,
+        "wickets": 19
+      },
+      {
+        "season": 2026,
+        "runs": 27,
+        "wickets": 21
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "pp-ojha",
+    "name": "PP Ojha",
+    "cricsheetName": "PP Ojha",
+    "espnId": 0,
+    "team": "MI",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/pp-ojha.jpg",
+    "teamColor": "#004EA2",
+    "stats": {
+      "runs": 16,
+      "average": 1.33,
+      "strikeRate": 36.36,
+      "wickets": 89,
+      "economy": 7.58,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      61,
+      82,
+      70,
+      94,
+      74
+    ],
+    "highlights": [
+      "PP Ojha remains a trusted Mumbai Indians bowler option for IPL matchups.",
+      "16 career runs and 89 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes PP Ojha relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 2,
+        "wickets": 14
+      },
+      {
+        "season": 2023,
+        "runs": 3,
+        "wickets": 16
+      },
+      {
+        "season": 2024,
+        "runs": 3,
+        "wickets": 18
+      },
+      {
+        "season": 2025,
+        "runs": 4,
+        "wickets": 20
+      },
+      {
+        "season": 2026,
+        "runs": 4,
+        "wickets": 21
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "kk-ahmed",
+    "name": "KK Ahmed",
+    "cricsheetName": "KK Ahmed",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/kk-ahmed.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 2,
+      "average": 0.4,
+      "strikeRate": 22.22,
+      "wickets": 89,
+      "economy": 9.15,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      48,
+      69,
+      57,
+      81,
+      61
+    ],
+    "highlights": [
+      "KK Ahmed remains a trusted Chennai Super Kings bowler option for IPL matchups.",
+      "2 career runs and 89 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes KK Ahmed relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 0,
+        "wickets": 14
+      },
+      {
+        "season": 2023,
+        "runs": 0,
+        "wickets": 16
+      },
+      {
+        "season": 2024,
+        "runs": 0,
+        "wickets": 18
+      },
+      {
+        "season": 2025,
+        "runs": 0,
+        "wickets": 20
+      },
+      {
+        "season": 2026,
+        "runs": 1,
+        "wickets": 21
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "mm-ali",
+    "name": "MM Ali",
+    "cricsheetName": "MM Ali",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/mm-ali.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 1167,
+      "average": 22.02,
+      "strikeRate": 140.43,
+      "wickets": 41,
+      "economy": 7.28,
+      "hundreds": 0,
+      "fifties": 6,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      21,
+      42,
+      30,
+      54,
+      34
+    ],
+    "highlights": [
+      "MM Ali remains a trusted Kolkata Knight Riders all-rounder option for IPL matchups.",
+      "1167 career runs and 41 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes MM Ali relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 163,
+        "wickets": 7
+      },
+      {
+        "season": 2023,
+        "runs": 198,
+        "wickets": 7
+      },
+      {
+        "season": 2024,
+        "runs": 233,
+        "wickets": 8
+      },
+      {
+        "season": 2025,
+        "runs": 268,
+        "wickets": 9
+      },
+      {
+        "season": 2026,
+        "runs": 303,
+        "wickets": 10
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "ybk-jaiswal",
+    "name": "YBK Jaiswal",
+    "cricsheetName": "YBK Jaiswal",
+    "espnId": 0,
+    "team": "RR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ybk-jaiswal.jpg",
+    "teamColor": "#E91E8C",
+    "stats": {
+      "runs": 2166,
+      "average": 33.84,
+      "strikeRate": 153.4,
+      "wickets": 0,
+      "economy": 36,
+      "hundreds": 1,
+      "fifties": 13,
+      "dismissals": 0
+    },
+    "recentForm": [
+      47,
+      68,
+      56,
+      80,
+      60
+    ],
+    "highlights": [
+      "YBK Jaiswal remains a trusted Rajasthan Royals batsman option for IPL matchups.",
+      "2166 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes YBK Jaiswal relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 303,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 368,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 433,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 498,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 563,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "ks-williamson",
+    "name": "KS Williamson",
+    "cricsheetName": "KS Williamson",
+    "espnId": 0,
+    "team": "GT",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ks-williamson.jpg",
+    "teamColor": "#1B4F8C",
+    "stats": {
+      "runs": 2132,
+      "average": 35.53,
+      "strikeRate": 126,
+      "wickets": 0,
+      "economy": 10.33,
+      "hundreds": 0,
+      "fifties": 12,
+      "dismissals": 0
+    },
+    "recentForm": [
+      15,
+      36,
+      24,
+      48,
+      28
+    ],
+    "highlights": [
+      "KS Williamson remains a trusted Gujarat Titans batsman option for IPL matchups.",
+      "2132 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes KS Williamson relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 298,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 362,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 426,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 490,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 554,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "aj-finch",
+    "name": "AJ Finch",
+    "cricsheetName": "AJ Finch",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/aj-finch.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 2092,
+      "average": 24.9,
+      "strikeRate": 128.66,
+      "wickets": 1,
+      "economy": 9.35,
+      "hundreds": 0,
+      "fifties": 12,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      51,
+      72,
+      60,
+      84,
+      64
+    ],
+    "highlights": [
+      "AJ Finch remains a trusted Kolkata Knight Riders batsman option for IPL matchups.",
+      "2092 career runs and 1 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes AJ Finch relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 293,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 356,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 418,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 481,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 544,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "ac-gilchrist",
+    "name": "AC Gilchrist",
+    "cricsheetName": "AC Gilchrist",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/ac-gilchrist.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 2069,
+      "average": 27.22,
+      "strikeRate": 139.51,
+      "wickets": 1,
+      "economy": 0,
+      "hundreds": 1,
+      "fifties": 9,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      32,
+      53,
+      41,
+      65,
+      45
+    ],
+    "highlights": [
+      "AC Gilchrist remains a trusted Punjab Kings batsman option for IPL matchups.",
+      "2069 career runs and 1 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes AC Gilchrist relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 290,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 352,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 414,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 476,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 538,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "imran-tahir",
+    "name": "Imran Tahir",
+    "cricsheetName": "Imran Tahir",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/imran-tahir.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 33,
+      "average": 8.25,
+      "strikeRate": 89.19,
+      "wickets": 82,
+      "economy": 7.88,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "Imran Tahir remains a trusted Chennai Super Kings bowler option for IPL matchups.",
+      "33 career runs and 82 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes Imran Tahir relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 5,
+        "wickets": 13
+      },
+      {
+        "season": 2023,
+        "runs": 6,
+        "wickets": 15
+      },
+      {
+        "season": 2024,
+        "runs": 7,
+        "wickets": 16
+      },
+      {
+        "season": 2025,
+        "runs": 8,
+        "wickets": 18
+      },
+      {
+        "season": 2026,
+        "runs": 9,
+        "wickets": 20
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "m-morkel",
+    "name": "M Morkel",
+    "cricsheetName": "M Morkel",
+    "espnId": 0,
+    "team": "KKR",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/m-morkel.jpg",
+    "teamColor": "#3A1F6E",
+    "stats": {
+      "runs": 126,
+      "average": 11.45,
+      "strikeRate": 141.57,
+      "wickets": 77,
+      "economy": 7.87,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      52,
+      73,
+      61,
+      85,
+      65
+    ],
+    "highlights": [
+      "M Morkel remains a trusted Kolkata Knight Riders bowler option for IPL matchups.",
+      "126 career runs and 77 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes M Morkel relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 18,
+        "wickets": 12
+      },
+      {
+        "season": 2023,
+        "runs": 21,
+        "wickets": 14
+      },
+      {
+        "season": 2024,
+        "runs": 25,
+        "wickets": 15
+      },
+      {
+        "season": 2025,
+        "runs": 29,
+        "wickets": 17
+      },
+      {
+        "season": 2026,
+        "runs": 33,
+        "wickets": 18
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "mc-henriques",
+    "name": "MC Henriques",
+    "cricsheetName": "MC Henriques",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "All-rounder",
+    "nationality": "Indian",
+    "image": "/images/players/mc-henriques.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 1000,
+      "average": 27.78,
+      "strikeRate": 127.39,
+      "wickets": 42,
+      "economy": 8.22,
+      "hundreds": 0,
+      "fifties": 2,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      12,
+      33,
+      21,
+      45,
+      25
+    ],
+    "highlights": [
+      "MC Henriques remains a trusted Punjab Kings all-rounder option for IPL matchups.",
+      "1000 career runs and 42 wickets give CREX a stable historical baseline.",
+      "All-rounder usage profile makes MC Henriques relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 140,
+        "wickets": 7
+      },
+      {
+        "season": 2023,
+        "runs": 170,
+        "wickets": 8
+      },
+      {
+        "season": 2024,
+        "runs": 200,
+        "wickets": 8
+      },
+      {
+        "season": 2025,
+        "runs": 230,
+        "wickets": 9
+      },
+      {
+        "season": 2026,
+        "runs": 260,
+        "wickets": 10
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "rd-chahar",
+    "name": "RD Chahar",
+    "cricsheetName": "RD Chahar",
+    "espnId": 0,
+    "team": "SRH",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/rd-chahar.jpg",
+    "teamColor": "#F26522",
+    "stats": {
+      "runs": 129,
+      "average": 8.06,
+      "strikeRate": 104.03,
+      "wickets": 75,
+      "economy": 7.81,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      36,
+      57,
+      45,
+      69,
+      49
+    ],
+    "highlights": [
+      "RD Chahar remains a trusted Sunrisers Hyderabad bowler option for IPL matchups.",
+      "129 career runs and 75 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes RD Chahar relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 18,
+        "wickets": 12
+      },
+      {
+        "season": 2023,
+        "runs": 22,
+        "wickets": 14
+      },
+      {
+        "season": 2024,
+        "runs": 26,
+        "wickets": 15
+      },
+      {
+        "season": 2025,
+        "runs": 30,
+        "wickets": 17
+      },
+      {
+        "season": 2026,
+        "runs": 34,
+        "wickets": 18
+      }
+    ],
+    "fantasyTag": "Value Play"
+  },
+  {
+    "id": "s-dube",
+    "name": "S Dube",
+    "cricsheetName": "S Dube",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/s-dube.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 1859,
+      "average": 30.48,
+      "strikeRate": 144.11,
+      "wickets": 5,
+      "economy": 10.79,
+      "hundreds": 0,
+      "fifties": 7,
+      "dismissals": 0,
+      "bestFigures": "4/16"
+    },
+    "recentForm": [
+      69,
+      90,
+      78,
+      102,
+      3
+    ],
+    "highlights": [
+      "S Dube remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "1859 career runs and 5 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes S Dube relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 260,
+        "wickets": 1
+      },
+      {
+        "season": 2023,
+        "runs": 316,
+        "wickets": 1
+      },
+      {
+        "season": 2024,
+        "runs": 372,
+        "wickets": 1
+      },
+      {
+        "season": 2025,
+        "runs": 428,
+        "wickets": 1
+      },
+      {
+        "season": 2026,
+        "runs": 483,
+        "wickets": 1
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "mek-hussey",
+    "name": "MEK Hussey",
+    "cricsheetName": "MEK Hussey",
+    "espnId": 0,
+    "team": "CSK",
+    "role": "Batsman",
+    "nationality": "Indian",
+    "image": "/images/players/mek-hussey.jpg",
+    "teamColor": "#F5A623",
+    "stats": {
+      "runs": 1977,
+      "average": 38.76,
+      "strikeRate": 122.8,
+      "wickets": 0,
+      "economy": 0,
+      "hundreds": 0,
+      "fifties": 10,
+      "dismissals": 0
+    },
+    "recentForm": [
+      70,
+      91,
+      79,
+      0,
+      4
+    ],
+    "highlights": [
+      "MEK Hussey remains a trusted Chennai Super Kings batsman option for IPL matchups.",
+      "1977 career runs and 0 wickets give CREX a stable historical baseline.",
+      "Batsman usage profile makes MEK Hussey relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 277,
+        "wickets": 0
+      },
+      {
+        "season": 2023,
+        "runs": 336,
+        "wickets": 0
+      },
+      {
+        "season": 2024,
+        "runs": 395,
+        "wickets": 0
+      },
+      {
+        "season": 2025,
+        "runs": 455,
+        "wickets": 0
+      },
+      {
+        "season": 2026,
+        "runs": 514,
+        "wickets": 0
+      }
+    ],
+    "fantasyTag": "Form Pick"
+  },
+  {
+    "id": "l-balaji",
+    "name": "L Balaji",
+    "cricsheetName": "L Balaji",
+    "espnId": 0,
+    "team": "PBKS",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "image": "/images/players/l-balaji.jpg",
+    "teamColor": "#D4173A",
+    "stats": {
+      "runs": 36,
+      "average": 4.5,
+      "strikeRate": 73.47,
+      "wickets": 76,
+      "economy": 8.27,
+      "hundreds": 0,
+      "fifties": 0,
+      "dismissals": 0,
+      "bestFigures": "4/34"
+    },
+    "recentForm": [
+      23,
+      44,
+      32,
+      56,
+      36
+    ],
+    "highlights": [
+      "L Balaji remains a trusted Punjab Kings bowler option for IPL matchups.",
+      "36 career runs and 76 wickets give CREX a stable historical baseline.",
+      "Bowler usage profile makes L Balaji relevant for fantasy and matchup analysis across venues."
+    ],
+    "active": true,
+    "career": [
+      {
+        "season": 2022,
+        "runs": 5,
+        "wickets": 12
+      },
+      {
+        "season": 2023,
+        "runs": 6,
+        "wickets": 14
+      },
+      {
+        "season": 2024,
+        "runs": 7,
+        "wickets": 15
+      },
+      {
+        "season": 2025,
+        "runs": 8,
+        "wickets": 17
+      },
+      {
+        "season": 2026,
+        "runs": 9,
+        "wickets": 18
+      }
+    ],
+    "fantasyTag": "Value Play"
+  }
+]

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:crex-assets": "node scripts/generate-crex-assets.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.122.0",
@@ -24,6 +25,7 @@
     "three": "^0.183.2"
   },
   "devDependencies": {
+    "@21st-extension/toolbar": "^0.5.14",
     "@types/canvas-confetti": "^1.9.0",
     "@types/node": "^20",
     "@types/react": "^18",

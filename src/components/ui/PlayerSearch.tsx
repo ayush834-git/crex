@@ -2,13 +2,22 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import { Search } from "lucide-react";
-import type { Player } from "@/data/players";
 import { PlayerImage } from "@/components/player/PlayerImage";
 
+interface SearchPlayer {
+  id: string;
+  name: string;
+  cricsheetName: string;
+  espnId: number;
+  team: string;
+  teamColor: string;
+  role: string;
+}
+
 interface PlayerSearchProps {
-  players: Player[];
-  selected: Player | null;
-  onSelect: (player: Player) => void;
+  players: SearchPlayer[];
+  selected: SearchPlayer | null;
+  onSelect: (player: SearchPlayer) => void;
   placeholder: string;
   showImage?: boolean;
 }
@@ -16,9 +25,13 @@ interface PlayerSearchProps {
 const getRoleBadge = (role: string) => {
   switch (role) {
     case "BATTER": return { bg: "#E63946", text: "#FFF" };
+    case "Batsman": return { bg: "#E63946", text: "#FFF" };
     case "BOWLER": return { bg: "#00C9A7", text: "#080C18" };
+    case "Bowler": return { bg: "#00C9A7", text: "#080C18" };
     case "ALLROUNDER": return { bg: "#9B5DE5", text: "#F5C518" };
+    case "All-rounder": return { bg: "#9B5DE5", text: "#F5C518" };
     case "WICKETKEEPER": return { bg: "#1A1AE6", text: "#F5C518" };
+    case "Wicket-keeper": return { bg: "#1A1AE6", text: "#F5C518" };
     default: return { bg: "#080C18", text: "#FFF" };
   }
 };

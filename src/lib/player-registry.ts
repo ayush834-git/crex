@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import playerStatsData from "../../public/data/player-stats.json"
 
 // Team color map — covers all 10 IPL teams
@@ -93,18 +94,21 @@ const CRICSHEET_NAMES: Record<string, string> = {
 
 export function stitchPlayer(apiPlayer: any) {
   const name: string = apiPlayer.name
-  const teamColor = TEAM_COLORS[apiPlayer.team] ?? TEAM_COLORS[apiPlayer.teamShort] ?? "#9B5DE5"
-  const espnId = ESPN_IDS[name] ?? null
-  const cricsheetName = CRICSHEET_NAMES[name] ?? name
+  // apiPlayer.team on new JSON is the short acronym (e.g. "DC")
+  const teamShort = apiPlayer.teamShort ?? apiPlayer.team
+  const teamColor = apiPlayer.teamColor ?? TEAM_COLORS[apiPlayer.team] ?? TEAM_COLORS[teamShort] ?? "#9B5DE5"
+  
+  const espnId = apiPlayer.espnId !== undefined ? apiPlayer.espnId : (ESPN_IDS[name] ?? null)
+  const cricsheetName = apiPlayer.cricsheetName ?? CRICSHEET_NAMES[name] ?? name
   const cricsheetStats = (playerStatsData as any)[cricsheetName] ?? null
 
   return {
-    id: name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, ""),
+    id: apiPlayer.id ?? name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, ""),
     name,
     cricsheetName,
     espnId,
-    team: apiPlayer.teamShort,
-    teamFull: apiPlayer.team,
+    team: teamShort,
+    teamFull: apiPlayer.teamFull ?? apiPlayer.team,
     teamColor,
     role: apiPlayer.role,
     country: apiPlayer.country ?? "India",
@@ -112,5 +116,6 @@ export function stitchPlayer(apiPlayer: any) {
     bowlingStyle: apiPlayer.bowlingStyle ?? null,
     stats: cricsheetStats, // real Cricsheet stats if available, null if not
     highlights: [], // populated for known players from static data
+    active: apiPlayer.active ?? true,
   }
 }

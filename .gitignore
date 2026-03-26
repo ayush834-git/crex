@@ -41,3 +41,11 @@ next-env.d.ts
 /lint.json
 /tsconfig.scripts.json
 
+# local reference markdown files
+/CREX_CODEX_TASKS.md
+/CREX_COMPONENTS.md
+/CREX_DATA.md
+/CREX_DESIGN_SYSTEM.md
+/CREX_INVESTOR_GRADE.md
+/CREX_MASTER.md
+/CREX_PAGES.md

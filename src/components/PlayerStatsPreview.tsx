@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useRef, useState } from "react";
@@ -190,7 +191,7 @@ export function PlayerStatsPreview() {
                            className="block text-[28px] font-black leading-none" 
                            style={{ fontFamily: "'JetBrains Mono', monospace", color: "#1A1AE6" }}
                         >
-                          {val}
+                          <AnimatedNumber value={val} />
                         </span>
                       </div>
                     ))}
@@ -220,4 +221,45 @@ export function PlayerStatsPreview() {
 
     </section>
   );
+}
+
+function AnimatedNumber({ value }: { value: string | number }) {
+  const nodeRef = useRef<HTMLSpanElement>(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    // If it's a string like "—", just render it, no animation
+    if (typeof value !== 'number') return;
+    
+    const node = nodeRef.current;
+    if (!node) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !hasAnimated) {
+        setHasAnimated(true);
+        const isDecimal = !Number.isInteger(value);
+        
+        // Start at 0
+        node.innerHTML = "0";
+
+        gsap.to(node, {
+          innerHTML: value,
+          duration: 1.5,
+          ease: "power2.out",
+          onUpdate: function() {
+            // GSAP interpolates the innerHTML string into a float internally
+            const currentVal = Number(this.targets()[0].innerHTML);
+            node.innerHTML = isDecimal 
+              ? currentVal.toFixed(2)
+              : Math.floor(currentVal).toString();
+          }
+        });
+      }
+    }, { threshold: 0.1 }); // Trigger as soon as 10% is visible
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [value, hasAnimated]);
+
+  return <span ref={nodeRef}>{typeof value === 'number' && !hasAnimated ? 0 : value}</span>;
 }

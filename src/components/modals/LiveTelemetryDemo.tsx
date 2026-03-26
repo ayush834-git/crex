@@ -1,10 +1,36 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { usePlayers } from "@/hooks/usePlayers";
 import { PlayerSearch } from "@/components/ui/PlayerSearch";
+import { motion } from "framer-motion";
+import gsap from "gsap";
 
 type ShotData = { angle: number; distance: number; runs: number };
+
+function AnimatedNumber({ value }: { value: number }) {
+  const nodeRef = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    const node = nodeRef.current;
+    if (!node) return;
+    
+    node.innerHTML = "0";
+
+    gsap.to(node, {
+      innerHTML: value,
+      duration: 1.5,
+      ease: "power2.out",
+      onUpdate: function() {
+        node.innerHTML = Math.floor(Number(this.targets()[0].innerHTML)).toString();
+      }
+    });
+
+  }, [value]);
+
+  return <span ref={nodeRef}>0</span>;
+}
 
 export function LiveTelemetryDemo() {
   const { players: PLAYERS } = usePlayers();
@@ -57,7 +83,9 @@ export function LiveTelemetryDemo() {
             { label: "RUNS", val: summaryStats.runs },
           ].map((s, i) => (
             <div key={s.label} className="p-3 text-center" style={{ background: i % 2 === 0 ? "#1A1AE6" : "#9B5DE5", border: "2px solid #080C18", boxShadow: "3px 3px 0 #080C18" }}>
-              <span className="block text-xl font-black" style={{ fontFamily: "'JetBrains Mono', monospace", color: "#F5C518" }}>{s.val}</span>
+              <span className="block text-xl font-black" style={{ fontFamily: "'JetBrains Mono', monospace", color: "#F5C518" }}>
+                <AnimatedNumber value={s.val} />
+              </span>
               <span className="block text-[9px] font-bold uppercase tracking-widest text-white mt-1" style={{ fontFamily: "Inter, sans-serif" }}>{s.label}</span>
             </div>
           ))}
@@ -81,9 +109,19 @@ export function LiveTelemetryDemo() {
             const x = Math.sin(rad) * d;
             const y = -Math.cos(rad) * d;
             return (
-              <line key={i} x1="0" y1="0" x2={x} y2={y}
-                stroke={runColor(s.runs)} strokeWidth={s.runs >= 4 ? 2 : 1}
-                opacity={s.runs >= 4 ? 0.9 : 0.5} />
+              <motion.line 
+                key={`${player.id}-${i}`} 
+                x1="0" 
+                y1="0" 
+                x2={x} 
+                y2={y}
+                stroke={runColor(s.runs)} 
+                strokeWidth={s.runs >= 4 ? 2 : 1}
+                opacity={s.runs >= 4 ? 0.9 : 0.5} 
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{ duration: 0.8, delay: i * 0.005, ease: "easeOut" }}
+              />
             );
           })}
 

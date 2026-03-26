@@ -1,0 +1,88 @@
+{
+  "winProbability": [
+    {
+      "matchId": "rcb-vs-srh-ipl2026-m1",
+      "team1": "RCB",
+      "team2": "SRH",
+      "team1WinPct": 55,
+      "team2WinPct": 45,
+      "updatedAt": "2026-03-27T00:00:00Z",
+      "reason": "Defending champions RCB hold Chinnaswamy fortress advantage with a settled squad."
+    },
+    {
+      "matchId": "mi-vs-kkr-ipl2026-m2",
+      "team1": "MI",
+      "team2": "KKR",
+      "team1WinPct": 52,
+      "team2WinPct": 48,
+      "updatedAt": "2026-03-27T00:00:00Z",
+      "reason": "Wankhede conditions and Bumrah's death-over prowess give MI a thin edge."
+    },
+    {
+      "matchId": "rr-vs-csk-ipl2026-m3",
+      "team1": "RR",
+      "team2": "CSK",
+      "team1WinPct": 50,
+      "team2WinPct": 50,
+      "updatedAt": "2026-03-27T00:00:00Z",
+      "reason": "Neutral venue in Guwahati makes this a coin-flip clash between two experienced squads."
+    }
+  ],
+  "fantasyPicks": [
+    { "playerId": "virat-kohli", "label": "Captain Core", "reason": "IPL 2025 champion and elite chasing floor at Chinnaswamy for the opener." },
+    { "playerId": "jasprit-bumrah", "label": "Form Pick", "reason": "Death overs plus Wankhede's gripping surface make him the wicket ceiling play." },
+    { "playerId": "shubman-gill", "label": "Captain Core", "reason": "Anchor upside and boundary rate remain elite in Ahmedabad." },
+    { "playerId": "yashasvi-jaiswal", "label": "Form Pick", "reason": "Fast starts keep his ceiling ahead of the field." },
+    { "playerId": "ravindra-jadeja", "label": "Value Play", "reason": "Two-way points from spin plus finishing role in Chennai." },
+    { "playerId": "rashid-khan", "label": "Captain Core", "reason": "Middle-overs control and late hitting boost all-round value." },
+    { "playerId": "suryakumar-yadav", "label": "Form Pick", "reason": "Strike-rate spike against pace-off bowling at Wankhede." },
+    { "playerId": "jos-buttler", "label": "Form Pick", "reason": "Best matchup on a true batting track." },
+    { "playerId": "rishabh-pant", "label": "Differential", "reason": "Keeper points and finishing equity for DC." },
+    { "playerId": "hardik-pandya", "label": "Value Play", "reason": "Bowling usage trending upward with two-over powerplay role." },
+    { "playerId": "phil-salt", "label": "Captain Core", "reason": "RCB's Q1 hero — 56* off 27 — starts the new season red-hot." }
+  ],
+  "pitchReports": [
+    {
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "averageFirstInnings": 191,
+      "chaseWinRate": 52,
+      "conditions": "Short square boundaries. Bowlers need cutters and yorkers into the pitch."
+    },
+    {
+      "venue": "Wankhede Stadium, Mumbai",
+      "averageFirstInnings": 184,
+      "chaseWinRate": 54,
+      "conditions": "Heavy dew expected. Hard lengths skid and back-half chasing improves."
+    },
+    {
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "averageFirstInnings": 172,
+      "chaseWinRate": 48,
+      "conditions": "True surface with even carry. New IPL venue that tends to assist pacers early."
+    },
+    {
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "averageFirstInnings": 178,
+      "chaseWinRate": 49,
+      "conditions": "Even bounce early, grip for wrist-spin after the 10th over."
+    },
+    {
+      "venue": "Eden Gardens, Kolkata",
+      "averageFirstInnings": 176,
+      "chaseWinRate": 53,
+      "conditions": "Bounce and pace early, spin plays a role after the 12th over under lights."
+    },
+    {
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "averageFirstInnings": 168,
+      "chaseWinRate": 46,
+      "conditions": "Slow turner that rewards patience. Spin dominates the middle overs."
+    },
+    {
+      "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
+      "averageFirstInnings": 175,
+      "chaseWinRate": 50,
+      "conditions": "Good batting surface with some purchase for seamers early on."
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
@@ -9,8 +10,8 @@ interface H2HRecord { balls: number; runs: number; dismissals: number; dots: num
 
 export function PlayerMatchupsDemo() {
   const { players } = usePlayers();
-  const batters = useMemo(() => players.filter((p: any) => ["BATTER", "WICKETKEEPER", "ALLROUNDER"].includes(p.role)), [players]);
-  const bowlers = useMemo(() => players.filter((p: any) => ["BOWLER", "ALLROUNDER"].includes(p.role)), [players]);
+  const batters = useMemo(() => players.filter((p: any) => ["Batsman", "Wicket-keeper", "All-rounder"].includes(p.role)), [players]);
+  const bowlers = useMemo(() => players.filter((p: any) => ["Bowler", "All-rounder"].includes(p.role)), [players]);
 
   const [h2hData, setH2hData] = useState<Record<string, H2HRecord>>({});
   const [batter, setBatter] = useState<any | null>(null);

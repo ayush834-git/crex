@@ -225,7 +225,7 @@ for (const file of files) {
       }
 
       // End of innings — check not-out batters for milestones
-      for (const [batterName, runs] of inningsTracker.entries()) {
+      for (const [batterName, runs] of Array.from(inningsTracker.entries())) {
         const bat = getBat(batterName);
         if (runs > bat.highest) bat.highest = runs;
         // Only count milestones for not-out batters if they weren't dismissed this innings
@@ -239,7 +239,7 @@ for (const file of files) {
 
 // ─── 1. player-stats.json ────────────────────────────────────
 const playerStatsOut: Record<string, any> = {};
-for (const [name, bat] of playerBatting.entries()) {
+for (const [name, bat] of Array.from(playerBatting.entries())) {
   const bowl = playerBowling.get(name);
   playerStatsOut[name] = {
     batting: {
@@ -271,7 +271,7 @@ console.log(`player-stats.json: ${Object.keys(playerStatsOut).length} players`);
 
 // ─── 2. head-to-head.json ────────────────────────────────────
 const h2hOut: Record<string, any> = {};
-for (const [key, h] of h2hMap.entries()) {
+for (const [key, h] of Array.from(h2hMap.entries())) {
   if (h.balls >= 6) { // Only include meaningful matchups (at least 1 over)
     h2hOut[key] = {
       ...h,
@@ -444,7 +444,7 @@ for (const { match } of allMatches) {
 }
 
 const winProbOut: { buckets: WinBucket[] } = { buckets: [] };
-for (const [key, val] of winBuckets.entries()) {
+for (const [key, val] of Array.from(winBuckets.entries())) {
   if (val.total < 3) continue; // need at least 3 data points
   const [over, wickets, target_bracket, need_bracket] = key.split("_");
   winProbOut.buckets.push({
@@ -460,4 +460,77 @@ for (const [key, val] of winBuckets.entries()) {
 fs.writeFileSync(path.join(outDir, "win-probability.json"), JSON.stringify(winProbOut, null, 2));
 console.log(`win-probability.json: ${winProbOut.buckets.length} buckets`);
 
-console.log("\n✅ All 5 data files generated in public/data/");
+// ─── 6. registered-players.json ─────────────────────────────
+// Extract a clean list of all players with inferred team/role
+const registeredPlayers: any[] = [];
+const teamTracker = new Map<string, string>(); // track last known team
+
+// Re-iterate the match list in chronological order to find newest team
+const matchesCron = [...allMatches].sort((a, b) => {
+  const da = a.match.info.dates[0] || "";
+  const db = b.match.info.dates[0] || "";
+  return da.localeCompare(db);
+});
+
+for (const { match } of matchesCron) {
+  for (const inn of match.innings) {
+    const batTeam = inn.team;
+    let bowlTeam = "";
+    if (match.info.teams) {
+       bowlTeam = match.info.teams.find((t: string) => t !== batTeam) || "";
+    }
+    for (const over of inn.overs) {
+      for (const del of over.deliveries) {
+        teamTracker.set(del.batter, batTeam);
+        teamTracker.set(del.non_striker, batTeam);
+        if (bowlTeam) teamTracker.set(del.bowler, bowlTeam);
+      }
+    }
+  }
+}
+
+for (const [name, bat] of Array.from(playerBatting.entries())) {
+  const bowl = playerBowling.get(name);
+  let role = "BATTER";
+  const w = bowl?.wickets || 0;
+  
+  if (w > 20 && bat.runs > 500) role = "ALLROUNDER";
+  else if (w > 10 && bat.runs < 300) role = "BOWLER";
+  else if (w > 0 && bat.runs < 100) role = "BOWLER";
+  
+  // Basic heuristic for wicketkeepers
+  if (["MS Dhoni", "KL Rahul", "RR Pant", "KD Karthik", "WP Saha", "Q de Kock", "JC Buttler", "Ishan Kishan", "SV Samson"].includes(name)) {
+    role = "WICKETKEEPER";
+  }
+
+  const team = teamTracker.get(name) || "UNKNOWN";
+  
+  // Assign generic colors based on team mapped to IPL roughly
+  let teamColor = "#080C18";
+  if (team.includes("Chennai") || team === "CSK") teamColor = "#F5A623";
+  else if (team.includes("Mumbai") || team === "MI") teamColor = "#004EA2";
+  else if (team.includes("Royal Challengers") || team === "RCB") teamColor = "#E63946";
+  else if (team.includes("Kolkata") || team === "KKR") teamColor = "#3A1F6E";
+  else if (team.includes("Delhi") || team === "DC") teamColor = "#0078FF";
+  else if (team.includes("Rajasthan") || team === "RR") teamColor = "#E91E8C";
+  else if (team.includes("Punjab") || team === "PBKS") teamColor = "#D4173A";
+  else if (team.includes("Sunrisers") || team === "SRH") teamColor = "#F26522";
+  else if (team.includes("Gujarat") || team === "GT") teamColor = "#1B4F8C";
+  else if (team.includes("Lucknow") || team === "LSG") teamColor = "#00B4D8";
+
+  registeredPlayers.push({
+    id: name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+    name: name,
+    cricsheetName: name,
+    espnId: 0, // DUMMY id to force wikipedia fallback search
+    team: team.split(" ").map((w: string) => w[0]).join("").slice(0, 3).toUpperCase(),
+    teamColor,
+    role,
+    active: true // Just mocking them all active for the UI
+  });
+}
+
+fs.writeFileSync(path.join(outDir, "registered-players.json"), JSON.stringify(registeredPlayers, null, 2));
+console.log(`registered-players.json: ${registeredPlayers.length} players`);
+
+console.log("\n✅ All data files generated in public/data/");

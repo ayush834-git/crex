@@ -1,0 +1,226 @@
+[
+  {
+    "id": "rcb-vs-pbks-ipl2025-final",
+    "status": "completed",
+    "title": "Royal Challengers Bengaluru vs Punjab Kings - IPL 2025 Final",
+    "team1": {
+      "name": "Royal Challengers Bengaluru",
+      "abbr": "RCB",
+      "logo": "/images/teams/rcb.svg",
+      "score": "190/9 (20)"
+    },
+    "team2": {
+      "name": "Punjab Kings",
+      "abbr": "PBKS",
+      "logo": "/images/teams/pbks.svg",
+      "score": "184/7 (20)"
+    },
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "startTime": "2025-06-03T14:00:00Z",
+    "updatedAt": "2025-06-03T18:00:00Z",
+    "currentInnings": 2,
+    "oversBowled": "20",
+    "runRate": "9.2",
+    "result": "RCB won by 6 runs",
+    "note": "Krunal Pandya 2/17 as RCB clinch their maiden IPL title",
+    "series": "IPL 2025"
+  },
+  {
+    "id": "rcb-vs-pbks-ipl2025-q1",
+    "status": "completed",
+    "title": "Royal Challengers Bengaluru vs Punjab Kings - Qualifier 1",
+    "team1": {
+      "name": "Punjab Kings",
+      "abbr": "PBKS",
+      "logo": "/images/teams/pbks.svg",
+      "score": "101 (14.1)"
+    },
+    "team2": {
+      "name": "Royal Challengers Bengaluru",
+      "abbr": "RCB",
+      "logo": "/images/teams/rcb.svg",
+      "score": "102/2 (10)"
+    },
+    "venue": "Maharaja Yadavindra Singh Intl Stadium, Mullanpur",
+    "startTime": "2025-05-29T14:00:00Z",
+    "updatedAt": "2025-05-29T17:30:00Z",
+    "currentInnings": 2,
+    "oversBowled": "10",
+    "runRate": "10.2",
+    "result": "RCB won by 8 wickets",
+    "note": "Phil Salt 56* off 27 balls, Hazlewood and Suyash Sharma 3 wickets each",
+    "series": "IPL 2025"
+  },
+  {
+    "id": "mi-vs-gt-ipl2025-eliminator",
+    "status": "completed",
+    "title": "Mumbai Indians vs Gujarat Titans - Eliminator",
+    "team1": {
+      "name": "Mumbai Indians",
+      "abbr": "MI",
+      "logo": "/images/teams/mi.svg",
+      "score": "167/6 (20)"
+    },
+    "team2": {
+      "name": "Gujarat Titans",
+      "abbr": "GT",
+      "logo": "/images/teams/gt.svg",
+      "score": "155/8 (20)"
+    },
+    "venue": "Maharaja Yadavindra Singh Intl Stadium, Mullanpur",
+    "startTime": "2025-05-30T14:00:00Z",
+    "updatedAt": "2025-05-30T18:00:00Z",
+    "currentInnings": 2,
+    "oversBowled": "20",
+    "runRate": "7.75",
+    "result": "MI won by 12 runs",
+    "note": "Mumbai scrape through the Eliminator to face PBKS",
+    "series": "IPL 2025"
+  },
+  {
+    "id": "pbks-vs-mi-ipl2025-q2",
+    "status": "completed",
+    "title": "Punjab Kings vs Mumbai Indians - Qualifier 2",
+    "team1": {
+      "name": "Punjab Kings",
+      "abbr": "PBKS",
+      "logo": "/images/teams/pbks.svg",
+      "score": "176/5 (20)"
+    },
+    "team2": {
+      "name": "Mumbai Indians",
+      "abbr": "MI",
+      "logo": "/images/teams/mi.svg",
+      "score": "162/7 (20)"
+    },
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "startTime": "2025-06-01T14:00:00Z",
+    "updatedAt": "2025-06-01T18:00:00Z",
+    "currentInnings": 2,
+    "oversBowled": "20",
+    "runRate": "8.1",
+    "result": "PBKS won by 14 runs",
+    "note": "Punjab Kings book their final spot at Ahmedabad",
+    "series": "IPL 2025"
+  },
+  {
+    "id": "rcb-vs-srh-ipl2026-m1",
+    "status": "upcoming",
+    "title": "Royal Challengers Bengaluru vs Sunrisers Hyderabad - Match 1",
+    "team1": {
+      "name": "Royal Challengers Bengaluru",
+      "abbr": "RCB",
+      "logo": "/images/teams/rcb.svg"
+    },
+    "team2": {
+      "name": "Sunrisers Hyderabad",
+      "abbr": "SRH",
+      "logo": "/images/teams/srh.svg"
+    },
+    "venue": "M Chinnaswamy Stadium, Bengaluru",
+    "startTime": "2026-03-28T14:00:00Z",
+    "updatedAt": "2026-03-27T00:00:00Z",
+    "note": "Season opener — defending champions RCB kick off IPL 2026",
+    "series": "IPL 2026"
+  },
+  {
+    "id": "mi-vs-kkr-ipl2026-m2",
+    "status": "upcoming",
+    "title": "Mumbai Indians vs Kolkata Knight Riders - Match 2",
+    "team1": {
+      "name": "Mumbai Indians",
+      "abbr": "MI",
+      "logo": "/images/teams/mi.svg"
+    },
+    "team2": {
+      "name": "Kolkata Knight Riders",
+      "abbr": "KKR",
+      "logo": "/images/teams/kkr.svg"
+    },
+    "venue": "Wankhede Stadium, Mumbai",
+    "startTime": "2026-03-29T14:00:00Z",
+    "updatedAt": "2026-03-27T00:00:00Z",
+    "note": "Mumbai host KKR in the second game of the season",
+    "series": "IPL 2026"
+  },
+  {
+    "id": "rr-vs-csk-ipl2026-m3",
+    "status": "upcoming",
+    "title": "Rajasthan Royals vs Chennai Super Kings - Match 3",
+    "team1": {
+      "name": "Rajasthan Royals",
+      "abbr": "RR",
+      "logo": "/images/teams/rr.svg"
+    },
+    "team2": {
+      "name": "Chennai Super Kings",
+      "abbr": "CSK",
+      "logo": "/images/teams/csk.svg"
+    },
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "startTime": "2026-03-30T14:00:00Z",
+    "updatedAt": "2026-03-27T00:00:00Z",
+    "note": "Royals take on CSK in Guwahati",
+    "series": "IPL 2026"
+  },
+  {
+    "id": "pbks-vs-gt-ipl2026-m4",
+    "status": "upcoming",
+    "title": "Punjab Kings vs Gujarat Titans - Match 4",
+    "team1": {
+      "name": "Punjab Kings",
+      "abbr": "PBKS",
+      "logo": "/images/teams/pbks.svg"
+    },
+    "team2": {
+      "name": "Gujarat Titans",
+      "abbr": "GT",
+      "logo": "/images/teams/gt.svg"
+    },
+    "venue": "Maharaja Yadavindra Singh Intl Stadium, New Chandigarh",
+    "startTime": "2026-03-31T14:00:00Z",
+    "updatedAt": "2026-03-27T00:00:00Z",
+    "note": "Finalists PBKS open their new campaign at home",
+    "series": "IPL 2026"
+  },
+  {
+    "id": "lsg-vs-dc-ipl2026-m5",
+    "status": "upcoming",
+    "title": "Lucknow Super Giants vs Delhi Capitals - Match 5",
+    "team1": {
+      "name": "Lucknow Super Giants",
+      "abbr": "LSG",
+      "logo": "/images/teams/lsg.svg"
+    },
+    "team2": {
+      "name": "Delhi Capitals",
+      "abbr": "DC",
+      "logo": "/images/teams/dc.svg"
+    },
+    "venue": "BRSABV Ekana Cricket Stadium, Lucknow",
+    "startTime": "2026-04-01T14:00:00Z",
+    "updatedAt": "2026-03-27T00:00:00Z",
+    "note": "LSG host the Capitals in the North Indian derby",
+    "series": "IPL 2026"
+  },
+  {
+    "id": "kkr-vs-srh-ipl2026-m6",
+    "status": "upcoming",
+    "title": "Kolkata Knight Riders vs Sunrisers Hyderabad - Match 6",
+    "team1": {
+      "name": "Kolkata Knight Riders",
+      "abbr": "KKR",
+      "logo": "/images/teams/kkr.svg"
+    },
+    "team2": {
+      "name": "Sunrisers Hyderabad",
+      "abbr": "SRH",
+      "logo": "/images/teams/srh.svg"
+    },
+    "venue": "Eden Gardens, Kolkata",
+    "startTime": "2026-04-02T14:00:00Z",
+    "updatedAt": "2026-03-27T00:00:00Z",
+    "note": "Eden Gardens fixture under lights",
+    "series": "IPL 2026"
+  }
+]

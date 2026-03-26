@@ -1,0 +1,7042 @@
+[
+  {
+    "id": "da-warner",
+    "name": "DA Warner",
+    "cricsheetName": "DA Warner",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-dhawan",
+    "name": "S Dhawan",
+    "cricsheetName": "S Dhawan",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mc-henriques",
+    "name": "MC Henriques",
+    "cricsheetName": "MC Henriques",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "yuvraj-singh",
+    "name": "Yuvraj Singh",
+    "cricsheetName": "Yuvraj Singh",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "dj-hooda",
+    "name": "DJ Hooda",
+    "cricsheetName": "DJ Hooda",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "bcj-cutting",
+    "name": "BCJ Cutting",
+    "cricsheetName": "BCJ Cutting",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ch-gayle",
+    "name": "CH Gayle",
+    "cricsheetName": "CH Gayle",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mandeep-singh",
+    "name": "Mandeep Singh",
+    "cricsheetName": "Mandeep Singh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tm-head",
+    "name": "TM Head",
+    "cricsheetName": "TM Head",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "km-jadhav",
+    "name": "KM Jadhav",
+    "cricsheetName": "KM Jadhav",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sr-watson",
+    "name": "SR Watson",
+    "cricsheetName": "SR Watson",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "sachin-baby",
+    "name": "Sachin Baby",
+    "cricsheetName": "Sachin Baby",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "str-binny",
+    "name": "STR Binny",
+    "cricsheetName": "STR Binny",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "s-aravind",
+    "name": "S Aravind",
+    "cricsheetName": "S Aravind",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ys-chahal",
+    "name": "YS Chahal",
+    "cricsheetName": "YS Chahal",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ts-mills",
+    "name": "TS Mills",
+    "cricsheetName": "TS Mills",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-choudhary",
+    "name": "A Choudhary",
+    "cricsheetName": "A Choudhary",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pa-patel",
+    "name": "PA Patel",
+    "cricsheetName": "PA Patel",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jc-buttler",
+    "name": "JC Buttler",
+    "cricsheetName": "JC Buttler",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "rg-sharma",
+    "name": "RG Sharma",
+    "cricsheetName": "RG Sharma",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "n-rana",
+    "name": "N Rana",
+    "cricsheetName": "N Rana",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "at-rayudu",
+    "name": "AT Rayudu",
+    "cricsheetName": "AT Rayudu",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kh-pandya",
+    "name": "KH Pandya",
+    "cricsheetName": "KH Pandya",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "ka-pollard",
+    "name": "KA Pollard",
+    "cricsheetName": "KA Pollard",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "hh-pandya",
+    "name": "HH Pandya",
+    "cricsheetName": "HH Pandya",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "tg-southee",
+    "name": "TG Southee",
+    "cricsheetName": "TG Southee",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "am-rahane",
+    "name": "AM Rahane",
+    "cricsheetName": "AM Rahane",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ma-agarwal",
+    "name": "MA Agarwal",
+    "cricsheetName": "MA Agarwal",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "spd-smith",
+    "name": "SPD Smith",
+    "cricsheetName": "SPD Smith",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ba-stokes",
+    "name": "BA Stokes",
+    "cricsheetName": "BA Stokes",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "ms-dhoni",
+    "name": "MS Dhoni",
+    "cricsheetName": "MS Dhoni",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "jj-roy",
+    "name": "JJ Roy",
+    "cricsheetName": "JJ Roy",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "bb-mccullum",
+    "name": "BB McCullum",
+    "cricsheetName": "BB McCullum",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sk-raina",
+    "name": "SK Raina",
+    "cricsheetName": "SK Raina",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "aj-finch",
+    "name": "AJ Finch",
+    "cricsheetName": "AJ Finch",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kd-karthik",
+    "name": "KD Karthik",
+    "cricsheetName": "KD Karthik",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "g-gambhir",
+    "name": "G Gambhir",
+    "cricsheetName": "G Gambhir",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ca-lynn",
+    "name": "CA Lynn",
+    "cricsheetName": "CA Lynn",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mk-tiwary",
+    "name": "MK Tiwary",
+    "cricsheetName": "MK Tiwary",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dt-christian",
+    "name": "DT Christian",
+    "cricsheetName": "DT Christian",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "hm-amla",
+    "name": "HM Amla",
+    "cricsheetName": "HM Amla",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "m-vohra",
+    "name": "M Vohra",
+    "cricsheetName": "M Vohra",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "wp-saha",
+    "name": "WP Saha",
+    "cricsheetName": "WP Saha",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "ar-patel",
+    "name": "AR Patel",
+    "cricsheetName": "AR Patel",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "gj-maxwell",
+    "name": "GJ Maxwell",
+    "cricsheetName": "GJ Maxwell",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "da-miller",
+    "name": "DA Miller",
+    "cricsheetName": "DA Miller",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "vishnu-vinod",
+    "name": "Vishnu Vinod",
+    "cricsheetName": "Vishnu Vinod",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "iqbal-abdulla",
+    "name": "Iqbal Abdulla",
+    "cricsheetName": "Iqbal Abdulla",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "p-negi",
+    "name": "P Negi",
+    "cricsheetName": "P Negi",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ap-tare",
+    "name": "AP Tare",
+    "cricsheetName": "AP Tare",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sw-billings",
+    "name": "SW Billings",
+    "cricsheetName": "SW Billings",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kk-nair",
+    "name": "KK Nair",
+    "cricsheetName": "KK Nair",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sv-samson",
+    "name": "SV Samson",
+    "cricsheetName": "SV Samson",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "rr-pant",
+    "name": "RR Pant",
+    "cricsheetName": "RR Pant",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "ch-morris",
+    "name": "CH Morris",
+    "cricsheetName": "CH Morris",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "cr-brathwaite",
+    "name": "CR Brathwaite",
+    "cricsheetName": "CR Brathwaite",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pj-cummins",
+    "name": "PJ Cummins",
+    "cricsheetName": "PJ Cummins",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "a-mishra",
+    "name": "A Mishra",
+    "cricsheetName": "A Mishra",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-nadeem",
+    "name": "S Nadeem",
+    "cricsheetName": "S Nadeem",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "z-khan",
+    "name": "Z Khan",
+    "cricsheetName": "Z Khan",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dr-smith",
+    "name": "DR Smith",
+    "cricsheetName": "DR Smith",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "ds-kulkarni",
+    "name": "DS Kulkarni",
+    "cricsheetName": "DS Kulkarni",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "p-kumar",
+    "name": "P Kumar",
+    "cricsheetName": "P Kumar",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "basil-thampi",
+    "name": "Basil Thampi",
+    "cricsheetName": "Basil Thampi",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rv-uthappa",
+    "name": "RV Uthappa",
+    "cricsheetName": "RV Uthappa",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mk-pandey",
+    "name": "MK Pandey",
+    "cricsheetName": "MK Pandey",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "yk-pathan",
+    "name": "YK Pathan",
+    "cricsheetName": "YK Pathan",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "sa-yadav",
+    "name": "SA Yadav",
+    "cricsheetName": "SA Yadav",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "cr-woakes",
+    "name": "CR Woakes",
+    "cricsheetName": "CR Woakes",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sp-narine",
+    "name": "SP Narine",
+    "cricsheetName": "SP Narine",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "harbhajan-singh",
+    "name": "Harbhajan Singh",
+    "cricsheetName": "Harbhajan Singh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "ab-de-villiers",
+    "name": "AB de Villiers",
+    "cricsheetName": "AB de Villiers",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "cj-anderson",
+    "name": "CJ Anderson",
+    "cricsheetName": "CJ Anderson",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "f-du-plessis",
+    "name": "F du Plessis",
+    "cricsheetName": "F du Plessis",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ra-tripathi",
+    "name": "RA Tripathi",
+    "cricsheetName": "RA Tripathi",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-bhatia",
+    "name": "R Bhatia",
+    "cricsheetName": "R Bhatia",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dl-chahar",
+    "name": "DL Chahar",
+    "cricsheetName": "DL Chahar",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-zampa",
+    "name": "A Zampa",
+    "cricsheetName": "A Zampa",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ab-dinda",
+    "name": "AB Dinda",
+    "cricsheetName": "AB Dinda",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "imran-tahir",
+    "name": "Imran Tahir",
+    "cricsheetName": "Imran Tahir",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "nv-ojha",
+    "name": "NV Ojha",
+    "cricsheetName": "NV Ojha",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "v-shankar",
+    "name": "V Shankar",
+    "cricsheetName": "V Shankar",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rashid-khan",
+    "name": "Rashid Khan",
+    "cricsheetName": "Rashid Khan",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "b-kumar",
+    "name": "B Kumar",
+    "cricsheetName": "B Kumar",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mp-stoinis",
+    "name": "MP Stoinis",
+    "cricsheetName": "MP Stoinis",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "mm-sharma",
+    "name": "MM Sharma",
+    "cricsheetName": "MM Sharma",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vr-aaron",
+    "name": "VR Aaron",
+    "cricsheetName": "VR Aaron",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "v-kohli",
+    "name": "V Kohli",
+    "cricsheetName": "V Kohli",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mj-mcclenaghan",
+    "name": "MJ McClenaghan",
+    "cricsheetName": "MJ McClenaghan",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ankit-sharma",
+    "name": "Ankit Sharma",
+    "cricsheetName": "Ankit Sharma",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sn-thakur",
+    "name": "SN Thakur",
+    "cricsheetName": "SN Thakur",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rd-chahar",
+    "name": "RD Chahar",
+    "cricsheetName": "RD Chahar",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "lh-ferguson",
+    "name": "LH Ferguson",
+    "cricsheetName": "LH Ferguson",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "c-de-grandhomme",
+    "name": "C de Grandhomme",
+    "cricsheetName": "C de Grandhomme",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "bipul-sharma",
+    "name": "Bipul Sharma",
+    "cricsheetName": "Bipul Sharma",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ss-iyer",
+    "name": "SS Iyer",
+    "cricsheetName": "SS Iyer",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ejg-morgan",
+    "name": "EJG Morgan",
+    "cricsheetName": "EJG Morgan",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kc-cariappa",
+    "name": "KC Cariappa",
+    "cricsheetName": "KC Cariappa",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sandeep-sharma",
+    "name": "Sandeep Sharma",
+    "cricsheetName": "Sandeep Sharma",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ishan-kishan",
+    "name": "Ishan Kishan",
+    "cricsheetName": "Ishan Kishan",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "jd-unadkat",
+    "name": "JD Unadkat",
+    "cricsheetName": "JD Unadkat",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "af-milne",
+    "name": "AF Milne",
+    "cricsheetName": "AF Milne",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-badree",
+    "name": "S Badree",
+    "cricsheetName": "S Badree",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ad-mathews",
+    "name": "AD Mathews",
+    "cricsheetName": "AD Mathews",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "mohammed-shami",
+    "name": "Mohammed Shami",
+    "cricsheetName": "Mohammed Shami",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mohammad-nabi",
+    "name": "Mohammad Nabi",
+    "cricsheetName": "Mohammad Nabi",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "i-sharma",
+    "name": "I Sharma",
+    "cricsheetName": "I Sharma",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ra-jadeja",
+    "name": "RA Jadeja",
+    "cricsheetName": "RA Jadeja",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "aj-tye",
+    "name": "AJ Tye",
+    "cricsheetName": "AJ Tye",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ks-williamson",
+    "name": "KS Williamson",
+    "cricsheetName": "KS Williamson",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "se-marsh",
+    "name": "SE Marsh",
+    "cricsheetName": "SE Marsh",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shakib-al-hasan",
+    "name": "Shakib Al Hasan",
+    "cricsheetName": "Shakib Al Hasan",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "jp-faulkner",
+    "name": "JP Faulkner",
+    "cricsheetName": "JP Faulkner",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "mg-johnson",
+    "name": "MG Johnson",
+    "cricsheetName": "MG Johnson",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "k-rabada",
+    "name": "K Rabada",
+    "cricsheetName": "K Rabada",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ad-nath",
+    "name": "AD Nath",
+    "cricsheetName": "AD Nath",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "nm-coulter-nile",
+    "name": "NM Coulter-Nile",
+    "cricsheetName": "NM Coulter-Nile",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kuldeep-yadav",
+    "name": "Kuldeep Yadav",
+    "cricsheetName": "Kuldeep Yadav",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ut-yadav",
+    "name": "UT Yadav",
+    "cricsheetName": "UT Yadav",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "washington-sundar",
+    "name": "Washington Sundar",
+    "cricsheetName": "Washington Sundar",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "kv-sharma",
+    "name": "KV Sharma",
+    "cricsheetName": "KV Sharma",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dm-bravo",
+    "name": "DM Bravo",
+    "cricsheetName": "DM Bravo",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ar-bawne",
+    "name": "AR Bawne",
+    "cricsheetName": "AR Bawne",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sp-jackson",
+    "name": "SP Jackson",
+    "cricsheetName": "SP Jackson",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mj-guptill",
+    "name": "MJ Guptill",
+    "cricsheetName": "MJ Guptill",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "anureet-singh",
+    "name": "Anureet Singh",
+    "cricsheetName": "Anureet Singh",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ik-pathan",
+    "name": "IK Pathan",
+    "cricsheetName": "IK Pathan",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "ankit-soni",
+    "name": "Ankit Soni",
+    "cricsheetName": "Ankit Soni",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jj-bumrah",
+    "name": "JJ Bumrah",
+    "cricsheetName": "JJ Bumrah",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sl-malinga",
+    "name": "SL Malinga",
+    "cricsheetName": "SL Malinga",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pj-sangwan",
+    "name": "PJ Sangwan",
+    "cricsheetName": "PJ Sangwan",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-kaul",
+    "name": "S Kaul",
+    "cricsheetName": "S Kaul",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "lmp-simmons",
+    "name": "LMP Simmons",
+    "cricsheetName": "LMP Simmons",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mn-samuels",
+    "name": "MN Samuels",
+    "cricsheetName": "MN Samuels",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "swapnil-singh",
+    "name": "Swapnil Singh",
+    "cricsheetName": "Swapnil Singh",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-tewatia",
+    "name": "R Tewatia",
+    "cricsheetName": "R Tewatia",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "mm-patel",
+    "name": "MM Patel",
+    "cricsheetName": "MM Patel",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ss-tiwary",
+    "name": "SS Tiwary",
+    "cricsheetName": "SS Tiwary",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ta-boult",
+    "name": "TA Boult",
+    "cricsheetName": "TA Boult",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "cj-jordan",
+    "name": "CJ Jordan",
+    "cricsheetName": "CJ Jordan",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ir-jaggi",
+    "name": "IR Jaggi",
+    "cricsheetName": "IR Jaggi",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pp-chawla",
+    "name": "PP Chawla",
+    "cricsheetName": "PP Chawla",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "as-rajpoot",
+    "name": "AS Rajpoot",
+    "cricsheetName": "AS Rajpoot",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "e-lewis",
+    "name": "E Lewis",
+    "cricsheetName": "E Lewis",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dj-bravo",
+    "name": "DJ Bravo",
+    "cricsheetName": "DJ Bravo",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "ma-wood",
+    "name": "MA Wood",
+    "cricsheetName": "MA Wood",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "c-munro",
+    "name": "C Munro",
+    "cricsheetName": "C Munro",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kl-rahul",
+    "name": "KL Rahul",
+    "cricsheetName": "KL Rahul",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "q-de-kock",
+    "name": "Q de Kock",
+    "cricsheetName": "Q de Kock",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "WICKETKEEPER",
+    "active": true
+  },
+  {
+    "id": "sn-khan",
+    "name": "SN Khan",
+    "cricsheetName": "SN Khan",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rk-singh",
+    "name": "RK Singh",
+    "cricsheetName": "RK Singh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ad-russell",
+    "name": "AD Russell",
+    "cricsheetName": "AD Russell",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "r-vinay-kumar",
+    "name": "R Vinay Kumar",
+    "cricsheetName": "R Vinay Kumar",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "djm-short",
+    "name": "DJM Short",
+    "cricsheetName": "DJM Short",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "k-gowtham",
+    "name": "K Gowtham",
+    "cricsheetName": "K Gowtham",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-gopal",
+    "name": "S Gopal",
+    "cricsheetName": "S Gopal",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "b-laughlin",
+    "name": "B Laughlin",
+    "cricsheetName": "B Laughlin",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "tk-curran",
+    "name": "TK Curran",
+    "cricsheetName": "TK Curran",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-markande",
+    "name": "M Markande",
+    "cricsheetName": "M Markande",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "b-stanlake",
+    "name": "B Stanlake",
+    "cricsheetName": "B Stanlake",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-ashwin",
+    "name": "R Ashwin",
+    "cricsheetName": "R Ashwin",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "mujeeb-ur-rahman",
+    "name": "Mujeeb Ur Rahman",
+    "cricsheetName": "Mujeeb Ur Rahman",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-dananjaya",
+    "name": "A Dananjaya",
+    "cricsheetName": "A Dananjaya",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shubman-gill",
+    "name": "Shubman Gill",
+    "cricsheetName": "Shubman Gill",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shivam-mavi",
+    "name": "Shivam Mavi",
+    "cricsheetName": "Shivam Mavi",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-vijay",
+    "name": "M Vijay",
+    "cricsheetName": "M Vijay",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mohammed-siraj",
+    "name": "Mohammed Siraj",
+    "cricsheetName": "Mohammed Siraj",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "h-klaasen",
+    "name": "H Klaasen",
+    "cricsheetName": "H Klaasen",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rk-bhui",
+    "name": "RK Bhui",
+    "cricsheetName": "RK Bhui",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jc-archer",
+    "name": "JC Archer",
+    "cricsheetName": "JC Archer",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "bb-sran",
+    "name": "BB Sran",
+    "cricsheetName": "BB Sran",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pp-shaw",
+    "name": "PP Shaw",
+    "cricsheetName": "PP Shaw",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "le-plunkett",
+    "name": "LE Plunkett",
+    "cricsheetName": "LE Plunkett",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mustafizur-rahman",
+    "name": "Mustafizur Rahman",
+    "cricsheetName": "Mustafizur Rahman",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ad-hales",
+    "name": "AD Hales",
+    "cricsheetName": "AD Hales",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mk-lomror",
+    "name": "MK Lomror",
+    "cricsheetName": "MK Lomror",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jp-duminy",
+    "name": "JP Duminy",
+    "cricsheetName": "JP Duminy",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "m-ashwin",
+    "name": "M Ashwin",
+    "cricsheetName": "M Ashwin",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dr-shorey",
+    "name": "DR Shorey",
+    "cricsheetName": "DR Shorey",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mm-ali",
+    "name": "MM Ali",
+    "cricsheetName": "MM Ali",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "m-prasidh-krishna",
+    "name": "M Prasidh Krishna",
+    "cricsheetName": "M Prasidh Krishna",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "hv-patel",
+    "name": "HV Patel",
+    "cricsheetName": "HV Patel",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "p-chopra",
+    "name": "P Chopra",
+    "cricsheetName": "P Chopra",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jpr-scantlebury-searles",
+    "name": "JPR Scantlebury-Searles",
+    "cricsheetName": "JPR Scantlebury-Searles",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "abhishek-sharma",
+    "name": "Abhishek Sharma",
+    "cricsheetName": "Abhishek Sharma",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "is-sodhi",
+    "name": "IS Sodhi",
+    "cricsheetName": "IS Sodhi",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sp-goswami",
+    "name": "SP Goswami",
+    "cricsheetName": "SP Goswami",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "so-hetmyer",
+    "name": "SO Hetmyer",
+    "cricsheetName": "SO Hetmyer",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-dube",
+    "name": "S Dube",
+    "cricsheetName": "S Dube",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "navdeep-saini",
+    "name": "Navdeep Saini",
+    "cricsheetName": "Navdeep Saini",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jm-bairstow",
+    "name": "JM Bairstow",
+    "cricsheetName": "JM Bairstow",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ca-ingram",
+    "name": "CA Ingram",
+    "cricsheetName": "CA Ingram",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kma-paul",
+    "name": "KMA Paul",
+    "cricsheetName": "KMA Paul",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rasikh-salam",
+    "name": "Rasikh Salam",
+    "cricsheetName": "Rasikh Salam",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "n-pooran",
+    "name": "N Pooran",
+    "cricsheetName": "N Pooran",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ns-naik",
+    "name": "NS Naik",
+    "cricsheetName": "NS Naik",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "gh-vihari",
+    "name": "GH Vihari",
+    "cricsheetName": "GH Vihari",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "p-ray-barman",
+    "name": "P Ray Barman",
+    "cricsheetName": "P Ray Barman",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sm-curran",
+    "name": "SM Curran",
+    "cricsheetName": "SM Curran",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "gc-viljoen",
+    "name": "GC Viljoen",
+    "cricsheetName": "GC Viljoen",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "avesh-khan",
+    "name": "Avesh Khan",
+    "cricsheetName": "Avesh Khan",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-lamichhane",
+    "name": "S Lamichhane",
+    "cricsheetName": "S Lamichhane",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "hf-gurney",
+    "name": "HF Gurney",
+    "cricsheetName": "HF Gurney",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sd-lad",
+    "name": "SD Lad",
+    "cricsheetName": "SD Lad",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "as-joseph",
+    "name": "AS Joseph",
+    "cricsheetName": "AS Joseph",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-parag",
+    "name": "R Parag",
+    "cricsheetName": "R Parag",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mj-santner",
+    "name": "MJ Santner",
+    "cricsheetName": "MJ Santner",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jl-denly",
+    "name": "JL Denly",
+    "cricsheetName": "JL Denly",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ls-livingstone",
+    "name": "LS Livingstone",
+    "cricsheetName": "LS Livingstone",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kk-ahmed",
+    "name": "KK Ahmed",
+    "cricsheetName": "KK Ahmed",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aj-turner",
+    "name": "AJ Turner",
+    "cricsheetName": "AJ Turner",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "harpreet-brar",
+    "name": "Harpreet Brar",
+    "cricsheetName": "Harpreet Brar",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "se-rutherford",
+    "name": "SE Rutherford",
+    "cricsheetName": "SE Rutherford",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "y-prithvi-raj",
+    "name": "Y Prithvi Raj",
+    "cricsheetName": "Y Prithvi Raj",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "gurkeerat-singh",
+    "name": "Gurkeerat Singh",
+    "cricsheetName": "Gurkeerat Singh",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "p-simran-singh",
+    "name": "P Simran Singh",
+    "cricsheetName": "P Simran Singh",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "j-suchith",
+    "name": "J Suchith",
+    "cricsheetName": "J Suchith",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jl-pattinson",
+    "name": "JL Pattinson",
+    "cricsheetName": "JL Pattinson",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-nortje",
+    "name": "A Nortje",
+    "cricsheetName": "A Nortje",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "t-banton",
+    "name": "T Banton",
+    "cricsheetName": "T Banton",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "d-padikkal",
+    "name": "D Padikkal",
+    "cricsheetName": "D Padikkal",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ybk-jaiswal",
+    "name": "YBK Jaiswal",
+    "cricsheetName": "YBK Jaiswal",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rd-gaikwad",
+    "name": "RD Gaikwad",
+    "cricsheetName": "RD Gaikwad",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tu-deshpande",
+    "name": "TU Deshpande",
+    "cricsheetName": "TU Deshpande",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "abdul-samad",
+    "name": "Abdul Samad",
+    "cricsheetName": "Abdul Samad",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jo-holder",
+    "name": "JO Holder",
+    "cricsheetName": "JO Holder",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pk-garg",
+    "name": "PK Garg",
+    "cricsheetName": "PK Garg",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jr-philippe",
+    "name": "JR Philippe",
+    "cricsheetName": "JR Philippe",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kartik-tyagi",
+    "name": "Kartik Tyagi",
+    "cricsheetName": "Kartik Tyagi",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kl-nagarkoti",
+    "name": "KL Nagarkoti",
+    "cricsheetName": "KL Nagarkoti",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "cv-varun",
+    "name": "CV Varun",
+    "cricsheetName": "CV Varun",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "i-udana",
+    "name": "I Udana",
+    "cricsheetName": "I Udana",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jds-neesham",
+    "name": "JDS Neesham",
+    "cricsheetName": "JDS Neesham",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ravi-bishnoi",
+    "name": "Ravi Bishnoi",
+    "cricsheetName": "Ravi Bishnoi",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "shahbaz-ahmed",
+    "name": "Shahbaz Ahmed",
+    "cricsheetName": "Shahbaz Ahmed",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "at-carey",
+    "name": "AT Carey",
+    "cricsheetName": "AT Carey",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dw-steyn",
+    "name": "DW Steyn",
+    "cricsheetName": "DW Steyn",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "n-jagadeesan",
+    "name": "N Jagadeesan",
+    "cricsheetName": "N Jagadeesan",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "t-natarajan",
+    "name": "T Natarajan",
+    "cricsheetName": "T Natarajan",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mr-marsh",
+    "name": "MR Marsh",
+    "cricsheetName": "MR Marsh",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "p-dubey",
+    "name": "P Dubey",
+    "cricsheetName": "P Dubey",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ss-cottrell",
+    "name": "SS Cottrell",
+    "cricsheetName": "SS Cottrell",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "arshdeep-singh",
+    "name": "Arshdeep Singh",
+    "cricsheetName": "Arshdeep Singh",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dr-sams",
+    "name": "DR Sams",
+    "cricsheetName": "DR Sams",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-jansen",
+    "name": "M Jansen",
+    "cricsheetName": "M Jansen",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rm-patidar",
+    "name": "RM Patidar",
+    "cricsheetName": "RM Patidar",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ka-jamieson",
+    "name": "KA Jamieson",
+    "cricsheetName": "KA Jamieson",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-shahrukh-khan",
+    "name": "M Shahrukh Khan",
+    "cricsheetName": "M Shahrukh Khan",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ja-richardson",
+    "name": "JA Richardson",
+    "cricsheetName": "JA Richardson",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "lalit-yadav",
+    "name": "Lalit Yadav",
+    "cricsheetName": "Lalit Yadav",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "virat-singh",
+    "name": "Virat Singh",
+    "cricsheetName": "Virat Singh",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "j-yadav",
+    "name": "J Yadav",
+    "cricsheetName": "J Yadav",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "fa-allen",
+    "name": "FA Allen",
+    "cricsheetName": "FA Allen",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "c-sakariya",
+    "name": "C Sakariya",
+    "cricsheetName": "C Sakariya",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dj-malan",
+    "name": "DJ Malan",
+    "cricsheetName": "DJ Malan",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ks-bharat",
+    "name": "KS Bharat",
+    "cricsheetName": "KS Bharat",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pwh-de-silva",
+    "name": "PWH de Silva",
+    "cricsheetName": "PWH de Silva",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vr-iyer",
+    "name": "VR Iyer",
+    "cricsheetName": "VR Iyer",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "gd-phillips",
+    "name": "GD Phillips",
+    "cricsheetName": "GD Phillips",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ghs-garton",
+    "name": "GHS Garton",
+    "cricsheetName": "GHS Garton",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ak-markram",
+    "name": "AK Markram",
+    "cricsheetName": "AK Markram",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "k-yadav",
+    "name": "K Yadav",
+    "cricsheetName": "K Yadav",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "t-shamsi",
+    "name": "T Shamsi",
+    "cricsheetName": "T Shamsi",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "nt-ellis",
+    "name": "NT Ellis",
+    "cricsheetName": "NT Ellis",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rv-patel",
+    "name": "RV Patel",
+    "cricsheetName": "RV Patel",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tl-seifert",
+    "name": "TL Seifert",
+    "cricsheetName": "TL Seifert",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "anmolpreet-singh",
+    "name": "Anmolpreet Singh",
+    "cricsheetName": "Anmolpreet Singh",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "anuj-rawat",
+    "name": "Anuj Rawat",
+    "cricsheetName": "Anuj Rawat",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "th-david",
+    "name": "TH David",
+    "cricsheetName": "TH David",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dp-conway",
+    "name": "DP Conway",
+    "cricsheetName": "DP Conway",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tilak-varma",
+    "name": "Tilak Varma",
+    "cricsheetName": "Tilak Varma",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-powell",
+    "name": "R Powell",
+    "cricsheetName": "R Powell",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pbb-rajapaksa",
+    "name": "PBB Rajapaksa",
+    "cricsheetName": "PBB Rajapaksa",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ra-bawa",
+    "name": "RA Bawa",
+    "cricsheetName": "RA Bawa",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "of-smith",
+    "name": "OF Smith",
+    "cricsheetName": "OF Smith",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-badoni",
+    "name": "A Badoni",
+    "cricsheetName": "A Badoni",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pvd-chameera",
+    "name": "PVD Chameera",
+    "cricsheetName": "PVD Chameera",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ms-wade",
+    "name": "MS Wade",
+    "cricsheetName": "MS Wade",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-manohar",
+    "name": "A Manohar",
+    "cricsheetName": "A Manohar",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-shepherd",
+    "name": "R Shepherd",
+    "cricsheetName": "R Shepherd",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dj-willey",
+    "name": "DJ Willey",
+    "cricsheetName": "DJ Willey",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "d-pretorius",
+    "name": "D Pretorius",
+    "cricsheetName": "D Pretorius",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jm-sharma",
+    "name": "JM Sharma",
+    "cricsheetName": "JM Sharma",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "vg-arora",
+    "name": "VG Arora",
+    "cricsheetName": "VG Arora",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mukesh-choudhary",
+    "name": "Mukesh Choudhary",
+    "cricsheetName": "Mukesh Choudhary",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "umran-malik",
+    "name": "Umran Malik",
+    "cricsheetName": "Umran Malik",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "d-brevis",
+    "name": "D Brevis",
+    "cricsheetName": "D Brevis",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "b-sai-sudharsan",
+    "name": "B Sai Sudharsan",
+    "cricsheetName": "B Sai Sudharsan",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ramandeep-singh",
+    "name": "Ramandeep Singh",
+    "cricsheetName": "Ramandeep Singh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "he-van-der-dussen",
+    "name": "HE van der Dussen",
+    "cricsheetName": "HE van der Dussen",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ss-prabhudessai",
+    "name": "SS Prabhudessai",
+    "cricsheetName": "SS Prabhudessai",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "akash-deep",
+    "name": "Akash Deep",
+    "cricsheetName": "Akash Deep",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jr-hazlewood",
+    "name": "JR Hazlewood",
+    "cricsheetName": "JR Hazlewood",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kr-sen",
+    "name": "KR Sen",
+    "cricsheetName": "KR Sen",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aman-hakim-khan",
+    "name": "Aman Hakim Khan",
+    "cricsheetName": "Aman Hakim Khan",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "hr-shokeen",
+    "name": "HR Shokeen",
+    "cricsheetName": "HR Shokeen",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "yash-dayal",
+    "name": "Yash Dayal",
+    "cricsheetName": "Yash Dayal",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dj-mitchell",
+    "name": "DJ Mitchell",
+    "cricsheetName": "DJ Mitchell",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shashank-singh",
+    "name": "Shashank Singh",
+    "cricsheetName": "Shashank Singh",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "b-indrajith",
+    "name": "B Indrajith",
+    "cricsheetName": "B Indrajith",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "harshit-rana",
+    "name": "Harshit Rana",
+    "cricsheetName": "Harshit Rana",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mohsin-khan",
+    "name": "Mohsin Khan",
+    "cricsheetName": "Mohsin Khan",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-dhawan",
+    "name": "R Dhawan",
+    "cricsheetName": "R Dhawan",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "simarjeet-singh",
+    "name": "Simarjeet Singh",
+    "cricsheetName": "Simarjeet Singh",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-theekshana",
+    "name": "M Theekshana",
+    "cricsheetName": "M Theekshana",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sa-abbott",
+    "name": "SA Abbott",
+    "cricsheetName": "SA Abbott",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "as-roy",
+    "name": "AS Roy",
+    "cricsheetName": "AS Roy",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "fazalhaq-farooqi",
+    "name": "Fazalhaq Farooqi",
+    "cricsheetName": "Fazalhaq Farooqi",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "k-kartikeya",
+    "name": "K Kartikeya",
+    "cricsheetName": "K Kartikeya",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rp-meredith",
+    "name": "RP Meredith",
+    "cricsheetName": "RP Meredith",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ks-sharma",
+    "name": "KS Sharma",
+    "cricsheetName": "KS Sharma",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "t-stubbs",
+    "name": "T Stubbs",
+    "cricsheetName": "T Stubbs",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-sanjay-yadav",
+    "name": "R Sanjay Yadav",
+    "cricsheetName": "R Sanjay Yadav",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-tomar",
+    "name": "A Tomar",
+    "cricsheetName": "A Tomar",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pn-mankad",
+    "name": "PN Mankad",
+    "cricsheetName": "PN Mankad",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "oc-mccoy",
+    "name": "OC McCoy",
+    "cricsheetName": "OC McCoy",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sikandar-raza",
+    "name": "Sikandar Raza",
+    "cricsheetName": "Sikandar Raza",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rahmanullah-gurbaz",
+    "name": "Rahmanullah Gurbaz",
+    "cricsheetName": "Rahmanullah Gurbaz",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kr-mayers",
+    "name": "KR Mayers",
+    "cricsheetName": "KR Mayers",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rr-rossouw",
+    "name": "RR Rossouw",
+    "cricsheetName": "RR Rossouw",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mukesh-kumar",
+    "name": "Mukesh Kumar",
+    "cricsheetName": "Mukesh Kumar",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "hc-brook",
+    "name": "HC Brook",
+    "cricsheetName": "HC Brook",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "au-rashid",
+    "name": "AU Rashid",
+    "cricsheetName": "AU Rashid",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "c-green",
+    "name": "C Green",
+    "cricsheetName": "C Green",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "n-wadhera",
+    "name": "N Wadhera",
+    "cricsheetName": "N Wadhera",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "arshad-khan",
+    "name": "Arshad Khan",
+    "cricsheetName": "Arshad Khan",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "abishek-porel",
+    "name": "Abishek Porel",
+    "cricsheetName": "Abishek Porel",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dhruv-jurel",
+    "name": "Dhruv Jurel",
+    "cricsheetName": "Dhruv Jurel",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mg-bracewell",
+    "name": "MG Bracewell",
+    "cricsheetName": "MG Bracewell",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mw-short",
+    "name": "MW Short",
+    "cricsheetName": "MW Short",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mohit-rathee",
+    "name": "Mohit Rathee",
+    "cricsheetName": "Mohit Rathee",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "yv-dhull",
+    "name": "YV Dhull",
+    "cricsheetName": "YV Dhull",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "yudhvir-singh",
+    "name": "Yudhvir Singh",
+    "cricsheetName": "Yudhvir Singh",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "atharva-taide",
+    "name": "Atharva Taide",
+    "cricsheetName": "Atharva Taide",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "harpreet-singh",
+    "name": "Harpreet Singh",
+    "cricsheetName": "Harpreet Singh",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "wd-parnell",
+    "name": "WD Parnell",
+    "cricsheetName": "WD Parnell",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "liton-das",
+    "name": "Liton Das",
+    "cricsheetName": "Liton Das",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pd-salt",
+    "name": "PD Salt",
+    "cricsheetName": "PD Salt",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "vijaykumar-vyshak",
+    "name": "Vijaykumar Vyshak",
+    "cricsheetName": "Vijaykumar Vyshak",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "abdul-basith",
+    "name": "Abdul Basith",
+    "cricsheetName": "Abdul Basith",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "d-wiese",
+    "name": "D Wiese",
+    "cricsheetName": "D Wiese",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "arjun-tendulkar",
+    "name": "Arjun Tendulkar",
+    "cricsheetName": "Arjun Tendulkar",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jp-behrendorff",
+    "name": "JP Behrendorff",
+    "cricsheetName": "JP Behrendorff",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aj-hosein",
+    "name": "AJ Hosein",
+    "cricsheetName": "AJ Hosein",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "naveen-ul-haq",
+    "name": "Naveen-ul-Haq",
+    "cricsheetName": "Naveen-ul-Haq",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "noor-ahmad",
+    "name": "Noor Ahmad",
+    "cricsheetName": "Noor Ahmad",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "je-root",
+    "name": "JE Root",
+    "cricsheetName": "JE Root",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "km-asif",
+    "name": "KM Asif",
+    "cricsheetName": "KM Asif",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "md-shanaka",
+    "name": "MD Shanaka",
+    "cricsheetName": "MD Shanaka",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sanvir-singh",
+    "name": "Sanvir Singh",
+    "cricsheetName": "Sanvir Singh",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "vivrant-sharma",
+    "name": "Vivrant Sharma",
+    "cricsheetName": "Vivrant Sharma",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dg-nalkande",
+    "name": "DG Nalkande",
+    "cricsheetName": "DG Nalkande",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-ravindra",
+    "name": "R Ravindra",
+    "cricsheetName": "R Ravindra",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sd-hope",
+    "name": "SD Hope",
+    "cricsheetName": "SD Hope",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sumit-kumar",
+    "name": "Sumit Kumar",
+    "cricsheetName": "Sumit Kumar",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ma-starc",
+    "name": "MA Starc",
+    "cricsheetName": "MA Starc",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "azmatullah-omarzai",
+    "name": "Azmatullah Omarzai",
+    "cricsheetName": "Azmatullah Omarzai",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "naman-dhir",
+    "name": "Naman Dhir",
+    "cricsheetName": "Naman Dhir",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "g-coetzee",
+    "name": "G Coetzee",
+    "cricsheetName": "G Coetzee",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sz-mulani",
+    "name": "SZ Mulani",
+    "cricsheetName": "SZ Mulani",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sameer-rizvi",
+    "name": "Sameer Rizvi",
+    "cricsheetName": "Sameer Rizvi",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sh-johnson",
+    "name": "SH Johnson",
+    "cricsheetName": "SH Johnson",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "akash-madhwal",
+    "name": "Akash Madhwal",
+    "cricsheetName": "Akash Madhwal",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sb-dubey",
+    "name": "SB Dubey",
+    "cricsheetName": "SB Dubey",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mayank-dagar",
+    "name": "Mayank Dagar",
+    "cricsheetName": "Mayank Dagar",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rjw-topley",
+    "name": "RJW Topley",
+    "cricsheetName": "RJW Topley",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-raghuvanshi",
+    "name": "A Raghuvanshi",
+    "cricsheetName": "A Raghuvanshi",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ashutosh-sharma",
+    "name": "Ashutosh Sharma",
+    "cricsheetName": "Ashutosh Sharma",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "nithish-kumar-reddy",
+    "name": "Nithish Kumar Reddy",
+    "cricsheetName": "Nithish Kumar Reddy",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "saurav-chauhan",
+    "name": "Saurav Chauhan",
+    "cricsheetName": "Saurav Chauhan",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kumar-kushagra",
+    "name": "Kumar Kushagra",
+    "cricsheetName": "Kumar Kushagra",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "br-sharath",
+    "name": "BR Sharath",
+    "cricsheetName": "BR Sharath",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "wg-jacks",
+    "name": "WG Jacks",
+    "cricsheetName": "WG Jacks",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "j-fraser-mcgurk",
+    "name": "J Fraser-McGurk",
+    "cricsheetName": "J Fraser-McGurk",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tanush-kotian",
+    "name": "Tanush Kotian",
+    "cricsheetName": "Tanush Kotian",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ka-maharaj",
+    "name": "KA Maharaj",
+    "cricsheetName": "KA Maharaj",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "arshad-khan-2-",
+    "name": "Arshad Khan (2)",
+    "cricsheetName": "Arshad Khan (2)",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-sai-kishore",
+    "name": "R Sai Kishore",
+    "cricsheetName": "R Sai Kishore",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "l-wood",
+    "name": "L Wood",
+    "cricsheetName": "L Wood",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "lb-williams",
+    "name": "LB Williams",
+    "cricsheetName": "LB Williams",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aa-kulkarni",
+    "name": "AA Kulkarni",
+    "cricsheetName": "AA Kulkarni",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mj-suthar",
+    "name": "MJ Suthar",
+    "cricsheetName": "MJ Suthar",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rj-gleeson",
+    "name": "RJ Gleeson",
+    "cricsheetName": "RJ Gleeson",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "gulbadin-naib",
+    "name": "Gulbadin Naib",
+    "cricsheetName": "Gulbadin Naib",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "d-ferreira",
+    "name": "D Ferreira",
+    "cricsheetName": "D Ferreira",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-kamboj",
+    "name": "A Kamboj",
+    "cricsheetName": "A Kamboj",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "t-kohler-cadmore",
+    "name": "T Kohler-Cadmore",
+    "cricsheetName": "T Kohler-Cadmore",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shivam-singh",
+    "name": "Shivam Singh",
+    "cricsheetName": "Shivam Singh",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "v-viyaskanth",
+    "name": "V Viyaskanth",
+    "cricsheetName": "V Viyaskanth",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aniket-verma",
+    "name": "Aniket Verma",
+    "cricsheetName": "Aniket Verma",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rd-rickelton",
+    "name": "RD Rickelton",
+    "cricsheetName": "RD Rickelton",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-minz",
+    "name": "R Minz",
+    "cricsheetName": "R Minz",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pvsn-raju",
+    "name": "PVSN Raju",
+    "cricsheetName": "PVSN Raju",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "v-nigam",
+    "name": "V Nigam",
+    "cricsheetName": "V Nigam",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "priyansh-arya",
+    "name": "Priyansh Arya",
+    "cricsheetName": "Priyansh Arya",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pwa-mulder",
+    "name": "PWA Mulder",
+    "cricsheetName": "PWA Mulder",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "j-overton",
+    "name": "J Overton",
+    "cricsheetName": "J Overton",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "phkd-mendis",
+    "name": "PHKD Mendis",
+    "cricsheetName": "PHKD Mendis",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "suryansh-shedge",
+    "name": "Suryansh Shedge",
+    "cricsheetName": "Suryansh Shedge",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sk-rasheed",
+    "name": "SK Rasheed",
+    "cricsheetName": "SK Rasheed",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jp-inglis",
+    "name": "JP Inglis",
+    "cricsheetName": "JP Inglis",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "xc-bartlett",
+    "name": "XC Bartlett",
+    "cricsheetName": "XC Bartlett",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ms-bhandage",
+    "name": "MS Bhandage",
+    "cricsheetName": "MS Bhandage",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "v-suryavanshi",
+    "name": "V Suryavanshi",
+    "cricsheetName": "V Suryavanshi",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-mhatre",
+    "name": "A Mhatre",
+    "cricsheetName": "A Mhatre",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "c-bosch",
+    "name": "C Bosch",
+    "cricsheetName": "C Bosch",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "prince-yadav",
+    "name": "Prince Yadav",
+    "cricsheetName": "Prince Yadav",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ds-rathi",
+    "name": "DS Rathi",
+    "cricsheetName": "DS Rathi",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jg-bethell",
+    "name": "JG Bethell",
+    "cricsheetName": "JG Bethell",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ks-rathore",
+    "name": "KS Rathore",
+    "cricsheetName": "KS Rathore",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "urvil-patel",
+    "name": "Urvil Patel",
+    "cricsheetName": "Urvil Patel",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mj-owen",
+    "name": "MJ Owen",
+    "cricsheetName": "MJ Owen",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kt-maphaka",
+    "name": "KT Maphaka",
+    "cricsheetName": "KT Maphaka",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-tiwari",
+    "name": "M Tiwari",
+    "cricsheetName": "M Tiwari",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "l-ngidi",
+    "name": "L Ngidi",
+    "cricsheetName": "L Ngidi",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mp-breetzke",
+    "name": "MP Breetzke",
+    "cricsheetName": "MP Breetzke",
+    "espnId": 0,
+    "team": "LSG",
+    "teamColor": "#00B4D8",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "musheer-khan",
+    "name": "Musheer Khan",
+    "cricsheetName": "Musheer Khan",
+    "espnId": 0,
+    "team": "PK",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "bkg-mendis",
+    "name": "BKG Mendis",
+    "cricsheetName": "BKG Mendis",
+    "espnId": 0,
+    "team": "GT",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sediqullah-atal",
+    "name": "Sediqullah Atal",
+    "cricsheetName": "Sediqullah Atal",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sc-ganguly",
+    "name": "SC Ganguly",
+    "cricsheetName": "SC Ganguly",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rt-ponting",
+    "name": "RT Ponting",
+    "cricsheetName": "RT Ponting",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dj-hussey",
+    "name": "DJ Hussey",
+    "cricsheetName": "DJ Hussey",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mohammad-hafeez",
+    "name": "Mohammad Hafeez",
+    "cricsheetName": "Mohammad Hafeez",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-dravid",
+    "name": "R Dravid",
+    "cricsheetName": "R Dravid",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "w-jaffer",
+    "name": "W Jaffer",
+    "cricsheetName": "W Jaffer",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jh-kallis",
+    "name": "JH Kallis",
+    "cricsheetName": "JH Kallis",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "cl-white",
+    "name": "CL White",
+    "cricsheetName": "CL White",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mv-boucher",
+    "name": "MV Boucher",
+    "cricsheetName": "MV Boucher",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "b-akhil",
+    "name": "B Akhil",
+    "cricsheetName": "B Akhil",
+    "espnId": 0,
+    "team": "KTK",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aa-noffke",
+    "name": "AA Noffke",
+    "cricsheetName": "AA Noffke",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sb-joshi",
+    "name": "SB Joshi",
+    "cricsheetName": "SB Joshi",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ml-hayden",
+    "name": "ML Hayden",
+    "cricsheetName": "ML Hayden",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mek-hussey",
+    "name": "MEK Hussey",
+    "cricsheetName": "MEK Hussey",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jdp-oram",
+    "name": "JDP Oram",
+    "cricsheetName": "JDP Oram",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-badrinath",
+    "name": "S Badrinath",
+    "cricsheetName": "S Badrinath",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "k-goel",
+    "name": "K Goel",
+    "cricsheetName": "K Goel",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jr-hopes",
+    "name": "JR Hopes",
+    "cricsheetName": "JR Hopes",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kc-sangakkara",
+    "name": "KC Sangakkara",
+    "cricsheetName": "KC Sangakkara",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sm-katich",
+    "name": "SM Katich",
+    "cricsheetName": "SM Katich",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "t-kohli",
+    "name": "T Kohli",
+    "cricsheetName": "T Kohli",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "m-kaif",
+    "name": "M Kaif",
+    "cricsheetName": "M Kaif",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ds-lehmann",
+    "name": "DS Lehmann",
+    "cricsheetName": "DS Lehmann",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "m-rawat",
+    "name": "M Rawat",
+    "cricsheetName": "M Rawat",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "d-salunkhe",
+    "name": "D Salunkhe",
+    "cricsheetName": "D Salunkhe",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sk-warne",
+    "name": "SK Warne",
+    "cricsheetName": "SK Warne",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sk-trivedi",
+    "name": "SK Trivedi",
+    "cricsheetName": "SK Trivedi",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "v-sehwag",
+    "name": "V Sehwag",
+    "cricsheetName": "V Sehwag",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "l-ronchi",
+    "name": "L Ronchi",
+    "cricsheetName": "L Ronchi",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "st-jayasuriya",
+    "name": "ST Jayasuriya",
+    "cricsheetName": "ST Jayasuriya",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dj-thornely",
+    "name": "DJ Thornely",
+    "cricsheetName": "DJ Thornely",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pr-shah",
+    "name": "PR Shah",
+    "cricsheetName": "PR Shah",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "am-nayar",
+    "name": "AM Nayar",
+    "cricsheetName": "AM Nayar",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sm-pollock",
+    "name": "SM Pollock",
+    "cricsheetName": "SM Pollock",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-chanderpaul",
+    "name": "S Chanderpaul",
+    "cricsheetName": "S Chanderpaul",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "lrpl-taylor",
+    "name": "LRPL Taylor",
+    "cricsheetName": "LRPL Taylor",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ac-gilchrist",
+    "name": "AC Gilchrist",
+    "cricsheetName": "AC Gilchrist",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "y-venugopal-rao",
+    "name": "Y Venugopal Rao",
+    "cricsheetName": "Y Venugopal Rao",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "vvs-laxman",
+    "name": "VVS Laxman",
+    "cricsheetName": "VVS Laxman",
+    "espnId": 0,
+    "team": "KTK",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-symonds",
+    "name": "A Symonds",
+    "cricsheetName": "A Symonds",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sb-styris",
+    "name": "SB Styris",
+    "cricsheetName": "SB Styris",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "as-yadav",
+    "name": "AS Yadav",
+    "cricsheetName": "AS Yadav",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sb-bangar",
+    "name": "SB Bangar",
+    "cricsheetName": "SB Bangar",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "wpujc-vaas",
+    "name": "WPUJC Vaas",
+    "cricsheetName": "WPUJC Vaas",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rp-singh",
+    "name": "RP Singh",
+    "cricsheetName": "RP Singh",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pp-ojha",
+    "name": "PP Ojha",
+    "cricsheetName": "PP Ojha",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "lr-shukla",
+    "name": "LR Shukla",
+    "cricsheetName": "LR Shukla",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dpmd-jayawardene",
+    "name": "DPMD Jayawardene",
+    "cricsheetName": "DPMD Jayawardene",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-sohal",
+    "name": "S Sohal",
+    "cricsheetName": "S Sohal",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "b-lee",
+    "name": "B Lee",
+    "cricsheetName": "B Lee",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "wa-mota",
+    "name": "WA Mota",
+    "cricsheetName": "WA Mota",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kamran-akmal",
+    "name": "Kamran Akmal",
+    "cricsheetName": "Kamran Akmal",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shahid-afridi",
+    "name": "Shahid Afridi",
+    "cricsheetName": "Shahid Afridi",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ma-khote",
+    "name": "MA Khote",
+    "cricsheetName": "MA Khote",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-nehra",
+    "name": "A Nehra",
+    "cricsheetName": "A Nehra",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "gc-smith",
+    "name": "GC Smith",
+    "cricsheetName": "GC Smith",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pankaj-singh",
+    "name": "Pankaj Singh",
+    "cricsheetName": "Pankaj Singh",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rr-sarwan",
+    "name": "RR Sarwan",
+    "cricsheetName": "RR Sarwan",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-sreesanth",
+    "name": "S Sreesanth",
+    "cricsheetName": "S Sreesanth",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vrv-singh",
+    "name": "VRV Singh",
+    "cricsheetName": "VRV Singh",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ab-agarkar",
+    "name": "AB Agarkar",
+    "cricsheetName": "AB Agarkar",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-kartik",
+    "name": "M Kartik",
+    "cricsheetName": "M Kartik",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "shoaib-malik",
+    "name": "Shoaib Malik",
+    "cricsheetName": "Shoaib Malik",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mf-maharoof",
+    "name": "MF Maharoof",
+    "cricsheetName": "MF Maharoof",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vy-mahesh",
+    "name": "VY Mahesh",
+    "cricsheetName": "VY Mahesh",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "tm-srivastava",
+    "name": "TM Srivastava",
+    "cricsheetName": "TM Srivastava",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "b-chipli",
+    "name": "B Chipli",
+    "cricsheetName": "B Chipli",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "db-das",
+    "name": "DB Das",
+    "cricsheetName": "DB Das",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "hh-gibbs",
+    "name": "HH Gibbs",
+    "cricsheetName": "HH Gibbs",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dnt-zoysa",
+    "name": "DNT Zoysa",
+    "cricsheetName": "DNT Zoysa",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "d-kalyankrishna",
+    "name": "D Kalyankrishna",
+    "cricsheetName": "D Kalyankrishna",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sa-asnodkar",
+    "name": "SA Asnodkar",
+    "cricsheetName": "SA Asnodkar",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sohail-tanvir",
+    "name": "Sohail Tanvir",
+    "cricsheetName": "Sohail Tanvir",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "salman-butt",
+    "name": "Salman Butt",
+    "cricsheetName": "Salman Butt",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "bj-hodge",
+    "name": "BJ Hodge",
+    "cricsheetName": "BJ Hodge",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "umar-gul",
+    "name": "Umar Gul",
+    "cricsheetName": "Umar Gul",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sp-fleming",
+    "name": "SP Fleming",
+    "cricsheetName": "SP Fleming",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-vidyut",
+    "name": "S Vidyut",
+    "cricsheetName": "S Vidyut",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ja-morkel",
+    "name": "JA Morkel",
+    "cricsheetName": "JA Morkel",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "ALLROUNDER",
+    "active": true
+  },
+  {
+    "id": "lpc-silva",
+    "name": "LPC Silva",
+    "cricsheetName": "LPC Silva",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "db-ravi-teja",
+    "name": "DB Ravi Teja",
+    "cricsheetName": "DB Ravi Teja",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "misbah-ul-haq",
+    "name": "Misbah-ul-Haq",
+    "cricsheetName": "Misbah-ul-Haq",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "yv-takawale",
+    "name": "YV Takawale",
+    "cricsheetName": "YV Takawale",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rr-raje",
+    "name": "RR Raje",
+    "cricsheetName": "RR Raje",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mohammad-asif",
+    "name": "Mohammad Asif",
+    "cricsheetName": "Mohammad Asif",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "gd-mcgrath",
+    "name": "GD McGrath",
+    "cricsheetName": "GD McGrath",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "joginder-sharma",
+    "name": "Joginder Sharma",
+    "cricsheetName": "Joginder Sharma",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ms-gony",
+    "name": "MS Gony",
+    "cricsheetName": "MS Gony",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-muralitharan",
+    "name": "M Muralitharan",
+    "cricsheetName": "M Muralitharan",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-ntini",
+    "name": "M Ntini",
+    "cricsheetName": "M Ntini",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dt-patil",
+    "name": "DT Patil",
+    "cricsheetName": "DT Patil",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-kumble",
+    "name": "A Kumble",
+    "cricsheetName": "A Kumble",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-anirudha",
+    "name": "S Anirudha",
+    "cricsheetName": "S Anirudha",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ck-kapugedera",
+    "name": "CK Kapugedera",
+    "cricsheetName": "CK Kapugedera",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-chopra",
+    "name": "A Chopra",
+    "cricsheetName": "A Chopra",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "t-taibu",
+    "name": "T Taibu",
+    "cricsheetName": "T Taibu",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "j-arunkumar",
+    "name": "J Arunkumar",
+    "cricsheetName": "J Arunkumar",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sr-tendulkar",
+    "name": "SR Tendulkar",
+    "cricsheetName": "SR Tendulkar",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "u-kaul",
+    "name": "U Kaul",
+    "cricsheetName": "U Kaul",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tm-dilshan",
+    "name": "TM Dilshan",
+    "cricsheetName": "TM Dilshan",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ad-mascarenhas",
+    "name": "AD Mascarenhas",
+    "cricsheetName": "AD Mascarenhas",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "nk-patel",
+    "name": "NK Patel",
+    "cricsheetName": "NK Patel",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "la-pomersbach",
+    "name": "LA Pomersbach",
+    "cricsheetName": "LA Pomersbach",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "younis-khan",
+    "name": "Younis Khan",
+    "cricsheetName": "Younis Khan",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pm-sarvesh-kumar",
+    "name": "PM Sarvesh Kumar",
+    "cricsheetName": "PM Sarvesh Kumar",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dp-vijaykumar",
+    "name": "DP Vijaykumar",
+    "cricsheetName": "DP Vijaykumar",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "shoaib-akhtar",
+    "name": "Shoaib Akhtar",
+    "cricsheetName": "Shoaib Akhtar",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "abdur-razzak",
+    "name": "Abdur Razzak",
+    "cricsheetName": "Abdur Razzak",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "h-das",
+    "name": "H Das",
+    "cricsheetName": "H Das",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sd-chitnis",
+    "name": "SD Chitnis",
+    "cricsheetName": "SD Chitnis",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "crd-fernando",
+    "name": "CRD Fernando",
+    "cricsheetName": "CRD Fernando",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vs-yeligati",
+    "name": "VS Yeligati",
+    "cricsheetName": "VS Yeligati",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "l-balaji",
+    "name": "L Balaji",
+    "cricsheetName": "L Balaji",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-nel",
+    "name": "A Nel",
+    "cricsheetName": "A Nel",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-mukund",
+    "name": "A Mukund",
+    "cricsheetName": "A Mukund",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rr-powar",
+    "name": "RR Powar",
+    "cricsheetName": "RR Powar",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-flintoff",
+    "name": "A Flintoff",
+    "cricsheetName": "A Flintoff",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "t-thushara",
+    "name": "T Thushara",
+    "cricsheetName": "T Thushara",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jd-ryder",
+    "name": "JD Ryder",
+    "cricsheetName": "JD Ryder",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kp-pietersen",
+    "name": "KP Pietersen",
+    "cricsheetName": "KP Pietersen",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "t-henderson",
+    "name": "T Henderson",
+    "cricsheetName": "T Henderson",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kamran-khan",
+    "name": "Kamran Khan",
+    "cricsheetName": "Kamran Khan",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rs-bopara",
+    "name": "RS Bopara",
+    "cricsheetName": "RS Bopara",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-bishnoi",
+    "name": "R Bishnoi",
+    "cricsheetName": "R Bishnoi",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "fh-edwards",
+    "name": "FH Edwards",
+    "cricsheetName": "FH Edwards",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pc-valthaty",
+    "name": "PC Valthaty",
+    "cricsheetName": "PC Valthaty",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rj-quiney",
+    "name": "RJ Quiney",
+    "cricsheetName": "RJ Quiney",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "as-raut",
+    "name": "AS Raut",
+    "cricsheetName": "AS Raut",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "yashpal-singh",
+    "name": "Yashpal Singh",
+    "cricsheetName": "Yashpal Singh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "m-manhas",
+    "name": "M Manhas",
+    "cricsheetName": "M Manhas",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "aa-bilakhia",
+    "name": "AA Bilakhia",
+    "cricsheetName": "AA Bilakhia",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "an-ghosh",
+    "name": "AN Ghosh",
+    "cricsheetName": "AN Ghosh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "baw-mendis",
+    "name": "BAW Mendis",
+    "cricsheetName": "BAW Mendis",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dl-vettori",
+    "name": "DL Vettori",
+    "cricsheetName": "DL Vettori",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mn-van-wyk",
+    "name": "MN van Wyk",
+    "cricsheetName": "MN van Wyk",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "re-van-der-merwe",
+    "name": "RE van der Merwe",
+    "cricsheetName": "RE van der Merwe",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "tl-suman",
+    "name": "TL Suman",
+    "cricsheetName": "TL Suman",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shoaib-ahmed",
+    "name": "Shoaib Ahmed",
+    "cricsheetName": "Shoaib Ahmed",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "gr-napier",
+    "name": "GR Napier",
+    "cricsheetName": "GR Napier",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kp-appanna",
+    "name": "KP Appanna",
+    "cricsheetName": "KP Appanna",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "la-carseldine",
+    "name": "LA Carseldine",
+    "cricsheetName": "LA Carseldine",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sm-harwood",
+    "name": "SM Harwood",
+    "cricsheetName": "SM Harwood",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sb-jakati",
+    "name": "SB Jakati",
+    "cricsheetName": "SB Jakati",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rj-harris",
+    "name": "RJ Harris",
+    "cricsheetName": "RJ Harris",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "d-du-preez",
+    "name": "D du Preez",
+    "cricsheetName": "D du Preez",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-morkel",
+    "name": "M Morkel",
+    "cricsheetName": "M Morkel",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-tyagi",
+    "name": "S Tyagi",
+    "cricsheetName": "S Tyagi",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "j-botha",
+    "name": "J Botha",
+    "cricsheetName": "J Botha",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "c-nanda",
+    "name": "C Nanda",
+    "cricsheetName": "C Nanda",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mashrafe-mortaza",
+    "name": "Mashrafe Mortaza",
+    "cricsheetName": "Mashrafe Mortaza",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-singh",
+    "name": "A Singh",
+    "cricsheetName": "A Singh",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "gj-bailey",
+    "name": "GJ Bailey",
+    "cricsheetName": "GJ Bailey",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ab-mcdonald",
+    "name": "AB McDonald",
+    "cricsheetName": "AB McDonald",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "y-nagar",
+    "name": "Y Nagar",
+    "cricsheetName": "Y Nagar",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ss-shaikh",
+    "name": "SS Shaikh",
+    "cricsheetName": "SS Shaikh",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mohammad-ashraful",
+    "name": "Mohammad Ashraful",
+    "cricsheetName": "Mohammad Ashraful",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ca-pujara",
+    "name": "CA Pujara",
+    "cricsheetName": "CA Pujara",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "oa-shah",
+    "name": "OA Shah",
+    "cricsheetName": "OA Shah",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "anirudh-singh",
+    "name": "Anirudh Singh",
+    "cricsheetName": "Anirudh Singh",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jaskaran-singh",
+    "name": "Jaskaran Singh",
+    "cricsheetName": "Jaskaran Singh",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-sathish",
+    "name": "R Sathish",
+    "cricsheetName": "R Sathish",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-mclaren",
+    "name": "R McLaren",
+    "cricsheetName": "R McLaren",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "aa-jhunjhunwala",
+    "name": "AA Jhunjhunwala",
+    "cricsheetName": "AA Jhunjhunwala",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "p-dogra",
+    "name": "P Dogra",
+    "cricsheetName": "P Dogra",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "a-uniyal",
+    "name": "A Uniyal",
+    "cricsheetName": "A Uniyal",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ms-bisla",
+    "name": "MS Bisla",
+    "cricsheetName": "MS Bisla",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ya-abdulla",
+    "name": "YA Abdulla",
+    "cricsheetName": "YA Abdulla",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jm-kemp",
+    "name": "JM Kemp",
+    "cricsheetName": "JM Kemp",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rs-gavaskar",
+    "name": "RS Gavaskar",
+    "cricsheetName": "RS Gavaskar",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "se-bond",
+    "name": "SE Bond",
+    "cricsheetName": "SE Bond",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-ladda",
+    "name": "S Ladda",
+    "cricsheetName": "S Ladda",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dp-nannes",
+    "name": "DP Nannes",
+    "cricsheetName": "DP Nannes",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "mj-lumb",
+    "name": "MJ Lumb",
+    "cricsheetName": "MJ Lumb",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dr-martyn",
+    "name": "DR Martyn",
+    "cricsheetName": "DR Martyn",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-narwal",
+    "name": "S Narwal",
+    "cricsheetName": "S Narwal",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ab-barath",
+    "name": "AB Barath",
+    "cricsheetName": "AB Barath",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "fy-fazal",
+    "name": "FY Fazal",
+    "cricsheetName": "FY Fazal",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ac-voges",
+    "name": "AC Voges",
+    "cricsheetName": "AC Voges",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "md-mishra",
+    "name": "MD Mishra",
+    "cricsheetName": "MD Mishra",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "j-theron",
+    "name": "J Theron",
+    "cricsheetName": "J Theron",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sj-srivastava",
+    "name": "SJ Srivastava",
+    "cricsheetName": "SJ Srivastava",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-sharma",
+    "name": "R Sharma",
+    "cricsheetName": "R Sharma",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sw-tait",
+    "name": "SW Tait",
+    "cricsheetName": "SW Tait",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kb-arun-karthik",
+    "name": "KB Arun Karthik",
+    "cricsheetName": "KB Arun Karthik",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kaj-roach",
+    "name": "KAJ Roach",
+    "cricsheetName": "KAJ Roach",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pd-collingwood",
+    "name": "PD Collingwood",
+    "cricsheetName": "PD Collingwood",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ck-langeveldt",
+    "name": "CK Langeveldt",
+    "cricsheetName": "CK Langeveldt",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vs-malik",
+    "name": "VS Malik",
+    "cricsheetName": "VS Malik",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-mithun",
+    "name": "A Mithun",
+    "cricsheetName": "A Mithun",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ap-dole",
+    "name": "AP Dole",
+    "cricsheetName": "AP Dole",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "harmeet-singh",
+    "name": "Harmeet Singh",
+    "cricsheetName": "Harmeet Singh",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "an-ahmed",
+    "name": "AN Ahmed",
+    "cricsheetName": "AN Ahmed",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rs-sodhi",
+    "name": "RS Sodhi",
+    "cricsheetName": "RS Sodhi",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "de-bollinger",
+    "name": "DE Bollinger",
+    "cricsheetName": "DE Bollinger",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "s-sriram",
+    "name": "S Sriram",
+    "cricsheetName": "S Sriram",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "b-sumanth",
+    "name": "B Sumanth",
+    "cricsheetName": "B Sumanth",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "c-madan",
+    "name": "C Madan",
+    "cricsheetName": "C Madan",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ag-paunikar",
+    "name": "AG Paunikar",
+    "cricsheetName": "AG Paunikar",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rv-gomez",
+    "name": "RV Gomez",
+    "cricsheetName": "RV Gomez",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "auk-pathan",
+    "name": "AUK Pathan",
+    "cricsheetName": "AUK Pathan",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ubt-chand",
+    "name": "UBT Chand",
+    "cricsheetName": "UBT Chand",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dj-jacobs",
+    "name": "DJ Jacobs",
+    "cricsheetName": "DJ Jacobs",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sunny-singh",
+    "name": "Sunny Singh",
+    "cricsheetName": "Sunny Singh",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "nj-rimmington",
+    "name": "NJ Rimmington",
+    "cricsheetName": "NJ Rimmington",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "al-menaria",
+    "name": "AL Menaria",
+    "cricsheetName": "AL Menaria",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "jj-van-der-wath",
+    "name": "JJ van der Wath",
+    "cricsheetName": "JJ van der Wath",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-ninan",
+    "name": "R Ninan",
+    "cricsheetName": "R Ninan",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "td-paine",
+    "name": "TD Paine",
+    "cricsheetName": "TD Paine",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "sb-wagh",
+    "name": "SB Wagh",
+    "cricsheetName": "SB Wagh",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ac-thomas",
+    "name": "AC Thomas",
+    "cricsheetName": "AC Thomas",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "jec-franklin",
+    "name": "JEC Franklin",
+    "cricsheetName": "JEC Franklin",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "dh-yagnik",
+    "name": "DH Yagnik",
+    "cricsheetName": "DH Yagnik",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-randiv",
+    "name": "S Randiv",
+    "cricsheetName": "S Randiv",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "bj-haddin",
+    "name": "BJ Haddin",
+    "cricsheetName": "BJ Haddin",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "nltc-perera",
+    "name": "NLTC Perera",
+    "cricsheetName": "NLTC Perera",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "nl-mccullum",
+    "name": "NL McCullum",
+    "cricsheetName": "NL McCullum",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "je-taylor",
+    "name": "JE Taylor",
+    "cricsheetName": "JE Taylor",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "j-syed-mohammad",
+    "name": "J Syed Mohammad",
+    "cricsheetName": "J Syed Mohammad",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rn-ten-doeschate",
+    "name": "RN ten Doeschate",
+    "cricsheetName": "RN ten Doeschate",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "tr-birt",
+    "name": "TR Birt",
+    "cricsheetName": "TR Birt",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ag-murtaza",
+    "name": "AG Murtaza",
+    "cricsheetName": "AG Murtaza",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-klinger",
+    "name": "M Klinger",
+    "cricsheetName": "M Klinger",
+    "espnId": 0,
+    "team": "KTK",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ac-blizzard",
+    "name": "AC Blizzard",
+    "cricsheetName": "AC Blizzard",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "i-malhotra",
+    "name": "I Malhotra",
+    "cricsheetName": "I Malhotra",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "l-ablish",
+    "name": "L Ablish",
+    "cricsheetName": "L Ablish",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "p-parameswaran",
+    "name": "P Parameswaran",
+    "cricsheetName": "P Parameswaran",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "cj-ferguson",
+    "name": "CJ Ferguson",
+    "cricsheetName": "CJ Ferguson",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "aa-chavan",
+    "name": "AA Chavan",
+    "cricsheetName": "AA Chavan",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "nd-doshi",
+    "name": "ND Doshi",
+    "cricsheetName": "ND Doshi",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "y-gnaneswara-rao",
+    "name": "Y Gnaneswara Rao",
+    "cricsheetName": "Y Gnaneswara Rao",
+    "espnId": 0,
+    "team": "KTK",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-rana",
+    "name": "S Rana",
+    "cricsheetName": "S Rana",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ba-bhatt",
+    "name": "BA Bhatt",
+    "cricsheetName": "BA Bhatt",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "re-levi",
+    "name": "RE Levi",
+    "cricsheetName": "RE Levi",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "kk-cooper",
+    "name": "KK Cooper",
+    "cricsheetName": "KK Cooper",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "daj-bracewell",
+    "name": "DAJ Bracewell",
+    "cricsheetName": "DAJ Bracewell",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dj-harris",
+    "name": "DJ Harris",
+    "cricsheetName": "DJ Harris",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "gb-hogg",
+    "name": "GB Hogg",
+    "cricsheetName": "GB Hogg",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rr-bhatkal",
+    "name": "RR Bhatkal",
+    "cricsheetName": "RR Bhatkal",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "cj-mckay",
+    "name": "CJ McKay",
+    "cricsheetName": "CJ McKay",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "n-saini",
+    "name": "N Saini",
+    "cricsheetName": "N Saini",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "azhar-mahmood",
+    "name": "Azhar Mahmood",
+    "cricsheetName": "Azhar Mahmood",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "rj-peterson",
+    "name": "RJ Peterson",
+    "cricsheetName": "RJ Peterson",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kmdn-kulasekara",
+    "name": "KMDN Kulasekara",
+    "cricsheetName": "KMDN Kulasekara",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-ashish-reddy",
+    "name": "A Ashish Reddy",
+    "cricsheetName": "A Ashish Reddy",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "v-pratap-singh",
+    "name": "V Pratap Singh",
+    "cricsheetName": "V Pratap Singh",
+    "espnId": 0,
+    "team": "DC",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "bb-samantray",
+    "name": "BB Samantray",
+    "cricsheetName": "BB Samantray",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mj-clarke",
+    "name": "MJ Clarke",
+    "cricsheetName": "MJ Clarke",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ap-majumdar",
+    "name": "AP Majumdar",
+    "cricsheetName": "AP Majumdar",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "pa-reddy",
+    "name": "PA Reddy",
+    "cricsheetName": "PA Reddy",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "k-upadhyay",
+    "name": "K Upadhyay",
+    "cricsheetName": "K Upadhyay",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "p-awana",
+    "name": "P Awana",
+    "cricsheetName": "P Awana",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "a-chandila",
+    "name": "A Chandila",
+    "cricsheetName": "A Chandila",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "sunny-gupta",
+    "name": "Sunny Gupta",
+    "cricsheetName": "Sunny Gupta",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mc-juneja",
+    "name": "MC Juneja",
+    "cricsheetName": "MC Juneja",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "mdkj-perera",
+    "name": "MDKJ Perera",
+    "cricsheetName": "MDKJ Perera",
+    "espnId": 0,
+    "team": "RR",
+    "teamColor": "#E91E8C",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "r-shukla",
+    "name": "R Shukla",
+    "cricsheetName": "R Shukla",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "bmaj-mendis",
+    "name": "BMAJ Mendis",
+    "cricsheetName": "BMAJ Mendis",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "r-rampaul",
+    "name": "R Rampaul",
+    "cricsheetName": "R Rampaul",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "smsm-senanayake",
+    "name": "SMSM Senanayake",
+    "cricsheetName": "SMSM Senanayake",
+    "espnId": 0,
+    "team": "KKR",
+    "teamColor": "#3A1F6E",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "bj-rohrer",
+    "name": "BJ Rohrer",
+    "cricsheetName": "BJ Rohrer",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "lj-wright",
+    "name": "LJ Wright",
+    "cricsheetName": "LJ Wright",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ic-pandey",
+    "name": "IC Pandey",
+    "cricsheetName": "IC Pandey",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "cm-gautam",
+    "name": "CM Gautam",
+    "cricsheetName": "CM Gautam",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "x-thalaivan-sargunam",
+    "name": "X Thalaivan Sargunam",
+    "cricsheetName": "X Thalaivan Sargunam",
+    "espnId": 0,
+    "team": "SH",
+    "teamColor": "#F26522",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "djg-sammy",
+    "name": "DJG Sammy",
+    "cricsheetName": "DJG Sammy",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kw-richardson",
+    "name": "KW Richardson",
+    "cricsheetName": "KW Richardson",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "ua-birla",
+    "name": "UA Birla",
+    "cricsheetName": "UA Birla",
+    "espnId": 0,
+    "team": "PW",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "parvez-rasool",
+    "name": "Parvez Rasool",
+    "cricsheetName": "Parvez Rasool",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "pv-tambe",
+    "name": "PV Tambe",
+    "cricsheetName": "PV Tambe",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "nj-maddinson",
+    "name": "NJ Maddinson",
+    "cricsheetName": "NJ Maddinson",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "br-dunk",
+    "name": "BR Dunk",
+    "cricsheetName": "BR Dunk",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "shivam-sharma",
+    "name": "Shivam Sharma",
+    "cricsheetName": "Shivam Sharma",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "vh-zol",
+    "name": "VH Zol",
+    "cricsheetName": "VH Zol",
+    "espnId": 0,
+    "team": "RCB",
+    "teamColor": "#E63946",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "be-hendricks",
+    "name": "BE Hendricks",
+    "cricsheetName": "BE Hendricks",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "m-de-lange",
+    "name": "M de Lange",
+    "cricsheetName": "M de Lange",
+    "espnId": 0,
+    "team": "MI",
+    "teamColor": "#004EA2",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "karanveer-singh",
+    "name": "Karanveer Singh",
+    "cricsheetName": "Karanveer Singh",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "rg-more",
+    "name": "RG More",
+    "cricsheetName": "RG More",
+    "espnId": 0,
+    "team": "CSK",
+    "teamColor": "#F5A623",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "dj-muthuswami",
+    "name": "DJ Muthuswami",
+    "cricsheetName": "DJ Muthuswami",
+    "espnId": 0,
+    "team": "DD",
+    "teamColor": "#0078FF",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "p-sahu",
+    "name": "P Sahu",
+    "cricsheetName": "P Sahu",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "kj-abbott",
+    "name": "KJ Abbott",
+    "cricsheetName": "KJ Abbott",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "psp-handscomb",
+    "name": "PSP Handscomb",
+    "cricsheetName": "PSP Handscomb",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "ut-khawaja",
+    "name": "UT Khawaja",
+    "cricsheetName": "UT Khawaja",
+    "espnId": 0,
+    "team": "RPS",
+    "teamColor": "#080C18",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "f-behardien",
+    "name": "F Behardien",
+    "cricsheetName": "F Behardien",
+    "espnId": 0,
+    "team": "KXP",
+    "teamColor": "#D4173A",
+    "role": "BATTER",
+    "active": true
+  },
+  {
+    "id": "s-kaushik",
+    "name": "S Kaushik",
+    "cricsheetName": "S Kaushik",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BOWLER",
+    "active": true
+  },
+  {
+    "id": "er-dwivedi",
+    "name": "ER Dwivedi",
+    "cricsheetName": "ER Dwivedi",
+    "espnId": 0,
+    "team": "GL",
+    "teamColor": "#1B4F8C",
+    "role": "BATTER",
+    "active": true
+  }
+]

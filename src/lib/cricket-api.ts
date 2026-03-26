@@ -1,25 +1,19 @@
-const BASE = "https://api.cricketdata.org"
-const KEY = process.env.CRICKET_API_KEY
+import { fetchFromCricAPI, hasCricApiKey } from "@/lib/api/cricapi";
 
-async function apiFetch(endpoint: string, revalidate: number) {
-  if (!KEY) {
-    console.warn("[CREX] CRICKET_API_KEY not set — skipping live data")
-    return null
-  }
+async function apiFetch(endpoint: string, params: Record<string, string | number | undefined>, revalidate: number) {
   try {
-    const url = `${BASE}${endpoint}&apikey=${KEY}`
-    const res = await fetch(url, { next: { revalidate } })
-    if (!res.ok) return null
-    const json = await res.json()
-    return json.status === "success" ? json.data : null
+    const payload = await fetchFromCricAPI(endpoint, { offset: 0, ...params }, revalidate);
+    const data = (payload as { data?: unknown }).data;
+    return Array.isArray(data) ? data : data ? [data] : [];
   } catch {
-    return null
+    return [];
   }
 }
 
 export const cricketAPI = {
-  liveScores: () => apiFetch("/cricket-scorecard-lite?offset=0", 120),
-  matches: () => apiFetch("/matches?offset=0", 3600),
-  playerSearch: (name: string) => apiFetch(`/players?offset=0&name=${encodeURIComponent(name)}`, 86400),
-  seriesList: () => apiFetch("/series?offset=0", 86400),
-}
+  hasKey: hasCricApiKey,
+  liveScores: () => apiFetch("/currentMatches", {}, 30),
+  matches: () => apiFetch("/matches", {}, 300),
+  playerSearch: (name: string) => apiFetch("/players", { search: name }, 86400),
+  playerInfo: (id: string | number) => apiFetch("/players_info", { id }, 86400),
+};

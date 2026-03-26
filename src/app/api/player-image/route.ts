@@ -1,37 +1,65 @@
-import { NextRequest, NextResponse } from "next/server"
+import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(req: NextRequest) {
-  const espnId = req.nextUrl.searchParams.get("espnId")
-  const name = req.nextUrl.searchParams.get("name") ?? ""
+function buildEspnImageUrl(espnId: string) {
+  const numericId = Number(espnId);
+  if (!Number.isFinite(numericId) || numericId <= 0) return null;
+  return `https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_320,q_80/lsci/db/PICTURES/CMS/${Math.floor(numericId / 1000) * 1000}/${numericId}.png`;
+}
 
-  // Source 1: ESPN direct CDN (works for known IDs)
-  if (espnId) {
-    const espnUrl = `https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_320,q_80/lsci/db/PICTURES/CMS/${Math.floor(Number(espnId)/1000)*1000}/${espnId}.png`
+export async function GET(request: NextRequest) {
+  const espnId = request.nextUrl.searchParams.get("espnId");
+  const name = request.nextUrl.searchParams.get("name")?.trim() ?? "";
+
+  const espnUrl = espnId ? buildEspnImageUrl(espnId) : null;
+  if (espnUrl) {
     try {
-      const check = await fetch(espnUrl, { method: "HEAD" })
+      const check = await fetch(espnUrl, { method: "HEAD", next: { revalidate: 604800 } });
       if (check.ok) {
-        return NextResponse.json({ url: espnUrl }, {
-          headers: { "Cache-Control": "public, s-maxage=86400" }
-        })
+        return NextResponse.json(
+          { url: espnUrl },
+          { headers: { "Cache-Control": "public, s-maxage=604800, stale-while-revalidate=1209600" } }
+        );
       }
-    } catch {}
+    } catch {
+      // Fall through to the secondary source.
+    }
   }
 
-  // Source 2: Wikipedia API fallback
+  if (!name) {
+    return NextResponse.json({ url: null }, { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } });
+  }
+
   try {
-    const wikiName = name.replace(/\s+/g, "_")
-    const wikiRes = await fetch(
-      `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(wikiName)}&prop=pageimages&format=json&pithumbsize=400&origin=*`,
-      { next: { revalidate: 86400 } }
-    )
-    const wikiData = await wikiRes.json()
-    const pages = wikiData.query?.pages ?? {}
-    const page = Object.values(pages)[0] as any
-    const url = page?.thumbnail?.source ?? null
-    return NextResponse.json({ url }, {
-      headers: { "Cache-Control": "public, s-maxage=86400" }
-    })
+    const searchResponse = await fetch(
+      `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(`${name} cricketer`)}&format=json`,
+      {
+        headers: { "User-Agent": "CREX/1.0" },
+        next: { revalidate: 604800 },
+      }
+    );
+    const searchData = (await searchResponse.json()) as {
+      query?: { search?: Array<{ title?: string }> };
+    };
+    const wikiTitle = searchData.query?.search?.[0]?.title ?? name;
+
+    const imageResponse = await fetch(
+      `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(wikiTitle)}&prop=pageimages&format=json&pithumbsize=400`,
+      {
+        headers: { "User-Agent": "CREX/1.0" },
+        next: { revalidate: 604800 },
+      }
+    );
+    const imageData = (await imageResponse.json()) as {
+      query?: { pages?: Record<string, { thumbnail?: { source?: string } }> };
+    };
+    const page = Object.values(imageData.query?.pages ?? {})[0];
+    const url = page?.thumbnail?.source ?? null;
+
+    return NextResponse.json(
+      { url },
+      { headers: { "Cache-Control": "public, s-maxage=604800, stale-while-revalidate=1209600" } }
+    );
   } catch {
-    return NextResponse.json({ url: null })
+    return NextResponse.json({ url: null }, { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } });
   }
 }

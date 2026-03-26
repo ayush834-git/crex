@@ -1,32 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --crex-sun: #F5C518;
-    --crex-royal: #1A1AE6;
-    --crex-crimson: #E63946;
-    --crex-violet: #9B5DE5;
-    --crex-sky: #00C9A7;
-    --crex-lime: #FF9F1C;
-    --crex-white: #FFFFFF;
-    --crex-ink: #080C18;
+    color-scheme: light;
+
+    --team-mi-primary: #004ba0;
+    --team-mi-accent: #d1a94a;
+    --team-csk-primary: #f5a623;
+    --team-csk-accent: #1d2d6b;
+    --team-rcb-primary: #d9251d;
+    --team-rcb-accent: #1a1a1a;
+    --team-kkr-primary: #3a225d;
+    --team-kkr-accent: #f2b300;
+    --team-srh-primary: #ff822a;
+    --team-srh-accent: #1a1a2e;
+    --team-dc-primary: #0078bc;
+    --team-dc-accent: #ef3340;
+    --team-pbks-primary: #ed1b24;
+    --team-pbks-accent: #a7a9ac;
+    --team-rr-primary: #254aa5;
+    --team-rr-accent: #ff69b4;
+    --team-lsg-primary: #00a0e3;
+    --team-lsg-accent: #ffd700;
+    --team-gt-primary: #1c4587;
+    --team-gt-accent: #c5a028;
+
+    --crex-bg: #ffffff;
+    --crex-surface: #f8f9fc;
+    --crex-border: #e8ecf4;
+    --crex-text: #0a0f1e;
+    --crex-muted: #6b7280;
+    --crex-accent: #ff6b35;
+    --crex-live: #22c55e;
+    --crex-live-ring: rgba(34, 197, 94, 0.25);
+    --crex-warning: #f5a623;
+    --crex-analytics: #1d2d6b;
+    --crex-analytics-ink: #0f1732;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
-    background-color: var(--crex-ink);
-    color: var(--crex-white);
-    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at top left, rgba(255, 107, 53, 0.12), transparent 30%),
+      radial-gradient(circle at top right, rgba(0, 120, 188, 0.12), transparent 25%),
+      linear-gradient(180deg, #ffffff 0%, #fff7f3 100%);
+    color: var(--crex-text);
+    font-family: var(--font-body), sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  ::selection {
+    background: rgba(255, 107, 53, 0.2);
+    color: var(--crex-text);
+  }
+}
+
+@layer components {
+  .crex-container {
+    @apply mx-auto w-full max-w-[1280px] px-4 md:px-8;
+  }
+
+  .crex-section {
+    @apply py-12 md:py-20;
+  }
+
+  .crex-card {
+    @apply rounded-2xl border border-crex-border bg-white p-6 shadow-[0_20px_60px_rgba(10,15,30,0.08)];
+  }
+
+  .crex-pill {
+    @apply inline-flex items-center rounded-full border border-crex-border bg-white px-3 py-1.5 text-xs font-semibold tracking-[0.18em] text-crex-text;
+  }
+
+  .crex-empty-state {
+    @apply crex-card flex min-h-[280px] flex-col items-center justify-center gap-4 text-center;
   }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .font-display {
+    font-family: var(--font-display), sans-serif;
+  }
+
+  .font-body {
+    font-family: var(--font-body), sans-serif;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono), monospace;
+  }
+
+  .gradient-hero {
+    background: linear-gradient(135deg, #ff6b35 0%, #ff4500 40%, #c0392b 100%);
+  }
+
+  .gradient-section {
+    background: linear-gradient(180deg, #ffffff 0%, #fff7f3 100%);
+  }
+
+  .gradient-analytics {
+    background: linear-gradient(135deg, #1d2d6b 0%, #0a0f1e 100%);
+  }
+
+  .gradient-live {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, rgba(255, 107, 53, 0.08) 100%);
+  }
+
+  .safe-bottom {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .tap-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .shadow-crex {
+    box-shadow: 0 24px 70px rgba(10, 15, 30, 0.12);
+  }
+}
+
+@keyframes crex-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes crex-live-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 0 0 var(--crex-live-ring);
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+    box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
   }
 }

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="gt-title gt-desc">
+  <title id="gt-title">Gujarat Titans</title>
+  <desc id="gt-desc">CREX team badge for Gujarat Titans</desc>
+  <defs>
+    <linearGradient id="gt-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C4587" />
+      <stop offset="100%" stop-color="#C5A028" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="36" fill="url(#gt-gradient)" />
+  <circle cx="80" cy="80" r="48" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.34)" stroke-width="2" />
+  <text x="80" y="92" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="2">GT</text>
+</svg>

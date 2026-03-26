@@ -1,13 +1,41 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Bebas_Neue, DM_Sans, JetBrains_Mono } from "next/font/google";
 import ScrollSmoother from "@/components/ScrollSmoother";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const display = Bebas_Neue({
+  variable: "--font-display",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const body = DM_Sans({
+  variable: "--font-body",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const mono = JetBrains_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  title: "CREX | Every Delivery. Every Stat.",
-  description: "Premium sports intelligence. Not a fan blog. Not a stats table. A living cricket knowledge engine.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://crex.live"),
+  title: "CREX - IPL Cricket Intelligence",
+  description: "Live scores, analytics, and fantasy insights for the Indian Premier League.",
+  openGraph: {
+    title: "CREX - IPL Cricket Intelligence",
+    description: "Feel every IPL moment with live scores, analytics, and fantasy insight.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CREX - IPL Cricket Intelligence" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CREX - IPL Cricket Intelligence",
+    description: "Feel every IPL moment with live scores, analytics, and fantasy insight.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function RootLayout({
@@ -17,16 +45,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Load requested Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
-      </head>
-      <body className={`${inter.className} bg-void text-white antialiased`}>
-        <ScrollSmoother>
-          {children}
-        </ScrollSmoother>
+      <body className={`${display.variable} ${body.variable} ${mono.variable} bg-crex-bg font-body text-crex-text antialiased`}>
+        <ScrollSmoother>{children}</ScrollSmoother>
       </body>
     </html>
   );

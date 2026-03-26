@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0A0F1E"/>
+  <rect x="40" y="40" width="1120" height="550" rx="36" fill="url(#paint0_linear)"/>
+  <circle cx="1030" cy="150" r="90" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="150" cy="500" r="120" fill="rgba(255,255,255,0.08)"/>
+  <text x="96" y="250" fill="white" font-family="Arial, sans-serif" font-size="124" font-weight="700">CREX</text>
+  <text x="100" y="330" fill="#FFF7F3" font-family="Arial, sans-serif" font-size="42" font-weight="600">Feel every IPL moment with live scores, analytics, and fantasy insight.</text>
+  <text x="100" y="394" fill="#FFF7F3" font-family="Arial, sans-serif" font-size="28">Investor demo ready for the 2026 IPL season.</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="72" y1="72" x2="1120" y2="558" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B35"/>
+      <stop offset="0.55" stop-color="#D9251D"/>
+      <stop offset="1" stop-color="#1D2D6B"/>
+    </linearGradient>
+  </defs>
+</svg>
