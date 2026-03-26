@@ -40,7 +40,8 @@ export function AnalyticsPageClient() {
   const [copied, setCopied] = useState(false);
   const [winProbability, setWinProbability] = useState<WinProbabilitySnapshot>(getWinProbability(currentMatch?.id));
   const [momentum, setMomentum] = useState<MomentumPayload>(fallbackMomentum);
-  const [fantasyPicks, setFantasyPicks] = useState<FantasyPick[]>(FALLBACK_ANALYTICS.fantasyPicks);
+  const curatedFantasyPicks = FALLBACK_ANALYTICS.fantasyPicks;
+  const [fantasyPicks, setFantasyPicks] = useState<FantasyPick[]>(curatedFantasyPicks);
 
   const defaultPlayers = [players[0], players[1]].filter(Boolean);
   const player1 = players.find((item) => item.id === searchParams.get("p1")) ?? defaultPlayers[0];
@@ -52,7 +53,7 @@ export function AnalyticsPageClient() {
 
     setWinProbability(getWinProbability(currentMatch.id));
     setMomentum(fallbackMomentum);
-    setFantasyPicks(FALLBACK_ANALYTICS.fantasyPicks);
+    setFantasyPicks(curatedFantasyPicks);
 
     let mounted = true;
     Promise.all([
@@ -64,19 +65,24 @@ export function AnalyticsPageClient() {
         if (!mounted) return;
         setWinProbability(nextWinProbability);
         setMomentum(nextMomentum);
-        setFantasyPicks(nextFantasyPicks);
+        // Only use API fantasy picks if they contain recognizable star players;
+        // otherwise the curated list from analytics.json is always better.
+        const apiPicks = nextFantasyPicks as FantasyPick[];
+        const knownIds = new Set(curatedFantasyPicks.map((p: FantasyPick) => p.playerId));
+        const hasKnownPlayers = Array.isArray(apiPicks) && apiPicks.some((p: FantasyPick) => knownIds.has(p.playerId));
+        setFantasyPicks(hasKnownPlayers ? apiPicks : curatedFantasyPicks);
       })
       .catch(() => {
         if (!mounted) return;
         setWinProbability(getWinProbability(currentMatch.id));
         setMomentum(fallbackMomentum);
-        setFantasyPicks(FALLBACK_ANALYTICS.fantasyPicks);
+        setFantasyPicks(curatedFantasyPicks);
       });
 
     return () => {
       mounted = false;
     };
-  }, [currentMatch?.id, fallbackMomentum]);
+  }, [currentMatch?.id, fallbackMomentum, curatedFantasyPicks]);
 
   const comparisonRows = useMemo(() => {
     if (!player1 || !player2) return [];
@@ -152,7 +158,7 @@ export function AnalyticsPageClient() {
             />
           </div>
 
-          <div className="crex-card">
+          <div className="crex-card" style={{ overflow: "visible" }}>
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
                 <h2 className="font-display text-4xl uppercase text-crex-text">Player Comparison Tool</h2>
@@ -169,7 +175,7 @@ export function AnalyticsPageClient() {
                 {copied ? "Link copied" : "Share Comparison"}
               </button>
             </div>
-            <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <div className="mt-6 grid gap-4 md:grid-cols-2" style={{ position: "relative", zIndex: 20 }}>
               <PlayerSearch
                 players={players.slice(0, 120)}
                 selected={player1 ?? null}
