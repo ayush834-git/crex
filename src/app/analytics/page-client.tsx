@@ -32,6 +32,7 @@ export function AnalyticsPageClient() {
   const { players } = usePlayers({ limit: 120 });
   const liveMatches = useMatches("live", 1);
   const upcomingMatches = useMatches("upcoming", 1);
+  const hasLiveMatch = liveMatches.matches.length > 0;
   const currentMatch = liveMatches.matches[0] ?? upcomingMatches.matches[0] ?? FALLBACK_MATCHES[0];
   const fallbackMomentum = useMemo(
     () => createPendingMomentum(currentMatch?.id ?? "fallback", currentMatch?.team1.abbr ?? "IPL", currentMatch?.team2.abbr ?? "IPL", currentMatch?.venue ?? "Venue TBC"),
@@ -110,8 +111,20 @@ export function AnalyticsPageClient() {
     router.replace(`/analytics?p1=${nextP1}&p2=${nextP2}`);
   };
 
-  const momentumTeam1Color = getTeamByAbbr(momentum.innings[0]?.team)?.primaryColor ?? "var(--crex-accent)";
-  const momentumTeam2Color = getTeamByAbbr(momentum.innings[1]?.team)?.primaryColor ?? "#1d2d6b";
+  const momentumTeam1 = momentum.innings[0]?.team ?? currentMatch?.team1.abbr ?? "IPL";
+  const momentumTeam2 = momentum.innings[1]?.team ?? currentMatch?.team2.abbr ?? "IPL";
+  
+  const momentumTeam1Color = getTeamByAbbr(momentumTeam1)?.primaryColor ?? "var(--crex-accent)";
+  let momentumTeam2Color = getTeamByAbbr(momentumTeam2)?.primaryColor ?? "#1d2d6b";
+  
+  // Distinguish teams with very similar primary colors (like PBKS and RCB)
+  if (
+    momentumTeam1Color === momentumTeam2Color ||
+    (momentumTeam1 === "RCB" && momentumTeam2 === "PBKS") ||
+    (momentumTeam1 === "PBKS" && momentumTeam2 === "RCB")
+  ) {
+    momentumTeam2Color = getTeamByAbbr(momentumTeam2)?.accentColor ?? "#0a0f1e";
+  }
 
   return (
     <>
@@ -123,40 +136,49 @@ export function AnalyticsPageClient() {
       />
       <section className="crex-section">
         <div className="crex-container space-y-8">
-          <div className="crex-card">
-            <h2 className="font-display text-4xl uppercase text-crex-text">Match Win Probability</h2>
-            <div className="mt-6 grid gap-3 md:grid-cols-[auto_1fr_auto] md:items-center">
-              <div className="text-sm font-semibold text-crex-text">
-                {winProbability.team1} {winProbability.team1WinPct}%
-              </div>
-              <div className="h-5 overflow-hidden rounded-full bg-crex-surface">
-                <div className="flex h-full">
-                  <div className="h-full transition-all duration-500" style={{ width: `${winProbability.team1WinPct}%`, background: getTeamByAbbr(winProbability.team1)?.primaryColor ?? "var(--crex-accent)" }} />
-                  <div className="h-full transition-all duration-500" style={{ width: `${winProbability.team2WinPct}%`, background: getTeamByAbbr(winProbability.team2)?.primaryColor ?? "#1d2d6b" }} />
+          {hasLiveMatch ? (
+            <>
+              <div className="crex-card">
+                <h2 className="font-display text-4xl uppercase text-crex-text">Match Win Probability</h2>
+                <div className="mt-6 grid gap-3 md:grid-cols-[auto_1fr_auto] md:items-center">
+                  <div className="text-sm font-semibold text-crex-text">
+                    {winProbability.team1} {winProbability.team1WinPct}%
+                  </div>
+                  <div className="h-5 overflow-hidden rounded-full bg-crex-surface">
+                    <div className="flex h-full">
+                      <div className="h-full transition-all duration-500" style={{ width: `${winProbability.team1WinPct}%`, background: getTeamByAbbr(winProbability.team1)?.primaryColor ?? "var(--crex-accent)" }} />
+                      <div className="h-full transition-all duration-500" style={{ width: `${winProbability.team2WinPct}%`, background: getTeamByAbbr(winProbability.team2)?.primaryColor ?? "#1d2d6b" }} />
+                    </div>
+                  </div>
+                  <div className="text-right text-sm font-semibold text-crex-text">
+                    {winProbability.team2WinPct}% {winProbability.team2}
+                  </div>
                 </div>
+                <p className="mt-4 text-sm text-crex-muted">{winProbability.reason || "Analysis pending"}</p>
               </div>
-              <div className="text-right text-sm font-semibold text-crex-text">
-                {winProbability.team2WinPct}% {winProbability.team2}
-              </div>
-            </div>
-            <p className="mt-4 text-sm text-crex-muted">{winProbability.reason || "Analysis pending"}</p>
-          </div>
 
-          <div>
-            <h2 className="mb-4 font-display text-4xl uppercase text-crex-text">Momentum Tracker</h2>
-            <MomentumMeter
-              team1={{
-                name: momentum.innings[0]?.team ?? currentMatch?.team1.abbr ?? "IPL",
-                color: momentumTeam1Color,
-                overs: momentum.innings[0]?.overs ?? fallbackMomentum.innings[0].overs,
-              }}
-              team2={{
-                name: momentum.innings[1]?.team ?? currentMatch?.team2.abbr ?? "IPL",
-                color: momentumTeam2Color,
-                overs: momentum.innings[1]?.overs ?? fallbackMomentum.innings[1].overs,
-              }}
-            />
-          </div>
+              <div>
+                <h2 className="mb-4 font-display text-4xl uppercase text-crex-text">Momentum Tracker</h2>
+                <MomentumMeter
+                  team1={{
+                    name: momentumTeam1,
+                    color: momentumTeam1Color,
+                    overs: momentum.innings[0]?.overs ?? fallbackMomentum.innings[0].overs,
+                  }}
+                  team2={{
+                    name: momentumTeam2,
+                    color: momentumTeam2Color,
+                    overs: momentum.innings[1]?.overs ?? fallbackMomentum.innings[1].overs,
+                  }}
+                />
+              </div>
+            </>
+          ) : (
+            <div className="crex-empty-state">
+              <h2 className="font-display text-2xl uppercase text-crex-text">No live match analysis available</h2>
+              <p className="text-sm text-crex-muted">Match win probability and over-by-over momentum tracker will activate automatically when a match goes live.</p>
+            </div>
+          )}
 
           <div className="crex-card" style={{ overflow: "visible" }}>
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">

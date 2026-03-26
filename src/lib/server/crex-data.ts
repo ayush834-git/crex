@@ -533,7 +533,11 @@ export async function getFantasyPicks(matchId?: string): Promise<FantasyPick[]> 
   const upcomingPool = await getMatches("upcoming", 1);
   const match = matchId ? await getMatch(matchId) : liveMatchPool.matches[0] ?? upcomingPool.matches[0] ?? FALLBACK_MATCHES[0];
 
-  if (!match) return FALLBACK_ANALYTICS.fantasyPicks;
+  if (!match || match.status !== "live") {
+    // Return curated global picks if not a LIVE match, because our fallback players
+    // pool contains retired players which corrupts the auto-generated picks.
+    return FALLBACK_ANALYTICS.fantasyPicks;
+  }
 
   const pitchReport = getPitchReport(match.venue);
   const teamPlayers = FALLBACK_PLAYERS.filter((player) => player.team === match.team1.abbr || player.team === match.team2.abbr).filter((player) => player.active);
