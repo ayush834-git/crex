@@ -4,15 +4,13 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { PageHeader } from "@/components/ui/page-header";
 import { ComparisonTable } from "@/components/ui/comparison-table";
-import { PlayerAvatar } from "@/components/ui/player-avatar";
 import { PlayerSearch } from "@/components/ui/PlayerSearch";
-import { FantasyInsightChip } from "@/components/sections/fantasy-insight-chip";
 import { MomentumMeter } from "@/components/sections/momentum-meter";
 import { usePlayers } from "@/hooks/usePlayers";
 import { useMatches } from "@/hooks/useMatches";
-import { FALLBACK_ANALYTICS, FALLBACK_MATCHES, getPitchReport, getWinProbability } from "@/lib/fallback-data";
+import { FALLBACK_MATCHES, getPitchReport, getWinProbability } from "@/lib/fallback-data";
 import { getTeamByAbbr } from "@/lib/constants/teams";
-import type { FantasyPick, MomentumPayload, WinProbabilitySnapshot } from "@/lib/types";
+import type { MomentumPayload, WinProbabilitySnapshot } from "@/lib/types";
 
 function createPendingMomentum(matchId: string, team1: string, team2: string, venue: string): MomentumPayload {
   return {
@@ -41,8 +39,6 @@ export function AnalyticsPageClient() {
   const [copied, setCopied] = useState(false);
   const [winProbability, setWinProbability] = useState<WinProbabilitySnapshot>(getWinProbability(currentMatch?.id));
   const [momentum, setMomentum] = useState<MomentumPayload>(fallbackMomentum);
-  const curatedFantasyPicks = FALLBACK_ANALYTICS.fantasyPicks;
-  const [fantasyPicks, setFantasyPicks] = useState<FantasyPick[]>(curatedFantasyPicks);
 
   const defaultPlayers = [players[0], players[1]].filter(Boolean);
   const player1 = players.find((item) => item.id === searchParams.get("p1")) ?? defaultPlayers[0];
@@ -54,36 +50,27 @@ export function AnalyticsPageClient() {
 
     setWinProbability(getWinProbability(currentMatch.id));
     setMomentum(fallbackMomentum);
-    setFantasyPicks(curatedFantasyPicks);
 
     let mounted = true;
     Promise.all([
       fetch(`/api/analytics/win-probability?matchId=${currentMatch.id}`).then((response) => response.json()),
       fetch(`/api/analytics/momentum?matchId=${currentMatch.id}`).then((response) => response.json()),
-      fetch(`/api/analytics/fantasy-picks?matchId=${currentMatch.id}`).then((response) => response.json()),
     ])
-      .then(([nextWinProbability, nextMomentum, nextFantasyPicks]) => {
+      .then(([nextWinProbability, nextMomentum]) => {
         if (!mounted) return;
         setWinProbability(nextWinProbability);
         setMomentum(nextMomentum);
-        // Only use API fantasy picks if they contain recognizable star players;
-        // otherwise the curated list from analytics.json is always better.
-        const apiPicks = nextFantasyPicks as FantasyPick[];
-        const knownIds = new Set(curatedFantasyPicks.map((p: FantasyPick) => p.playerId));
-        const hasKnownPlayers = Array.isArray(apiPicks) && apiPicks.some((p: FantasyPick) => knownIds.has(p.playerId));
-        setFantasyPicks(hasKnownPlayers ? apiPicks : curatedFantasyPicks);
       })
       .catch(() => {
         if (!mounted) return;
         setWinProbability(getWinProbability(currentMatch.id));
         setMomentum(fallbackMomentum);
-        setFantasyPicks(curatedFantasyPicks);
       });
 
     return () => {
       mounted = false;
     };
-  }, [currentMatch?.id, fallbackMomentum, curatedFantasyPicks]);
+  }, [currentMatch?.id, fallbackMomentum]);
 
   const comparisonRows = useMemo(() => {
     if (!player1 || !player2) return [];
@@ -216,52 +203,27 @@ export function AnalyticsPageClient() {
             ) : null}
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-[1.3fr_1fr]">
-            <div className="crex-card">
-              <h2 className="font-display text-4xl uppercase text-crex-text">Fantasy Picks Board</h2>
-              <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                {fantasyPicks.map((pick) => {
-                  const player = players.find((item) => item.id === pick.playerId);
-                  if (!player) return null;
-                  return (
-                    <div key={pick.playerId} className="rounded-2xl bg-crex-surface p-4">
-                      <div className="flex items-center gap-3">
-                        <PlayerAvatar
-                          name={player.name}
-                          src={player.image}
-                          espnId={player.espnId}
-                          queryName={player.name}
-                          color={player.teamColor}
-                          className="h-12 w-12"
-                        />
-                        <div>
-                          <p className="font-semibold text-crex-text">{player.name}</p>
-                          <FantasyInsightChip label={pick.label} />
-                        </div>
-                      </div>
-                      <p className="mt-3 text-sm leading-6 text-crex-muted">{pick.reason}</p>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-            <div className="crex-card">
-              <h2 className="font-display text-4xl uppercase text-crex-text">Pitch Report</h2>
-              <div className="mt-5 space-y-4">
+          <div className="crex-card">
+            <h2 className="font-display text-4xl uppercase text-crex-text">Pitch Report</h2>
+            <div className="mt-5 space-y-4">
+              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
                 <div>
                   <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Venue</p>
-                  <p className="text-lg font-semibold text-crex-text">{pitchReport.venue}</p>
+                  <p className="mt-1 text-lg font-semibold text-crex-text">{pitchReport.venue}</p>
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Average First Innings</p>
-                  <p className="font-mono text-3xl font-bold text-crex-text">{pitchReport.averageFirstInnings}</p>
+                  <p className="mt-1 font-mono text-3xl font-bold text-crex-text">{pitchReport.averageFirstInnings}</p>
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Chase Win Rate</p>
-                  <p className="font-mono text-3xl font-bold text-crex-text">{pitchReport.chaseWinRate}%</p>
+                  <p className="mt-1 font-mono text-3xl font-bold text-crex-text">{pitchReport.chaseWinRate}%</p>
                 </div>
-                <p className="text-sm leading-7 text-crex-muted">{pitchReport.conditions}</p>
               </div>
+              <p className="mt-4 text-sm leading-7 text-crex-muted border-t border-crex-border pt-4">
+                <span className="font-semibold text-crex-text uppercase tracking-widest text-xs mr-2 border border-crex-border rounded-lg px-2 py-1">Conditions</span>
+                {pitchReport.conditions}
+              </p>
             </div>
           </div>
         </div>
