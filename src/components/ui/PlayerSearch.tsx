@@ -88,8 +88,8 @@ export function PlayerSearch({ players, selected, onSelect, placeholder, showIma
                 <PlayerImage espnId={selected.espnId} name={selected.name} teamColor={selected.teamColor} />
               </div>
             )}
-            <span className="text-sm font-black truncate" style={{ fontFamily: "Inter, sans-serif", color: selected.teamColor }}>{selected.name}</span>
-            <span className="text-[10px] font-black px-1.5 py-0.5 ml-auto shrink-0" style={{ background: selected.teamColor, color: "#FFFFFF" }}>{selected.team}</span>
+            <span className="truncate font-display text-2xl uppercase tracking-[0.05em]" style={{ color: selected.teamColor }}>{selected.name}</span>
+            <span className="ml-auto shrink-0 border border-[#080C18] px-1.5 py-0.5 font-display text-base uppercase tracking-[0.08em]" style={{ background: selected.teamColor, color: "#FFFFFF" }}>{selected.team}</span>
           </button>
         ) : (
           <input
@@ -99,8 +99,8 @@ export function PlayerSearch({ players, selected, onSelect, placeholder, showIma
             onFocus={() => setOpen(true)}
             onKeyDown={handleKeyDown}
             placeholder={placeholder}
-            className="w-full bg-transparent border-none outline-none text-sm font-bold placeholder:text-[#1A1AE6]/40"
-            style={{ fontFamily: "Inter, sans-serif", color: "#080C18" }}
+            className="w-full bg-transparent border-none font-display text-2xl uppercase tracking-[0.05em] outline-none placeholder:text-[#1A1AE6]/40"
+            style={{ color: "#080C18" }}
           />
         )}
       </div>
@@ -109,7 +109,7 @@ export function PlayerSearch({ players, selected, onSelect, placeholder, showIma
         <div className="absolute top-full left-0 w-full mt-1 overflow-hidden z-50 shadow-2xl"
           style={{ background: "#FFFFFF", border: "2px solid #1A1AE6", maxHeight: "280px", overflowY: "auto" }}>
           {filtered.length === 0 ? (
-            <div className="p-4 text-center text-sm font-bold" style={{ fontFamily: "Inter, sans-serif", color: "rgba(26,26,230,0.5)" }}>No players found</div>
+            <div className="p-4 text-center font-display text-xl uppercase tracking-[0.08em]" style={{ color: "rgba(26,26,230,0.5)" }}>No players found</div>
           ) : (
             filtered.map((p, i) => {
               const rb = getRoleBadge(p.role);
@@ -129,9 +129,9 @@ export function PlayerSearch({ players, selected, onSelect, placeholder, showIma
                       <PlayerImage espnId={p.espnId} name={p.name} teamColor={p.teamColor} />
                     </div>
                   )}
-                  <span className="text-sm font-bold truncate flex-1 text-left" style={{ fontFamily: "Inter, sans-serif", color: p.teamColor }}>{p.name}</span>
-                  <span className="text-[9px] font-bold px-1.5 py-0.5 shrink-0 uppercase" style={{ background: rb.bg, color: rb.text, border: "1px solid #080C18" }}>{p.role}</span>
-                  <span className="text-[10px] font-bold px-1.5 py-0.5 shrink-0" style={{ background: p.teamColor, color: "#FFFFFF" }}>{p.team}</span>
+                  <span className="flex-1 truncate text-left font-display text-xl uppercase tracking-[0.05em]" style={{ color: p.teamColor }}>{p.name}</span>
+                  <span className="shrink-0 border border-[#080C18] px-1.5 py-0.5 font-display text-sm uppercase tracking-[0.08em]" style={{ background: rb.bg, color: rb.text }}>{p.role}</span>
+                  <span className="shrink-0 px-1.5 py-0.5 font-display text-base uppercase tracking-[0.08em]" style={{ background: p.teamColor, color: "#FFFFFF" }}>{p.team}</span>
                 </button>
               );
             })

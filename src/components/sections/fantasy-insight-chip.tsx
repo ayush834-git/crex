@@ -1,12 +1,12 @@
 import { cn } from "@/utils/cn";
 
 const styles = {
-  "Form Pick": "bg-crex-live/10 text-crex-live",
-  "Value Play": "bg-crex-accent/10 text-crex-accent",
-  "Captain Core": "bg-[#1d2d6b]/10 text-[#1d2d6b]",
-  Differential: "bg-[#3A225D]/10 text-[#3A225D]",
+  "Form Pick": "bg-[#00c978] text-crex-text",
+  "Value Play": "bg-crex-accent text-crex-surface",
+  "Captain Core": "bg-crex-hot text-crex-surface",
+  Differential: "bg-crex-accent-soft text-crex-surface",
 };
 
 export function FantasyInsightChip({ label }: { label: keyof typeof styles }) {
-  return <span className={cn("inline-flex rounded-full px-3 py-1 text-xs font-semibold", styles[label])}>{label}</span>;
+  return <span className={cn("inline-flex border-2 border-crex-border px-3 py-1 font-display text-lg uppercase tracking-[0.08em] shadow-[3px_3px_0_var(--crex-shadow)]", styles[label])}>{label}</span>;
 }

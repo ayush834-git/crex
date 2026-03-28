@@ -10,13 +10,30 @@ const config: Config = {
     extend: {
       colors: {
         crex: {
+          ink: "var(--crex-ink)",
+          white: "var(--crex-white)",
           bg: "var(--crex-bg)",
           surface: "var(--crex-surface)",
+          panel: "var(--crex-panel)",
+          "panel-soft": "var(--crex-panel-soft)",
           border: "var(--crex-border)",
           text: "var(--crex-text)",
           muted: "var(--crex-muted)",
+          inverse: "var(--crex-text-inverse)",
+          "inverse-muted": "var(--crex-inverse-muted)",
           accent: "var(--crex-accent)",
+          "accent-soft": "var(--crex-accent-soft)",
+          hot: "var(--crex-hot)",
+          warning: "var(--crex-warning)",
           live: "var(--crex-live)",
+          stage: {
+            red: "var(--crex-stage-red)",
+            orange: "var(--crex-stage-orange)",
+            yellow: "var(--crex-stage-yellow)",
+            blue: "var(--crex-stage-blue)",
+            purple: "var(--crex-stage-purple)",
+            pink: "var(--crex-stage-pink)",
+          },
         },
         team: {
           mi: "var(--team-mi-primary)",
@@ -38,8 +55,9 @@ const config: Config = {
         mono: ["var(--font-mono)", "monospace"],
       },
       borderRadius: {
+        xl: "12px",
         "2xl": "16px",
-        "3xl": "24px",
+        "3xl": "20px",
       },
       animation: {
         "crex-marquee": "crex-marquee 28s linear infinite",

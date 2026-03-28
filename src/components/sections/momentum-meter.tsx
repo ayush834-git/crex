@@ -26,23 +26,25 @@ export function MomentumMeter({ team1, team2 }: MomentumMeterProps) {
   return (
     <div className="crex-card">
       <div className="flex flex-wrap items-center gap-4">
-        <span className="inline-flex items-center gap-2 text-sm font-medium text-crex-text">
-          <span className="h-3 w-3 rounded-full" style={{ background: team1.color }} />
+        <span className="inline-flex items-center gap-2 font-display text-2xl uppercase tracking-[0.08em] text-crex-accent">
+          <span className="h-4 w-4 border-2 border-crex-border" style={{ background: team1.color }} />
           {team1.name}
         </span>
-        <span className="inline-flex items-center gap-2 text-sm font-medium text-crex-text">
-          <span className="h-3 w-3 rounded-full" style={{ background: team2.color }} />
+        <span className="inline-flex items-center gap-2 font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">
+          <span className="h-4 w-4 border-2 border-crex-border" style={{ background: team2.color }} />
           {team2.name}
         </span>
       </div>
 
       {hasMomentum ? (
-        <svg viewBox="0 0 720 180" className="mt-6 w-full overflow-visible">
-          <path d={team1Path} fill="none" stroke={team1.color} strokeWidth="4" strokeLinecap="round" />
-          <path d={team2Path} fill="none" stroke={team2.color} strokeWidth="4" strokeLinecap="round" />
-        </svg>
+        <div className="mt-6 rounded-2xl border-2 border-crex-border bg-[linear-gradient(180deg,rgba(29,78,216,0.16),rgba(255,255,255,0.92))] p-3">
+          <svg viewBox="0 0 720 180" className="w-full overflow-visible">
+            <path d={team1Path} fill="none" stroke={team1.color} strokeWidth="4" strokeLinecap="square" />
+            <path d={team2Path} fill="none" stroke={team2.color} strokeWidth="4" strokeLinecap="square" />
+          </svg>
+        </div>
       ) : (
-        <div className="mt-6 rounded-2xl bg-crex-surface p-6 text-sm leading-6 text-crex-muted">
+        <div className="mt-6 rounded-2xl border-2 border-crex-border bg-[linear-gradient(180deg,rgba(29,78,216,0.16),rgba(255,255,255,0.92))] p-6 text-xl uppercase leading-6 text-crex-text">
           Over-by-over momentum is not available from the live provider for this fixture yet. CREX will show the curve as soon as granular scorecard data arrives.
         </div>
       )}

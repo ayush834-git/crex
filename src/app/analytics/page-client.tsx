@@ -100,11 +100,10 @@ export function AnalyticsPageClient() {
 
   const momentumTeam1 = momentum.innings[0]?.team ?? currentMatch?.team1.abbr ?? "IPL";
   const momentumTeam2 = momentum.innings[1]?.team ?? currentMatch?.team2.abbr ?? "IPL";
-  
+
   const momentumTeam1Color = getTeamByAbbr(momentumTeam1)?.primaryColor ?? "var(--crex-accent)";
   let momentumTeam2Color = getTeamByAbbr(momentumTeam2)?.primaryColor ?? "#1d2d6b";
-  
-  // Distinguish teams with very similar primary colors (like PBKS and RCB)
+
   if (
     momentumTeam1Color === momentumTeam2Color ||
     (momentumTeam1 === "RCB" && momentumTeam2 === "PBKS") ||
@@ -117,35 +116,49 @@ export function AnalyticsPageClient() {
     <>
       <PageHeader
         title="CREX Analytics"
-        subtitle="Win probability, momentum swings, player comparison, fantasy picks, and venue context for investor-grade demos."
-        badge="BETA"
+        subtitle="Win probability, momentum swings, player comparison, fantasy calls, and venue pressure in one poster-ready system."
+        badge="Beta"
         eyebrow="Predictive Engine"
+        tone="blue"
       />
+
       <section className="crex-section">
         <div className="crex-container space-y-8">
           {hasLiveMatch ? (
             <>
               <div className="crex-card">
-                <h2 className="font-display text-4xl uppercase text-crex-text">Match Win Probability</h2>
-                <div className="mt-6 grid gap-3 md:grid-cols-[auto_1fr_auto] md:items-center">
-                  <div className="text-sm font-semibold text-crex-text">
+                <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+                  <div>
+                    <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">Live Projection</p>
+                    <h2 className="font-poster text-[3.5rem] uppercase leading-[0.84] text-crex-accent crex-title-shadow md:text-[5rem]">
+                      Match Win
+                      <span className="block">Probability</span>
+                    </h2>
+                  </div>
+                  <p className="max-w-lg text-xl uppercase leading-6 text-crex-text">
+                    {currentMatch.team1.abbr} vs {currentMatch.team2.abbr} at {currentMatch.venue}
+                  </p>
+                </div>
+
+                <div className="mt-6 grid gap-4 md:grid-cols-[auto_1fr_auto] md:items-center">
+                  <div className="font-display text-3xl uppercase tracking-[0.08em] text-crex-accent">
                     {winProbability.team1} {winProbability.team1WinPct}%
                   </div>
-                  <div className="h-5 overflow-hidden rounded-full bg-crex-surface">
-                    <div className="flex h-full">
-                      <div className="h-full transition-all duration-500" style={{ width: `${winProbability.team1WinPct}%`, background: getTeamByAbbr(winProbability.team1)?.primaryColor ?? "var(--crex-accent)" }} />
-                      <div className="h-full transition-all duration-500" style={{ width: `${winProbability.team2WinPct}%`, background: getTeamByAbbr(winProbability.team2)?.primaryColor ?? "#1d2d6b" }} />
+                  <div className="border-4 border-crex-border bg-crex-panel p-1">
+                    <div className="flex h-8">
+                      <div style={{ width: `${winProbability.team1WinPct}%`, background: getTeamByAbbr(winProbability.team1)?.primaryColor ?? "var(--crex-accent)" }} />
+                      <div style={{ width: `${winProbability.team2WinPct}%`, background: getTeamByAbbr(winProbability.team2)?.primaryColor ?? "#1d2d6b" }} />
                     </div>
                   </div>
-                  <div className="text-right text-sm font-semibold text-crex-text">
+                  <div className="text-right font-display text-3xl uppercase tracking-[0.08em] text-crex-hot">
                     {winProbability.team2WinPct}% {winProbability.team2}
                   </div>
                 </div>
-                <p className="mt-4 text-sm text-crex-muted">{winProbability.reason || "Analysis pending"}</p>
+                <p className="mt-4 text-xl uppercase leading-6 text-crex-text">{winProbability.reason || "Analysis pending"}</p>
               </div>
 
               <div>
-                <h2 className="mb-4 font-display text-4xl uppercase text-crex-text">Momentum Tracker</h2>
+                <h2 className="mb-4 font-display text-4xl uppercase tracking-[0.08em] text-crex-accent">Momentum Tracker</h2>
                 <MomentumMeter
                   team1={{
                     name: momentumTeam1,
@@ -162,40 +175,47 @@ export function AnalyticsPageClient() {
             </>
           ) : (
             <div className="crex-empty-state">
-              <h2 className="font-display text-2xl uppercase text-crex-text">No live match analysis available</h2>
-              <p className="text-sm text-crex-muted">Match win probability and over-by-over momentum tracker will activate automatically when a match goes live.</p>
+              <h2 className="font-display text-4xl uppercase tracking-[0.08em] text-crex-accent">No live match analysis available</h2>
+              <p className="text-xl uppercase leading-6 text-crex-text">Match win probability and over-by-over momentum will light up once a fixture goes live.</p>
             </div>
           )}
 
           <div className="crex-card" style={{ overflow: "visible" }}>
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
-                <h2 className="font-display text-4xl uppercase text-crex-text">Player Comparison Tool</h2>
-                <p className="mt-2 text-sm text-crex-muted">Search two players, compare the shape, then share the URL.</p>
+                <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">Head to Head</p>
+                <h2 className="font-poster text-[3.5rem] uppercase leading-[0.84] text-crex-accent crex-title-shadow md:text-[5rem]">
+                  Player Comparison
+                </h2>
+                <p className="mt-2 text-xl uppercase leading-6 text-crex-text">Search two players, compare the shape, then send the link around.</p>
               </div>
               <button
-                className="tap-target rounded-2xl border border-crex-border bg-white px-4 py-3 text-sm font-semibold text-crex-text"
+                className="crex-button tap-target text-xl"
                 onClick={async () => {
                   await navigator.clipboard.writeText(window.location.href);
                   setCopied(true);
                   setTimeout(() => setCopied(false), 1200);
                 }}
               >
-                {copied ? "Link copied" : "Share Comparison"}
+                {copied ? "Link Copied" : "Share Comparison"}
               </button>
             </div>
             <div className="mt-6 grid gap-4 md:grid-cols-2" style={{ position: "relative", zIndex: 20 }}>
               <PlayerSearch
                 players={players.slice(0, 120)}
                 selected={player1 ?? null}
-                onSelect={(p) => { if (player2) syncPlayers(p.id, player2.id); }}
-                placeholder="Search Player 1…"
+                onSelect={(p) => {
+                  if (player2) syncPlayers(p.id, player2.id);
+                }}
+                placeholder="Search Player 1..."
               />
               <PlayerSearch
                 players={players.slice(0, 120)}
                 selected={player2 ?? null}
-                onSelect={(p) => { if (player1) syncPlayers(player1.id, p.id); }}
-                placeholder="Search Player 2…"
+                onSelect={(p) => {
+                  if (player1) syncPlayers(player1.id, p.id);
+                }}
+                placeholder="Search Player 2..."
               />
             </div>
             {player1 && player2 ? (
@@ -204,26 +224,31 @@ export function AnalyticsPageClient() {
           </div>
 
           <div className="crex-card">
-            <h2 className="font-display text-4xl uppercase text-crex-text">Pitch Report</h2>
-            <div className="mt-5 space-y-4">
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Venue</p>
-                  <p className="mt-1 text-lg font-semibold text-crex-text">{pitchReport.venue}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Average First Innings</p>
-                  <p className="mt-1 font-mono text-3xl font-bold text-crex-text">{pitchReport.averageFirstInnings}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Chase Win Rate</p>
-                  <p className="mt-1 font-mono text-3xl font-bold text-crex-text">{pitchReport.chaseWinRate}%</p>
-                </div>
+            <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">Venue Context</p>
+            <h2 className="font-poster text-[3.5rem] uppercase leading-[0.84] text-crex-accent crex-title-shadow md:text-[5rem]">Pitch Report</h2>
+            <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              <div className="crex-stat-tile bg-crex-surface text-left">
+                <p className="font-display text-xl uppercase tracking-[0.08em] text-crex-text">Venue</p>
+                <p className="mt-2 text-2xl uppercase text-crex-accent">{pitchReport.venue}</p>
               </div>
-              <p className="mt-4 text-sm leading-7 text-crex-muted border-t border-crex-border pt-4">
-                <span className="font-semibold text-crex-text uppercase tracking-widest text-xs mr-2 border border-crex-border rounded-lg px-2 py-1">Conditions</span>
-                {pitchReport.conditions}
-              </p>
+              <div className="crex-stat-tile bg-crex-accent text-left text-crex-surface">
+                <p className="font-display text-xl uppercase tracking-[0.08em]">Average First Innings</p>
+                <p className="mt-2 font-mono text-4xl font-bold">{pitchReport.averageFirstInnings}</p>
+              </div>
+              <div className="crex-stat-tile bg-crex-accent-soft text-left text-crex-surface">
+                <p className="font-display text-xl uppercase tracking-[0.08em]">Chase Win Rate</p>
+                <p className="mt-2 font-mono text-4xl font-bold">{pitchReport.chaseWinRate}%</p>
+              </div>
+              <div className="crex-stat-tile bg-crex-hot text-left text-white">
+                <p className="font-display text-xl uppercase tracking-[0.08em]">Status</p>
+                <p className="mt-2 font-display text-3xl uppercase tracking-[0.08em]">{hasLiveMatch ? "Active" : "Waiting"}</p>
+              </div>
+            </div>
+            <div className="mt-6 border-4 border-crex-border bg-crex-panel p-5">
+              <span className="border-2 border-crex-border bg-crex-hot px-3 py-1 font-display text-lg uppercase tracking-[0.08em] text-white shadow-[3px_3px_0_var(--crex-shadow)]">
+                Conditions
+              </span>
+              <p className="mt-4 text-xl uppercase leading-7 text-crex-text">{pitchReport.conditions}</p>
             </div>
           </div>
         </div>

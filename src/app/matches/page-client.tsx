@@ -43,6 +43,7 @@ export function MatchesPageClient() {
         title="Match Center"
         subtitle="Live, recent, and upcoming IPL fixtures with score context, venue intelligence, and friendly fallbacks."
         eyebrow={new Date().toLocaleDateString("en-IN", { weekday: "long", month: "long", day: "numeric" })}
+        tone="yellow"
       />
       <section className="crex-section">
         <div className="crex-container">

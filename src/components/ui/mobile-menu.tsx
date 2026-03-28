@@ -25,12 +25,12 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-50 bg-white/95 backdrop-blur-xl md:hidden"
+          className="fixed inset-0 z-50 crex-stage crex-stage-blue md:hidden"
         >
           <div className="crex-container flex h-full flex-col py-6">
             <div className="flex items-center justify-between">
-              <span className="font-display text-4xl text-crex-text">CREX</span>
-              <button className="tap-target rounded-full border border-crex-border p-3 text-crex-text" onClick={onClose}>
+              <span className="font-display text-5xl uppercase tracking-[0.08em] text-white crex-blue-shadow">CREX</span>
+              <button className="tap-target crex-button px-3 py-2" onClick={onClose} aria-label="Close navigation">
                 <X size={18} />
               </button>
             </div>
@@ -40,11 +40,14 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
                   key={link.href}
                   href={link.href}
                   onClick={onClose}
-                  className="rounded-2xl border border-crex-border bg-white px-5 py-4 font-display text-3xl uppercase tracking-wide text-crex-text shadow-crex"
+                  className="crex-card crex-card-interactive px-5 py-4 font-display text-4xl uppercase tracking-[0.08em] text-crex-accent"
                 >
                   {link.label}
                 </Link>
               ))}
+            </div>
+            <div className="mb-10">
+              <span className="crex-pill">IPL 2026</span>
             </div>
           </div>
         </motion.div>

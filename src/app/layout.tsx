@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Barlow_Condensed, Bebas_Neue, JetBrains_Mono } from "next/font/google";
 import ScrollSmoother from "@/components/ScrollSmoother";
 import "./globals.css";
 
@@ -9,15 +9,23 @@ const display = Bebas_Neue({
   weight: "400",
 });
 
-const body = DM_Sans({
+const body = Barlow_Condensed({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
 });
 
 const mono = JetBrains_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
+  display: "swap",
+});
+
+const poster = Barlow_Condensed({
+  variable: "--font-poster",
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
   display: "swap",
 });
 
@@ -45,7 +53,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${display.variable} ${body.variable} ${mono.variable} bg-crex-bg font-body text-crex-text antialiased`}>
+      <body className={`${display.variable} ${body.variable} ${mono.variable} ${poster.variable} bg-crex-bg font-body text-crex-text antialiased`}>
         <ScrollSmoother>{children}</ScrollSmoother>
       </body>
     </html>

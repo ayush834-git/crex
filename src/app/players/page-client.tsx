@@ -39,9 +39,10 @@ export function PlayersPageClient() {
   return (
     <>
       <PageHeader
-        title="IPL Players 2026"
-        subtitle="Search by team, role, and nationality. CREX always keeps a fully populated player grid even when live APIs are delayed."
-        eyebrow={source === "static" ? "Showing stable fallback roster" : "Live roster sync"}
+        title="All Players"
+        subtitle="Search by team, role, and nationality. IPL career stats are always visible even when live provider detail slips."
+        eyebrow={source === "static" ? "Stable fallback roster" : "Live roster sync"}
+        tone="purple"
       />
       <section className="crex-section">
         <div className="crex-container">

@@ -31,13 +31,13 @@ export function PlayerFiltersBar({ filters, onChange }: PlayerFiltersProps) {
 
   return (
     <div className="space-y-5">
-      <label className="flex min-h-[52px] items-center gap-3 rounded-2xl border border-crex-border bg-white px-4 shadow-crex">
+      <label className="crex-card flex min-h-[60px] items-center gap-3 px-4">
         <Search size={18} className="text-crex-muted" />
         <input
           value={localQuery}
           onChange={(event) => handleSearch(event.target.value)}
           placeholder="Search players"
-          className="w-full bg-transparent outline-none placeholder:text-crex-muted"
+          className="w-full bg-transparent font-display text-2xl uppercase tracking-[0.05em] outline-none placeholder:text-crex-muted"
         />
       </label>
 
@@ -52,11 +52,11 @@ export function PlayerFiltersBar({ filters, onChange }: PlayerFiltersProps) {
             <button
               key={team.abbr}
               onClick={() => onChange({ ...filters, team: next, page: 1 })}
-              className="tap-target shrink-0 rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-white"
+              className="tap-target shrink-0 rounded-xl border-2 px-4 py-2 font-display text-xl uppercase tracking-[0.08em] shadow-[0_10px_18px_rgba(91,33,182,0.14)] transition-transform duration-200 hover:-translate-y-1"
               style={{
                 background: active ? team.primaryColor : "white",
                 color: active ? "white" : team.primaryColor,
-                borderColor: team.primaryColor,
+                borderColor: active ? "var(--crex-border)" : team.primaryColor,
               }}
             >
               {team.abbr}
@@ -73,7 +73,7 @@ export function PlayerFiltersBar({ filters, onChange }: PlayerFiltersProps) {
             <button
               key={role}
               onClick={() => onChange({ ...filters, role: next, page: 1 })}
-              className={`tap-target rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] ${active ? "border-crex-accent bg-crex-accent text-white" : "border-crex-border bg-white text-crex-text"}`}
+              className={`tap-target rounded-xl border-2 px-4 py-2 font-display text-xl uppercase tracking-[0.08em] shadow-[0_10px_18px_rgba(91,33,182,0.14)] transition-transform duration-200 hover:-translate-y-1 ${active ? "border-crex-border bg-crex-accent text-white" : "border-crex-border bg-crex-panel text-crex-accent"}`}
             >
               {role}
             </button>
@@ -88,7 +88,7 @@ export function PlayerFiltersBar({ filters, onChange }: PlayerFiltersProps) {
             <button
               key={value}
               onClick={() => onChange({ ...filters, nationality: next, page: 1 })}
-              className={`tap-target rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] ${active ? "border-crex-accent bg-crex-accent text-white" : "border-crex-border bg-white text-crex-text"}`}
+              className={`tap-target rounded-xl border-2 px-4 py-2 font-display text-xl uppercase tracking-[0.08em] shadow-[0_10px_18px_rgba(91,33,182,0.14)] transition-transform duration-200 hover:-translate-y-1 ${active ? "border-crex-border bg-crex-accent-soft text-white" : "border-crex-border bg-crex-panel text-crex-accent"}`}
             >
               {value}
             </button>

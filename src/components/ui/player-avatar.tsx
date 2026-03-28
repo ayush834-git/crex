@@ -44,7 +44,7 @@ export function PlayerAvatar({
   return (
     <div
       className={cn(
-        "relative overflow-hidden rounded-full border border-white/50 bg-white shadow-[0_8px_24px_rgba(10,15,30,0.12)]",
+        "relative overflow-hidden rounded-2xl border-2 border-crex-border bg-white shadow-[0_14px_24px_rgba(91,33,182,0.14)]",
         className
       )}
       style={{ background: `linear-gradient(135deg, ${color}, rgba(255,255,255,0.75))` }}
@@ -62,7 +62,7 @@ export function PlayerAvatar({
       ) : loading ? (
         <span className="absolute inset-0 animate-pulse bg-white/30" />
       ) : (
-        <span className="absolute inset-0 flex items-center justify-center font-display text-xl text-white">
+        <span className="absolute inset-0 flex items-center justify-center font-display text-5xl uppercase tracking-[0.08em] text-white">
           {initials}
         </span>
       )}

@@ -19,7 +19,7 @@ export function TeamMark({ abbr, logo, className }: TeamMarkProps) {
 
   return (
     <div
-      className={cn("relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-crex-border", className)}
+      className={cn("relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl border-2 border-crex-border shadow-[0_10px_18px_rgba(91,33,182,0.14)]", className)}
       style={{
         background: `linear-gradient(135deg, ${team?.primaryColor ?? "var(--crex-accent)"}, ${team?.accentColor ?? "#ffffff"})`,
       }}

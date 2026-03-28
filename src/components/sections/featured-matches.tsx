@@ -10,14 +10,14 @@ export function FeaturedMatches() {
   const isLoading = live.isLoading || upcoming.isLoading;
 
   return (
-    <section className="crex-section">
+    <section className="crex-section crex-stage crex-stage-yellow border-y border-white/16">
       <div className="crex-container">
         <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-crex-muted">Featured Matches</p>
-            <h2 className="mt-3 font-display text-5xl uppercase text-crex-text md:text-6xl">Live now and next up</h2>
+            <p className="font-display text-3xl uppercase tracking-[0.08em] text-crex-hot">Featured Matches</p>
+            <h2 className="mt-3 font-poster text-[4rem] uppercase leading-[0.84] text-crex-ink crex-blue-shadow md:text-[5.75rem]">Live now and next up</h2>
           </div>
-          <p className="text-sm text-crex-muted">Data may be delayed during provider rate limits. CREX will keep showing the latest stable read.</p>
+          <p className="max-w-md text-xl uppercase leading-6 text-[rgba(37,18,77,0.82)]">Data may be delayed during provider rate limits. CREX keeps the latest stable read on deck.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {isLoading

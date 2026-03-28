@@ -20,53 +20,56 @@ export function Footer() {
   };
 
   return (
-    <footer className="mt-20 bg-[#0A0F1E] text-white">
-      <div className="crex-container grid gap-10 py-12 md:grid-cols-4">
+    <footer className="crex-stage crex-stage-pink mt-20 border-t border-white/16 text-white">
+      <div className="crex-container grid gap-10 py-16 md:grid-cols-4">
         <div>
-          <p className="font-display text-4xl uppercase">CREX</p>
-          <p className="mt-3 text-sm leading-6 text-white/70">
+          <p className="font-display text-5xl uppercase tracking-[0.08em] text-white crex-blue-shadow">CREX</p>
+          <p className="mt-3 text-lg leading-6 text-white/84">
             Live scores, predictive analytics, and fantasy intelligence built for every IPL night.
           </p>
         </div>
+
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-white/60">Navigation</h3>
-          <div className="mt-4 flex flex-col gap-3 text-sm">
+          <h3 className="font-display text-2xl uppercase tracking-[0.08em] text-crex-surface">Navigation</h3>
+          <div className="mt-4 flex flex-col gap-3 text-lg uppercase text-white">
             <Link href="/">Home</Link>
             <Link href="/matches">Matches</Link>
             <Link href="/players">Players</Link>
             <Link href="/analytics">Analytics</Link>
           </div>
         </div>
+
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-white/60">Social</h3>
+          <h3 className="font-display text-2xl uppercase tracking-[0.08em] text-crex-surface">Social</h3>
           <div className="mt-4 flex items-center gap-3">
-            <Link href="https://x.com" className="rounded-2xl border border-white/10 p-3 text-white/80 hover:bg-white/10">
+            <Link href="https://x.com" className="crex-card crex-card-interactive p-3 text-crex-accent">
               <Twitter size={18} />
             </Link>
-            <Link href="https://instagram.com" className="rounded-2xl border border-white/10 p-3 text-white/80 hover:bg-white/10">
+            <Link href="https://instagram.com" className="crex-card crex-card-interactive p-3 text-crex-accent">
               <Instagram size={18} />
             </Link>
           </div>
         </div>
+
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-white/60">Newsletter</h3>
+          <h3 className="font-display text-2xl uppercase tracking-[0.08em] text-crex-surface">Newsletter</h3>
           <form className="mt-4 flex flex-col gap-3" onSubmit={handleSubmit}>
             <input
               type="email"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
               placeholder="Email address"
-              className="min-h-[48px] rounded-2xl border border-white/10 bg-white/5 px-4 text-sm outline-none placeholder:text-white/40"
+              className="min-h-[56px] rounded-xl border-2 border-white/24 bg-white/92 px-4 text-lg text-crex-text outline-none placeholder:text-crex-muted"
             />
-            <button type="submit" className="tap-target rounded-2xl bg-crex-accent px-4 py-3 text-sm font-semibold text-white">
+            <button type="submit" className="crex-button tap-target text-xl">
               Subscribe
             </button>
-            <p className="text-xs leading-5 text-white/60">{message}</p>
+            <p className="text-base leading-5 text-white/82">{message}</p>
           </form>
         </div>
       </div>
-      <div className="border-t border-white/10 py-4 text-center text-xs text-white/50">
-        © 2025 CREX. Not affiliated with BCCI or IPL.
+      <div className="border-t border-white/16 py-4 text-center font-display text-lg uppercase tracking-[0.08em] text-white/78">
+        Copyright 2025 CREX. Not affiliated with BCCI or IPL.
       </div>
     </footer>
   );

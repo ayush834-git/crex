@@ -38,11 +38,14 @@ export function PlayerSpotlight() {
   }, [fantasyPicks, players]);
 
   return (
-    <section className="crex-section">
+    <section className="crex-section crex-stage crex-stage-orange border-y border-white/16">
       <div className="crex-container">
         <div className="mb-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-crex-muted">Player Spotlight</p>
-          <h2 className="mt-3 font-display text-5xl uppercase text-crex-text md:text-6xl">Four names driving tonight&apos;s conversation</h2>
+          <p className="font-display text-3xl uppercase tracking-[0.08em] text-white">Player Spotlight</p>
+          <h2 className="mt-3 font-poster text-[4rem] uppercase leading-[0.84] text-crex-surface crex-blue-shadow md:text-[5.75rem]">
+            Four names driving
+            <span className="block">tonight&apos;s conversation.</span>
+          </h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {spotlightPlayers.map((player) => (

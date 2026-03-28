@@ -18,7 +18,7 @@ export function Pagination({ page, totalPages, onPageChange, className }: Pagina
       <button
         disabled={page <= 1}
         onClick={() => onPageChange(page - 1)}
-        className="tap-target rounded-2xl border border-crex-border bg-white px-4 py-2 text-crex-text disabled:opacity-40"
+        className="tap-target rounded-xl border-2 border-crex-border bg-crex-panel px-4 py-2 text-crex-accent shadow-[0_10px_18px_rgba(91,33,182,0.14)] disabled:opacity-40"
       >
         <ChevronLeft size={18} />
       </button>
@@ -27,8 +27,8 @@ export function Pagination({ page, totalPages, onPageChange, className }: Pagina
           key={value}
           onClick={() => onPageChange(value)}
           className={cn(
-            "tap-target min-w-[44px] rounded-2xl border px-4 py-2 text-sm font-semibold",
-            value === page ? "border-crex-accent bg-crex-accent text-white" : "border-crex-border bg-white text-crex-text"
+            "tap-target min-w-[44px] rounded-xl border-2 px-4 py-2 font-display text-xl uppercase tracking-[0.08em] shadow-[0_10px_18px_rgba(91,33,182,0.14)]",
+            value === page ? "border-crex-border bg-crex-accent text-white shadow-[0_14px_24px_rgba(29,78,216,0.2)]" : "border-crex-border bg-crex-panel text-crex-accent"
           )}
         >
           {value}
@@ -37,7 +37,7 @@ export function Pagination({ page, totalPages, onPageChange, className }: Pagina
       <button
         disabled={page >= totalPages}
         onClick={() => onPageChange(page + 1)}
-        className="tap-target rounded-2xl border border-crex-border bg-white px-4 py-2 text-crex-text disabled:opacity-40"
+        className="tap-target rounded-xl border-2 border-crex-border bg-crex-panel px-4 py-2 text-crex-accent shadow-[0_10px_18px_rgba(91,33,182,0.14)] disabled:opacity-40"
       >
         <ChevronRight size={18} />
       </button>

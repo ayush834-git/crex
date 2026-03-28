@@ -18,19 +18,19 @@ export function AlertBanner({ message, cta, dismissible = true, className }: Ale
   if (!open) return null;
 
   return (
-    <div className={cn("border-b border-crex-accent/20 bg-crex-accent px-4 py-2 text-white", className)}>
-      <div className="crex-container flex items-center justify-between gap-3 text-sm">
+    <div className={cn("crex-stage crex-stage-red border-b border-white/16 px-4 py-2 text-white", className)}>
+      <div className="crex-container flex items-center justify-between gap-3 text-base uppercase">
         <div className="flex items-center gap-3">
-          <span className="h-2 w-2 rounded-full bg-white animate-live-pulse" />
-          <span className="font-medium">{message}</span>
+          <span className="h-3 w-3 rounded-full bg-[#8bff5d] animate-live-pulse" />
+          <span className="font-display tracking-[0.06em]">{message}</span>
           {cta ? (
-            <Link href={cta.href} className="font-semibold underline underline-offset-4">
+            <Link href={cta.href} className="font-display text-crex-surface underline underline-offset-4">
               {cta.text}
             </Link>
           ) : null}
         </div>
         {dismissible ? (
-          <button aria-label="Dismiss alert" className="tap-target rounded-full p-2 text-white/80 hover:bg-white/10" onClick={() => setOpen(false)}>
+          <button aria-label="Dismiss alert" className="tap-target rounded-xl border border-white/24 px-2 py-1 text-white/80 hover:bg-white/10" onClick={() => setOpen(false)}>
             <X size={16} />
           </button>
         ) : null}

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, MapPin, Clock3, Trophy } from "lucide-react";
+import { ArrowLeft, Clock3, MapPin, Trophy } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { TeamMark } from "@/components/ui/team-mark";
@@ -19,14 +19,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: MatchPageProps): Promise<Metadata> {
   const { id } = await params;
   const match = await getMatch(id);
-  const title = match
-    ? `${match.team1.abbr} vs ${match.team2.abbr} — CREX`
-    : "Match Details — CREX";
+  const title = match ? `${match.team1.abbr} vs ${match.team2.abbr} - CREX` : "Match Details - CREX";
   return {
     title,
-    description: match
-      ? `${match.title} at ${match.venue}. ${match.result ?? match.note ?? "Live scores on CREX."}`
-      : "IPL match details on CREX.",
+    description: match ? `${match.title} at ${match.venue}. ${match.result ?? match.note ?? "Live scores on CREX."}` : "IPL match details on CREX.",
   };
 }
 
@@ -55,142 +51,101 @@ export default async function MatchDetailPage({ params }: MatchPageProps) {
     <main className="min-h-screen">
       <Navbar />
 
-      {/* Hero banner */}
-      <section
-        className="relative overflow-hidden"
-        style={{
-          background: "linear-gradient(135deg, var(--crex-ink), var(--crex-ink-light, #1a2744))",
-        }}
-      >
-        <div className="crex-container py-10 md:py-16">
+      <section className="crex-red-surface border-b-4 border-crex-accent py-10">
+        <div className="crex-container">
           <Link
             href={`/matches?tab=${isCompleted ? "recent" : match.status}`}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-white/60 hover:text-white transition-colors"
+            className="inline-flex items-center gap-2 font-display text-2xl uppercase tracking-[0.08em] text-white"
           >
-            <ArrowLeft size={16} />
+            <ArrowLeft size={18} />
             Back to Match Center
           </Link>
 
-          <p className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-white/50">
-            {match.series ?? "IPL 2026"}
-          </p>
-          <h1 className="mt-2 font-display text-5xl uppercase leading-none text-white md:text-7xl">
-            {match.team1.abbr} vs {match.team2.abbr}
-          </h1>
-          <p className="mt-3 text-lg text-white/70">{match.title}</p>
-
-          {/* Status badge */}
           <div className="mt-6">
-            {isLive && (
-              <span className="inline-flex items-center gap-2 rounded-full bg-green-500/20 px-4 py-2 text-sm font-bold text-green-400">
-                <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
-                LIVE
+            <p className="font-display text-3xl uppercase tracking-[0.08em] text-crex-surface">{match.series ?? "IPL 2026"}</p>
+            <h1 className="mt-3 font-poster text-[4.5rem] uppercase leading-[0.82] text-white crex-title-shadow md:text-[7rem]">
+              {match.team1.abbr} vs {match.team2.abbr}
+            </h1>
+            <p className="mt-4 max-w-3xl text-2xl uppercase leading-7 text-white">{match.title}</p>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            {isLive ? (
+              <span className="border-2 border-crex-border bg-[#00c978] px-3 py-1 font-display text-2xl uppercase tracking-[0.08em] text-crex-text shadow-[4px_4px_0_var(--crex-shadow)]">
+                Live
               </span>
-            )}
-            {isCompleted && (
-              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-white/80">
-                <Trophy size={14} />
-                COMPLETED
+            ) : null}
+            {isCompleted ? (
+              <span className="inline-flex items-center gap-2 border-2 border-crex-border bg-crex-panel px-3 py-1 font-display text-2xl uppercase tracking-[0.08em] text-crex-text shadow-[4px_4px_0_var(--crex-shadow)]">
+                <Trophy size={18} />
+                Completed
               </span>
-            )}
-            {match.status === "upcoming" && (
-              <span className="inline-flex items-center gap-2 rounded-full bg-crex-accent/20 px-4 py-2 text-sm font-bold text-crex-accent">
-                UPCOMING
+            ) : null}
+            {match.status === "upcoming" ? (
+              <span className="border-2 border-crex-border bg-crex-accent px-3 py-1 font-display text-2xl uppercase tracking-[0.08em] text-crex-surface shadow-[4px_4px_0_var(--crex-shadow)]">
+                Upcoming
               </span>
-            )}
+            ) : null}
           </div>
         </div>
       </section>
 
-      {/* Scorecard */}
       <section className="crex-section">
-        <div className="crex-container">
-          <div className="grid gap-8 md:grid-cols-2">
-            {/* Team 1 */}
-            <div className="crex-card">
-              <div className="flex items-center gap-4">
-                <TeamMark abbr={match.team1.abbr} logo={match.team1.logo} />
-                <div>
-                  <h2 className="font-display text-3xl uppercase text-crex-text">
-                    {match.team1.name}
-                  </h2>
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-crex-muted">
-                    {match.team1.abbr}
-                  </p>
+        <div className="crex-container space-y-8">
+          <div className="grid gap-6 md:grid-cols-2">
+            {[match.team1, match.team2].map((team, index) => (
+              <div key={team.abbr} className={`crex-card ${index === 0 ? "bg-crex-panel" : "bg-[#f6efe8]"}`}>
+                <div className="flex items-center gap-4">
+                  <TeamMark abbr={team.abbr} logo={team.logo} className="h-16 w-16" />
+                  <div>
+                    <h2 className="font-display text-4xl uppercase tracking-[0.08em] text-crex-accent">{team.name}</h2>
+                    <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">{team.abbr}</p>
+                  </div>
+                </div>
+                <div className="mt-8 border-4 border-crex-border bg-crex-surface p-5">
+                  <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-text">Score</p>
+                  <p className="mt-3 font-mono text-6xl font-bold text-crex-accent">{team.score ?? "--/--"}</p>
                 </div>
               </div>
-              <div className="mt-6">
-                <p className="font-mono text-5xl font-bold text-crex-text">
-                  {match.team1.score ?? "—/—"}
-                </p>
-              </div>
-            </div>
-
-            {/* Team 2 */}
-            <div className="crex-card">
-              <div className="flex items-center gap-4">
-                <TeamMark abbr={match.team2.abbr} logo={match.team2.logo} />
-                <div>
-                  <h2 className="font-display text-3xl uppercase text-crex-text">
-                    {match.team2.name}
-                  </h2>
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-crex-muted">
-                    {match.team2.abbr}
-                  </p>
-                </div>
-              </div>
-              <div className="mt-6">
-                <p className="font-mono text-5xl font-bold text-crex-text">
-                  {match.team2.score ?? "—/—"}
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
 
-          {/* Match info */}
-          <div className="mt-8 crex-card">
-            <div className="grid gap-6 md:grid-cols-3">
-              <div>
-                <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Venue</p>
-                <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-crex-text">
-                  <MapPin size={14} className="text-crex-accent" />
+          <div className="crex-card">
+            <p className="font-display text-3xl uppercase tracking-[0.08em] text-crex-hot">Match Context</p>
+            <div className="mt-6 grid gap-4 md:grid-cols-3">
+              <div className="crex-stat-tile bg-crex-surface text-left">
+                <p className="font-display text-xl uppercase tracking-[0.08em] text-crex-text">Venue</p>
+                <p className="mt-3 flex items-center gap-2 text-2xl uppercase text-crex-accent">
+                  <MapPin size={18} />
                   {match.venue || "TBC"}
                 </p>
               </div>
-              <div>
-                <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Date & Time</p>
-                <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-crex-text">
-                  <Clock3 size={14} className="text-crex-accent" />
-                  {formatMatchTime(match.startTime)}
+              <div className="crex-stat-tile bg-crex-accent text-left text-crex-surface">
+                <p className="font-display text-xl uppercase tracking-[0.08em]">Date & Time</p>
+                <p className="mt-3 flex items-start gap-2 text-2xl uppercase">
+                  <Clock3 size={18} className="mt-1 shrink-0" />
+                  <span>{formatMatchTime(match.startTime)}</span>
                 </p>
               </div>
-              {match.oversBowled && (
-                <div>
-                  <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Overs</p>
-                  <p className="mt-2 font-mono text-sm font-bold text-crex-text">
-                    {match.oversBowled} overs bowled
-                  </p>
-                </div>
-              )}
+              <div className="crex-stat-tile bg-crex-hot text-left text-white">
+                <p className="font-display text-xl uppercase tracking-[0.08em]">Overs</p>
+                <p className="mt-3 font-mono text-4xl font-bold">{match.oversBowled ?? "--"}</p>
+              </div>
             </div>
 
-            {/* Result */}
-            {match.result && (
-              <div className="mt-6 rounded-2xl bg-crex-surface p-5">
-                <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Result</p>
-                <p className="mt-2 font-display text-2xl uppercase text-crex-text">
-                  {match.result}
-                </p>
+            {match.result ? (
+              <div className="mt-6 border-4 border-crex-border bg-crex-panel p-5">
+                <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">Result</p>
+                <p className="mt-3 font-poster text-[3rem] uppercase leading-[0.84] text-crex-accent crex-title-shadow md:text-[4rem]">{match.result}</p>
               </div>
-            )}
+            ) : null}
 
-            {/* Note */}
-            {match.note && (
-              <div className="mt-4 rounded-2xl bg-crex-surface p-5">
-                <p className="text-xs uppercase tracking-[0.16em] text-crex-muted">Match Note</p>
-                <p className="mt-2 text-sm leading-6 text-crex-text">{match.note}</p>
+            {match.note ? (
+              <div className="mt-6 border-4 border-crex-border bg-crex-surface p-5">
+                <p className="font-display text-2xl uppercase tracking-[0.08em] text-crex-hot">Match Note</p>
+                <p className="mt-3 text-2xl uppercase leading-7 text-crex-text">{match.note}</p>
               </div>
-            )}
+            ) : null}
           </div>
         </div>
       </section>
